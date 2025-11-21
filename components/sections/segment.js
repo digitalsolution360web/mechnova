@@ -40,35 +40,63 @@ function Segment() {
   ];
 
   return (
-    <section className="w-full py-8 bg-white" id="segments">
-      <div className="container mx-auto px-4">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-10 text-gray-900">
+  
+     <section className="w-full py-14 bg-white" id="segments">
+      <div className="container max-w-7xl mx-auto px-4">
+
+        {/* Title */}
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-14 text-gray-900">
           {t('home.segments.title')}
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {segments.map((seg, i) => (
-            <div key={i}
-              className="bg-gray-200 rounded-2xl shadow-lg overflow-hidden flex flex-col hover:scale-[1.05] transition-transform duration-300"
-            >
-              <div className="relative h-96 w-full">
-                <Image
-                  src={seg.image}
-                  alt={seg.title}
-                  fill
-                  className="object-cover object-bottom"
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                  priority={i === 0}
-                />
-              </div>
-              <div className="p-6 flex flex-col flex-1">
-                  <h3 className="font-semibold text-2xl mb-2 text-center text-gray-900 hover:text-[#0072ce]">
-                  {seg.title}
-                  </h3>
-                  <p className="text-gray-600 text-base text-center flex-1">{seg.desc}</p>
-              </div>
-            </div>
-          ))}
+
+        {/* Zig-Zag Rows */}
+        <div className="space-y-16">
+          {segments.map((seg, i) => {
+            const isReversed = i % 2 !== 0; // alternate rows
+
+            return (
+ <div
+  key={i}
+  className={`flex flex-col md:flex-row items-center gap-10 ${
+    i % 2 !== 0 ? "md:flex-row-reverse" : ""
+  }`}
+>
+  {/* IMAGE BLOCK */}
+  <div className="w-full md:w-1/2">
+    <div className="relative w-full h-[320px] rounded-2xl overflow-hidden shadow-lg">
+      <Image
+        src={seg.image}
+        alt={seg.title}
+        fill
+        className="object-cover object-center"
+      />
+    </div>
+  </div>
+
+  {/* CONTENT BLOCK */}
+  <div className="w-full md:w-1/2">
+    <h3 className="text-3xl font-semibold text-gray-900 mb-4">
+      {seg.title}
+    </h3>
+
+    <p className="text-gray-600 text-lg mb-6">
+      {seg.desc}
+    </p>
+
+    <Link
+      href={seg.link}
+      className="inline-block px-6 py-3 text-white bg-[#0072ce] rounded-xl text-base font-medium hover:bg-[#0059a8] transition"
+    >
+      Explore →
+    </Link>
+  </div>
+</div>
+
+
+            );
+          })}
         </div>
+
       </div>
     </section>
   );

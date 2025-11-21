@@ -70,7 +70,8 @@ function Products() {
   }
 
   return (
-    <section className="w-full py-8 bg-white" id="products">
+
+     <section className="w-full py-8 bg-white" id="products">
       <div className="container mx-auto ">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-10 text-gray-900">{t('home.products.title')}</h2>
         <div
@@ -79,28 +80,39 @@ function Products() {
           style={{ scrollBehavior: "auto", WebkitOverflowScrolling: "touch" }}
         >
           {repeatedProducts.map((prod, idx) => (
-            <Link
-              href={prod.link}
-              key={prod.name + idx}
-              className="group bg-gray-100 rounded-xl shadow-md p-4 flex flex-col items-center min-w-[14rem] overflow-hidden hover:scale-93 transition-transform duration-300 cursor-pointer border border-gray-100"
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
-            >
-                <div className="relative w-full h-56 mb-3 rounded-lg overflow-hidden ">
-                    <Image
-                    src={prod.image}
-                    alt={prod.name}
-                    fill
-                    className="object-contain"
-                    />
-                </div>
-                <div className="text-center">
-                    <div className="font-semibold text-xl text-gray-900 group-hover:text-[#0072ce] mb-1">
-                    {prod.name}
-                    </div>
-                    <div className="text-base text-gray-500">{prod.category}</div>
-                </div>
-            </Link>
+          <Link
+          href={prod.link}
+          key={prod.name + idx}
+          className="group bg-white rounded-2xl shadow-lg min-w-[17rem] overflow-hidden hover:scale-95 transition-transform duration-300 cursor-pointer"
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
+        >
+
+          {/* IMAGE SECTION */}
+          <div className="relative w-full h-68">
+            <Image
+              src={prod.image}
+              alt={prod.name}
+              fill
+              className="object-cover"
+            />
+
+          
+          </div>
+
+          {/* CONTENT AREA */}
+          <div className="bg-[#0a1a2a] px-5 py-5 text-center">
+            <h3 className="text-lg font-semibold text-white group-hover:text-yellow-300">
+              {prod.name}
+            </h3>
+
+            <p className="text-sm text-gray-300 mt-1">
+              {prod.category}
+            </p>
+          </div>
+
+        </Link>
+
           ))}
         </div>
       </div>
@@ -112,6 +124,7 @@ function Products() {
         </Link>
       </div>
     </section>
+
   );
 }
 

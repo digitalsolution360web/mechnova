@@ -4,50 +4,72 @@ import { useTranslation } from "@/lib/useTranslation";
 function Hero() {
   const { t } = useTranslation();
   return (
-    <section className="w-full">
-        <HeroSlider/>
-        <div className="mx-auto px-4 py-8 border-b border-gray-300 max-w-6xl">
-            <h1 className="text-4xl md:text-6xl font-bold text-center mb-10">{t('home.welcome')} <span className="text-[#0072ce]"> Mechnova</span></h1>
-            <p className="text-center text-lg mb-6 max-w-4xl mx-auto text-gray-700">
-              {t('home.heroDescription')}
-            </p>
-            
-            {/* Hero Video */}
-            <div className="flex justify-center mt-8">
-              <div className="relative max-w-4xl w-full">
-                <video
-                  className="w-full h-auto rounded-lg shadow-lg cursor-pointer hover:opacity-90 transition-opacity"
-                  autoPlay
-                  muted
-                  loop
-                  playsInline
-                  onClick={() => window.open('https://www.youtube.com/watch?v=LXJDFVtQ6-U', '_blank')}
-                >
-                  <source src="/hero_video.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-                
-                {/* Play button overlay */}
-                {/* <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-                  <div className="bg-black bg-opacity-50 rounded-full p-4 opacity-80 hover:opacity-100 transition-opacity">
-                    <svg 
-                      className="w-12 h-12 text-white" 
-                      fill="currentColor" 
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M8 5v14l11-7z"/>
-                    </svg>
-                  </div>
-                </div> */}
-                
-                {/* Click to watch text */}
-                <div className="absolute bottom-4 right-4 bg-black bg-opacity-70 text-white px-3 py-1 rounded-md text-xs md:text-sm">
-                  Click to watch on YouTube
-                </div>
+   
+     <section className="relative w-full bg-white overflow-hidden pb-20">
+
+      {/* Hero Slider at top */}
+      <HeroSlider />
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse lg:flex-row items-center gap-16">
+        
+        {/* LEFT CONTENT */}
+        <div className="lg:w-1/2 space-y-6 text-center lg:text-left">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight animate-slideInLeft">
+            {t('home.welcome')} <span className="text-[#0072ce]">Mechnova</span>
+          </h1>
+          <p className="text-lg sm:text-xl text-gray-700 animate-slideInLeft delay-200">
+            {t('home.heroDescription')}
+          </p>
+
+          {/* CTA Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mt-4 animate-slideInLeft delay-400">
+            <button className="px-8 py-3 rounded-full bg-gradient-to-r from-[#0072ce] to-[#00c3ff] text-white font-semibold shadow-lg hover:scale-105 transition-transform">
+              Get Started
+            </button>
+            <button 
+              onClick={() => window.open('https://www.youtube.com/watch?v=LXJDFVtQ6-U', '_blank')}
+              className="px-8 py-3 rounded-full border border-[#0072ce] text-[#0072ce] font-semibold shadow-lg hover:bg-[#0072ce] hover:text-white transition-all flex items-center gap-2 justify-center"
+            >
+              Watch Video
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+          </div>
+        </div>
+
+        {/* RIGHT CONTENT - Video Card */}
+        <div className="lg:w-1/2 relative flex justify-center w-full max-w-full">
+          <div className="relative w-full max-w-[480px] sm:max-w-[420px] md:max-w-[480px] rounded-3xl shadow-2xl overflow-hidden transform hover:scale-105 transition-transform duration-500">
+            <video
+              className="w-full h-auto object-cover"
+              autoPlay
+              muted
+              loop
+              playsInline
+            >
+              <source src="/hero_video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+
+            {/* Floating Play Button */}
+            <div 
+              onClick={() => window.open('https://www.youtube.com/watch?v=LXJDFVtQ6-U', '_blank')}
+              className="absolute inset-0 flex items-center justify-center cursor-pointer"
+            >
+              <div className="bg-white bg-opacity-80 hover:bg-opacity-100 rounded-full p-5 shadow-lg transition">
+                <svg className="w-12 h-12 text-[#0072ce]" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
               </div>
             </div>
+          </div>
         </div>
-        
+      </div>
+
+      {/* Floating abstract shapes */}
+      <div className="absolute top-10 left-0 w-60 h-60 bg-blue-100/20 rounded-full blur-3xl animate-blob"></div>
+      <div className="absolute bottom-10 right-0 w-80 h-80 bg-yellow-100/20 rounded-full blur-3xl animate-blob animation-delay-2000"></div>
+
+     
     </section>
   );
 }

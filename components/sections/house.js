@@ -11,19 +11,28 @@ function House() {
       name: "Bonhoeffer Machines",
       description: t('home.house.parentCompany'),
       url: "https://bonhoeffermachines.com",
-      logo: "/logos/bonhoeffer_logo.png"
+      logo: "/logos/bonhoeffer_logo.png",
+      logoColor: "text-[#7A852D]",
+      buttonFrom: "from-[#00C46A]",
+      buttonTo: "to-[#00A656]"
     },
     {
       name: "Stronwell",
       description: t('home.house.indianDivision'), 
       url: "https://stronwell.com",
-      logo: "/logos/stronwell_logo.png"
+      logo: "/logos/stronwell_logo.png",
+      logoColor: "text-[#E65100]",
+      buttonFrom: "from-[#FF7A00]",
+      buttonTo: "to-[#FF0000]"
     },
     {
       name: "Mechnova Machines",
       description: t('home.house.selfDivision'),
       url: "https://mechnovamachines.com",
-      logo: "/logo.png"
+      logo: "/logo.png",
+       logoColor: "text-[#1E73BE]",
+      buttonFrom: "from-[#3A7CFF]",
+      buttonTo: "to-[#A020F0]"
     }
   ]
 
@@ -32,144 +41,135 @@ function House() {
       name: "Stevron Tools", 
       description: t('home.house.hardwareDivision'),
       url: "https://stevrontools.com",
-      logo: "/logos/stevron_black_logo.png"
+      logo: "/logos/stevron_black_logo.png",
+       logoColor: "text-black",
+      buttonFrom: "from-[#777]",
+      buttonTo: "to-[#000]"
     }
   ]
 
   return (
-    <section className="bg-[#0072ce] text-white py-5 lg:py-10">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-        {/* Header */}
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-            {t('home.house.heading')}
-            {/* <span className="block mt-2 text-cyan-400"> {t('home.house.subheading')}</span> */}
-          </h2>
-          <div className="w-24 h-1 bg-cyan-200 mx-auto rounded"></div>
-        </div>
 
-        {/* Companies Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
-          {companies.map((company, index) => (
-            <Link href={company.url} target='_blank' rel='noopener noreferrer' key={index}>
-                <div 
-                  className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center hover:bg-white/15 transition-all duration-300 hover:transform hover:scale-105 group"
-                >
-                  {/* Logo Container */}
-                <div className="mb-6 flex justify-center">
-                  <div className="w-full h-40 bg-white rounded-2xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-shadow duration-300">
-                    <img 
-                      src={company.logo} 
-                      alt={`${company.name} Logo`}
-                      className="h-full object-contain p-2"
-                      onError={(e) => {
-                        // Fallback to text if logo doesn't exist
-                        e.target.style.display = 'none';
-                        e.target.nextSibling.style.display = 'block';
-                      }}
-                    />
-                    <div 
-                      className="text-gray-800 font-bold text-lg hidden"
-                      style={{ display: 'none' }}
-                    >
-                      {company.name.split(' ').map(word => word[0]).join('')}
-                    </div>
-                  </div>
-                </div>
+    <section className="relative w-full py-24 
+ bg-gradient-to-br from-blue-700 via-blue-400 to-blue-700">
 
-                {/* Company Info */}
-                {/* <h3 className="text-xl lg:text-2xl font-bold mb-2">
-                  {company.name}
-                </h3> */}
-                <p className="text-cyan-100 mb-6 font-medium text-lg">
-                  {company.description}
-                </p>
+  {/* ⭐ Main Heading */}
+  <div className="text-center mb-16">
+    <h2 className="text-5xl font-extrabold text-white">
+      {t('home.house.heading')}
+    </h2>
+  </div>
 
-                {/* Visit Button */}
-                <p 
-                  // href={company.url}
-                  // target="_blank"
-                  // rel="noopener noreferrer"
-                  className="inline-flex text-xl items-center gap-2 bg-white text-[#0072ce] px-6 py-3 rounded-full font-semibold hover:bg-[#0072ce] hover:text-white transition-colors duration-300 group-hover:shadow-lg"
-                >
-                  {/* {t('home.house.visitWebsite')} */}
-                  {company.name}
-                  <ExternalLink className="w-4 h-4" />
-                </p>
-              </div>
-            </Link>
-          ))}
-        </div>
+  {/* Company Grid */}
+  <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-14 px-6">
 
-        <div className="text-center my-12">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-            {t('home.house.hardHeading')}
-          </h2>
-          <div className="w-24 h-1 bg-cyan-200 mx-auto rounded"></div>
-        </div>
+    {companies.map((company, index) => (
+      <Link key={index} href={company.url} target="_blank" rel="noopener noreferrer">
 
-        <div className="flex justify-center items-center md:w-[50%] lg:w-[30%] mx-auto">
-          {hard.map((company, index) => (
-            <Link href={company.url} target='_blank' rel='noopener noreferrer' key={index}>
-                <div 
-                  className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 text-center hover:bg-white/15 transition-all duration-300 hover:transform hover:scale-105 group"
-                >
-                {/* Logo Container */}
-                <div className="mb-6 flex justify-center">
-                  <div className="w-full h-40 bg-white rounded-2xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-shadow duration-300">
-                    <img 
-                      src={company.logo} 
-                      alt={`${company.name} Logo`}
-                      className="h-full object-contain p-2"
-                      onError={(e) => {
-                        // Fallback to text if logo doesn't exist
-                        e.target.style.display = 'none';
-                        e.target.nextSibling.style.display = 'block';
-                      }}
-                    />
-                    <div 
-                      className="text-gray-800 font-bold text-lg hidden"
-                      style={{ display: 'none' }}
-                    >
-                      {company.name.split(' ').map(word => word[0]).join('')}
-                    </div>
-                  </div>
-                </div>
+        <div className="bg-white rounded-[22px] p-12 shadow-[0_10px_50px_rgba(0,0,0,0.15)]
+            text-center transition-all hover:scale-105">
 
-                {/* Company Info */}
-                {/* <h3 className="text-xl lg:text-2xl font-bold mb-2">
-                  {company.name}
-                </h3> */}
-                <p className="text-cyan-100 mb-6 font-medium text-lg">
-                  {company.description}
-                </p>
+          {/* Logo Box with your old img + fallback support */}
+          <div className="w-full bg-[#E9ECEF] rounded-xl py-5 mb-6 
+            shadow-inner flex justify-center items-center relative">
 
-                {/* Visit Button */}
-                <p 
-                  // href={company.url}
-                  // target="_blank"
-                  // rel="noopener noreferrer"
-                  className="inline-flex text-xl items-center gap-2 bg-white text-[#0072ce] px-6 py-3 rounded-full font-semibold hover:bg-[#0072ce] hover:text-white transition-colors duration-300 group-hover:shadow-lg"
-                >
-                  {/* {t('home.house.visitWebsite')} */}
-                  {company.name}
-                  <ExternalLink className="w-4 h-4" />
-                </p>
-              </div>
-            </Link>
-          ))}
-        </div>
+            <img 
+              src={company.logo} 
+              alt={`${company.name} Logo`}
+              className="h-24 object-contain"
+              onError={(e) => {
+                e.target.style.display = "none";
+                e.target.nextSibling.style.display = "block";
+              }}
+            />
 
-        {/* Bottom Tagline */}
-        {/* <div className="text-center mt-16">
-          <p className="text-lg md:text-xl text-cyan-100 max-w-5xl mx-auto leading-relaxed">
-            {t('home.house.tagline')}
+            {/* Fallback initials */}
+            <div 
+              style={{ display: "none" }}
+              className="text-4xl font-extrabold text-gray-700"
+            >
+              {company.name.split(" ").map((w) => w[0]).join("")}
+            </div>
+          </div>
+
+          {/* Description */}
+          <p className="text-[#333] text-lg font-medium">
+            {company.description}
           </p>
-        </div> */}
 
-      </div>
-    </section>
+          {/* Button */}
+          <div className="mt-7 flex justify-center">
+           <div className={`inline-flex items-center gap-2 px-7 py-3 rounded-xl 
+  font-semibold text-lg text-white bg-gradient-to-r 
+  ${company.buttonFrom} ${company.buttonTo}`}>
+
+
+              {company.name} <ExternalLink className="w-4 h-4" />
+            </div>
+          </div>
+
+        </div>
+      </Link>
+    ))}
+
+  </div>
+
+  {/* Hardware Division Heading */}
+  <div className="text-center mt-24 mb-12">
+    <h2 className="text-5xl font-extrabold text-white">
+      {t('home.house.hardHeading')}
+    </h2>
+  </div>
+
+  {/* Hardware Cards */}
+  <div className="max-w-xl mx-auto">
+
+    {hard.map((company, index) => (
+      <Link key={index} href={company.url} target="_blank" rel="noopener noreferrer">
+
+        <div className="bg-white rounded-[22px] p-12 shadow-[0_10px_50px_rgba(0,0,0,0.15)]
+          text-center hover:scale-105 transition-all">
+
+          <div className="w-full bg-[#E9ECEF] rounded-xl py-5 mb-6 shadow-inner flex justify-center">
+
+            <img 
+              src={company.logo} 
+              alt={`${company.name} Logo`}
+              className="h-24 object-contain"
+              onError={(e) => {
+                e.target.style.display = "none";
+                e.target.nextSibling.style.display = "block";
+              }}
+            />
+
+            {/* Fallback initials */}
+            <div 
+              style={{ display: "none" }}
+              className="text-4xl font-extrabold text-gray-700"
+            >
+              {company.name.split(" ").map((w) => w[0]).join("")}
+            </div>
+          </div>
+
+          <p className="text-[#333] text-lg font-medium">
+            {company.description}
+          </p>
+
+          <div className="mt-7 flex justify-center">
+            <div className="inline-flex items-center gap-2 text-white px-7 py-3 rounded-xl 
+              font-semibold text-lg bg-gradient-to-r from-blue-500 to-blue-700">
+              {company.name} <ExternalLink className="w-4 h-4" />
+            </div>
+          </div>
+
+        </div>
+      </Link>
+    ))}
+
+  </div>
+
+</section>
+
   )
 }
 
