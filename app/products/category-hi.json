@@ -1,0 +1,140 @@
+{
+  "gardening-forestry": {
+    "id": "1",
+    "name": "बागवानी और वानिकी",
+    "products": {
+      "chainsaw": {
+        "id": "1",
+        "name": "चेनसॉ",
+        "detail": "नहीं",
+        "image": "/mechnova/products/chainsaw/hero-chainsaw.webp"
+      },
+      "hedge-trimmer": {
+        "id": "2",
+        "name": "हेज ट्रिमर",
+        "detail": "नहीं",
+        "image": "/mechnova/products/hedge-trimmer/hero-hedge-trimmer.webp"
+      },
+      "blower": {
+        "id": "3",
+        "name": "ब्लोअर",
+        "detail": "नहीं",
+        "image": "/mechnova/products/blower/hero-blower.webp"
+      },
+      "earth-auger": {
+        "id": "4",
+        "name": "अर्थ ऑगर",
+        "detail": "नहीं",
+        "image": "/mechnova/products/earth-auger/hero-earth-auger.webp"
+      },
+      "lawn-mower": {
+        "id": "5",
+        "name": "लॉन मोवर",
+        "detail": "नहीं",
+        "image": "/mechnova/products/lawn-mower/hero-lawn-mower.webp"
+      },
+      "brushcutter": {
+        "id": "6",
+        "name": "ब्रश कटर",
+        "detail": "नहीं",
+        "image": "/mechnova/products/brushcutter/hero-brushcutter.webp"
+      },
+      "multi-tool": {
+        "id": "7",
+        "name": "मल्टी टूल",
+        "detail": "नहीं",
+        "image": "/mechnova/products/multi-tool/hero-multi-tool.webp"
+      }
+    }
+  },
+  "fumigation": {
+    "id": "2",
+    "name": "धूमन (फ्यूमिगेशन)",
+    "products": {
+      "knapsack-sprayer": {
+        "id": "1",
+        "name": "नैपसैक स्प्रेयर",
+        "detail": "नहीं",
+        "image": "/mechnova/products/fumigation/hero-sprayer.webp"
+      }
+    }
+  },
+  "diesel-machines": {
+    "id": "3",
+    "name": "डीज़ल मशीनें",
+    "products": {
+      "diesel-generator": {
+        "id": "1",
+        "name": "डीज़ल जनरेटर",
+        "detail": "नहीं",
+        "image": "/mechnova/products/diesel-generator/hero-diesel-generator.webp"
+      },
+      "diesel-engine": {
+        "id": "2",
+        "name": "डीज़ल इंजन",
+        "detail": "नहीं",
+        "image": "/mechnova/products/diesel-engine/hero-diesel-engine.webp"
+      },
+      "diesel-water-pump": {
+        "id": "3",
+        "name": "डीज़ल वॉटर पंप",
+        "detail": "नहीं",
+        "image": "/mechnova/products/diesel-water-pump/hero-diesel-water-pump.webp"
+      }
+    }
+  },
+  "domestic": {
+    "id": "4",
+    "name": "घर और बगीचा",
+    "products": {
+      "electric-motor": {
+        "id": "1",
+        "name": "इलेक्ट्रिक मोटर",
+        "detail": "नहीं",
+        "image": "/mechnova/products/electric-motors/hero-electric-motor.webp"
+      },
+      "pressure-washer": {
+        "id": "2",
+        "name": "प्रेशर वॉशर",
+        "detail": "नहीं",
+        "image": "/mechnova/products/pressure-washer/hero-pressure-washer.webp"
+      }
+    }
+  },
+  "agro-industrial": {
+    "id": "5",
+    "name": "कृषि-औद्योगिक",
+    "products": {
+      "gasoline-tiller": {
+        "id": "1",
+        "name": "पेट्रोल टिलर",
+        "detail": "हाँ",
+        "image": "/mechnova/products/gasoline-tiller/hero-gasoline-tiller.webp"
+      },
+      "gasoline-water-pump": {
+        "id": "2",
+        "name": "पेट्रोल वॉटर पंप",
+        "detail": "नहीं",
+        "image": "/mechnova/products/gasoline-water-pump/hero-gasoline-water-pump.webp"
+      },
+      "gasoline-engine": {
+        "id": "3",
+        "name": "पेट्रोल इंजन",
+        "detail": "नहीं",
+        "image": "/mechnova/products/gasoline-engine/hero-gasoline-engine.webp"
+      },
+      "gasoline-generator": {
+        "id": "4",
+        "name": "पेट्रोल जनरेटर",
+        "detail": "नहीं",
+        "image": "/mechnova/products/gasoline-generator/hero-gasoline-generator.webp"
+      },
+      "gasoline-inverter": {
+        "id": "5",
+        "name": "पेट्रोल इन्वर्टर",
+        "detail": "नहीं",
+        "image": "/mechnova/products/gasoline-inverter/hero-gasoline-inverter.webp"
+      }
+    }
+  }
+}

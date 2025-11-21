@@ -1,0 +1,62 @@
+[
+  {
+    "category": "Desbrozadora",
+    "products": [
+      {
+        "name": "MBC26DA",
+        "image": "/mechnova/products/brushcutter/BBC26DA.webp",
+        "link": "/products/brushcutter"
+      },
+      {
+        "name": "MBC26MTA",
+        "image": "/mechnova/products/brushcutter/BBC26MTA.webp",
+        "link": "/products/brushcutter"
+      },
+      {
+        "name": "MBC33DA",
+        "image": "/mechnova/products/brushcutter/BBC33DA.webp",
+        "link": "/products/brushcutter"
+      },
+      {
+        "name": "MBC43A",
+        "image": "/mechnova/products/brushcutter/BBC43A.webp",
+        "link": "/products/brushcutter"
+      },
+      {
+        "name": "MBC52A",
+        "image": "/mechnova/products/brushcutter/BBC52A.webp",
+        "link": "/products/brushcutter"
+      },
+      {
+        "name": "MBCE1000DA",
+        "image": "/mechnova/products/brushcutter/BBCE1000DA-1.webp",
+        "link": "/products/brushcutter"
+      }
+    ]
+  },
+  {
+    "category": "Motosierra",
+    "products": [
+      {
+        "name": "MCS25A-10SN",
+        "image": "/mechnova/products/chainsaw/BCS25A-10SN.webp",
+        "link": "/products/chainsaw"
+      }
+    ]
+  },
+  {
+    "category": "Soplador",
+    "products": [
+      {
+        "name": "MB26A",
+        "image": "/mechnova/products/blower/BB26A.webp",
+        "link": "/products/blower"
+      },
+      {
+        "name": "MB43BA",
+        "image": "/mechnova/products/blower/BB43BA.webp",
+        "link": "/products/blower"
+      }
+    ]
+  }
+]
