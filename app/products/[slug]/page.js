@@ -76,9 +76,9 @@ const modelDataMap = {
   en: modelDataEn,
   es: modelDataEs,
   hi: modelDataHi,
-};
+}
 
-const modelData = modelDataMap[locale] || modelDataEn;
+const modelData = modelDataMap[locale] || modelDataEn
 
 
         const oldProduct = modelData[slug]
