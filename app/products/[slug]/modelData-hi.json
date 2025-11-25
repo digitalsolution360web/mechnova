@@ -1,0 +1,660 @@
+{
+  "chainsaw": {
+    "id": "1",
+    "name": "चेनसॉ",
+    "description": "कटाई और छंटाई के लिए पेशेवर चेनसॉ",
+    "category": "gardening-forestry",
+    "hero_image": "/mechnova/banner/banner-m.webp",
+    "error_image": "/mechnova/products/chainsaw/BCS25A-10SN.webp",
+    "models": [
+      {
+        "code": "MCS25A-10SN",
+        "name": "पेट्रोल चेनसॉ",
+        "id": "1",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/chainsaw/BCS25A-10SN.webp",
+        "specifications": "इंजन: पेट्रोल, 2-स्ट्रोक, 25CC\nअधिकतम शक्ति: 1.0HP\nगाइड बार: 10\"\nचेन: 3/8\" x .050\"\nफ्यूल टैंक क्षमता: ml\nऑयल टैंक क्षमता: ml\nअधिकतम RPM: प्रति मिनट\nईंधन मिश्रण: सिंथेटिक ऑयल के लिए 40:1 और मिनरल ऑयल के लिए 25:1"
+      },
+      {
+        "code": "MCS42A-16SN",
+        "name": "पेट्रोल चेनसॉ",
+        "id": "2",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/chainsaw/BCS25A-10SN.webp",
+        "specifications": "इंजन: पेट्रोल, 2-स्ट्रोक, 42CC\nअधिकतम शक्ति: 2.1HP\nगाइड बार: 16\"\nचेन: 3/8\" x .050\"\nफ्यूल टैंक क्षमता: 300 ml\nऑयल टैंक क्षमता: 210 ml\nअधिकतम RPM: 13000 प्रति मिनट\nईंधन मिश्रण: सिंथेटिक ऑयल के लिए 40:1 और मिनरल ऑयल के लिए 25:1"
+      },
+      {
+        "code": "MCS53A-18SN",
+        "name": "पेट्रोल चेनसॉ",
+        "id": "3",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/chainsaw/BCS25A-10SN.webp",
+        "specifications": "इंजन: पेट्रोल, 2-स्ट्रोक, 50.8CC\nअधिकतम शक्ति: 2.8HP\nगाइड बार: 18\"\nचेन: .325\"\nफ्यूल टैंक क्षमता: 550 ml\nऑयल टैंक क्षमता: 260 ml\nअधिकतम RPM: 12500 प्रति मिनट\nईंधन मिश्रण: सिंथेटिक ऑयल के लिए 40:1 और मिनरल ऑयल के लिए 25:1"
+      },
+      {
+        "code": "MCS58A-20SN",
+        "name": "पेट्रोल चेनसॉ",
+        "id": "4",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/chainsaw/BCS25A-10SN.webp",
+        "specifications": "इंजन: पेट्रोल, 2-स्ट्रोक, 54CC\nअधिकतम शक्ति: 3.2HP\nगाइड बार: 18\"\nचेन: .325\"\nफ्यूल टैंक क्षमता: 550 ml\nऑयल टैंक क्षमता: 260 ml\nअधिकतम RPM: 12500 प्रति मिनट\nईंधन मिश्रण: सिंथेटिक ऑयल के लिए 40:1 और मिनरल ऑयल के लिए 25:1"
+      },
+      {
+        "code": "MCSE1500A-16SN-1",
+        "name": "इलेक्ट्रिक चेनसॉ",
+        "id": "5",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/chainsaw/BCSE1500A-16SN-110V.webp",
+        "specifications": "मोटर: इलेक्ट्रिक, 110V, 50/60Hz\nअधिकतम शक्ति: 1500W\nगाइड बार: 16\"\nऑयल टैंक क्षमता: 120 ml\nअधिकतम चेन गति: 15m/s"
+      },
+      {
+        "code": "MCSE1500A-16SN-2",
+        "name": "इलेक्ट्रिक चेनसॉ",
+        "id": "6",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/chainsaw/BCSE1500A-16SN-110V.webp",
+        "specifications": "मोटर: इलेक्ट्रिक, 220V, 50/60Hz\nअधिकतम शक्ति: 1500W\nगाइड बार: 16\"\nऑयल टैंक क्षमता: 120 ml\nअधिकतम चेन गति: 13.5m/s"
+      },
+      {
+        "code": "MCSE1800A-18SN-1",
+        "name": "इलेक्ट्रिक चेनसॉ",
+        "id": "7",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/chainsaw/BCSE1500A-16SN-110V.webp",
+        "specifications": "मोटर: इलेक्ट्रिक, 110V, 50/60Hz\nअधिकतम शक्ति: 2000W\nगाइड बार: 18\"\nऑयल टैंक क्षमता: 120 ml\nअधिकतम चेन गति: 13.5m/s"
+      },
+      {
+        "code": "MCSE2000A-18SN-2",
+        "name": "इलेक्ट्रिक चेनसॉ",
+        "id": "8",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/chainsaw/BCSE1500A-16SN-110V.webp",
+        "specifications": "मोटर: इलेक्ट्रिक, 220V, 60Hz\nअधिकतम शक्ति: 2000W\nगाइड बार: 18\"\nऑयल टैंक क्षमता: 120 ml\nअधिकतम चेन गति: 13.5m/s"
+      },
+      {
+        "code": "MCSE2500A-20SN-2",
+        "name": "इलेक्ट्रिक चेनसॉ",
+        "id": "9",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/chainsaw/BCSE1500A-16SN-110V.webp",
+        "specifications": "मोटर: इलेक्ट्रिक, 220V, 60Hz\nअधिकतम शक्ति: 2500W\nगाइड बार: 20\"\nऑयल टैंक क्षमता: 120 ml\nअधिकतम चेन गति: 13.5m/s"
+      },
+      {
+        "code": "MPP750A-8SN-1",
+        "name": "इलेक्ट्रिक पोल प्रूनर",
+        "id": "10",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/chainsaw/BPPE750A-8SN.webp",
+        "specifications": "मोटर: इलेक्ट्रिक, 110V, 50/60Hz\nअधिकतम शक्ति: 750W\nगाइड बार: 8\"\nऑयल टैंक क्षमता: 80 ml\nकुल लंबाई: 2m से 2.8m"
+      },
+      {
+        "code": "MPP750A-8SN-2",
+        "name": "इलेक्ट्रिक पोल प्रूनर",
+        "id": "11",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/chainsaw/BPPE750A-8SN.webp",
+        "specifications": "मोटर: इलेक्ट्रिक, 220V, 50/60Hz\nअधिकतम शक्ति: 750W\nगाइड बार: 8\"\nऑयल टैंक क्षमता: 80 ml\nकुल लंबाई: 2m से 2.8m"
+      }
+    ]
+  },
+  "hedge-trimmer": {
+    "id": "2",
+    "name": "हेज ट्रिमर",
+    "category": "gardening-forestry",
+    "description": "बागवानी और लैंडस्केपिंग के लिए पेशेवर हेज ट्रिमर्स",
+    "hero_image": "/mechnova/products/hedge-trimmer/hero-hedge-trimmer.webp",
+    "error_image": "/mechnova/products/hedge-trimmer/BHT600A.webp",
+    "models": [
+      {
+        "code": "MHT600A",
+        "name": "पेट्रोल हेज ट्रिमर",
+        "id": "1",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/hedge-trimmer/BHT600A.webp",
+        "specifications": "इंजन: 26CC, पेट्रोल, 2-स्ट्रोक\nअधिकतम शक्ति: 1.0HP\nब्लेड लंबाई: 600 mm\nडबल एक्शन कटिंग"
+      }
+    ]
+  },
+  "blower": {
+    "id": "3",
+    "name": "ब्लोअर",
+    "category": "gardening-forestry",
+    "description": "सफाई के लिए शक्तिशाली ब्लोअर",
+    "hero_image": "/mechnova/products/blower/hero-blower.webp",
+    "error_image": "/mechnova/products/blower/BB43BA.webp",
+    "models": [
+      {
+        "code": "MB26A",
+        "name": "पेट्रोल ब्लोअर",
+        "id": "1",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/blower/BB26A.webp",
+        "specifications": "इंजन: 25.4CC पेट्रोल, 2-स्ट्रोक\nअधिकतम शक्ति: 1.0HP @ 7500RPM\nईंधन मिश्रण: सिंथेटिक ऑयल के लिए 40:1 और मिनरल ऑयल के लिए 25:1\nटैंक क्षमता: 0.45 लीटर\nकार्बोरेटर: डायाफ्राम\nमजबूत एग्जॉस्ट\nस्टार्टिंग प्रकार: मैनुअल रिकॉइल\nएयर वॉल्यूम: 0.17m³/s या 612m³/घंटा"
+      },
+      {
+        "code": "MB43BA",
+        "name": "पेट्रोल बैकपैक ब्लोअर",
+        "id": "2",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/blower/BB43BA.webp",
+        "specifications": "इंजन: 42.7CC, पेट्रोल, 2-स्ट्रोक\nअधिकतम शक्ति: 1.7HP @ 6500RPM\nएयर वॉल्यूम: 0.28m³/s या 1008 m³/घंटा\nकार्बोरेटर प्रकार: डायाफ्राम\nटैंक क्षमता: 1 लीटर\nथ्रॉटल कंट्रोल: हैंडल पर"
+      },
+      {
+        "code": "MVB26A",
+        "name": "पेट्रोल ब्लो-वैक",
+        "id": "3",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/blower/BVB26A.webp",
+        "specifications": "इंजन: 25.4CC पेट्रोल, 2-स्ट्रोक\nअधिकतम शक्ति: 1.0HP @ 7500RPM\nईंधन मिश्रण: सिंथेटिक ऑयल के लिए 40:1 और मिनरल ऑयल के लिए 25:1\nटैंक क्षमता: 0.45 लीटर\nकार्बोरेटर: डायाफ्राम\nमजबूत एग्जॉस्ट\nस्टार्टिंग प्रकार: मैनुअल रिकॉइल\nएयर वॉल्यूम: 0.17m³/s या 612m³/घंटा"
+      }
+    ]
+  },
+  "earth-auger": {
+    "id": "4",
+    "name": "अर्थ ऑगर",
+    "category": "gardening-forestry",
+    "description": "छेद ड्रिलिंग के लिए अर्थ ऑगर",
+    "hero_image": "/mechnova/products/earth-auger/hero-earth-auger.webp",
+    "error_image": "/mechnova/products/earth-auger/BEA43A-200.webp",
+    "models": [
+      {
+        "code": "MEA43A-200",
+        "name": "पेट्रोल अर्थ ऑगर",
+        "id": "1",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/earth-auger/BEA43A-200.webp",
+        "specifications": "इंजन: पेट्रोल, 2-स्ट्रोक, 43CC, 1.7HP\nएक ऑपरेटर\n200 mm व्यास वाली एकल ड्रिल के साथ"
+      },
+      {
+        "code": "MEA52A-200",
+        "name": "पेट्रोल अर्थ ऑगर",
+        "id": "2",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/earth-auger/BEA52A-200.webp",
+        "specifications": "इंजन: पेट्रोल, 2-स्ट्रोक, 52CC, 2.0HP\nएक ऑपरेटर\n200 mm व्यास वाली एकल ड्रिल के साथ"
+      }
+    ]
+  },
+  "lawn-mower": {
+    "id": "5",
+    "name": "लॉन मोवर",
+    "category": "gardening-forestry",
+    "description": "लॉन रखरखाव के लिए पेशेवर लॉन मोवर्स",
+    "hero_image": "/mechnova/products/lawn-mower/hero-lawn-mower.webp",
+    "error_image": "/mechnova/products/lawn-mower/BLME320RA-1.webp",
+    "models": [
+      {
+        "code": "MLME320RA-1",
+        "name": "इलेक्ट्रिक लॉन मोवर",
+        "id": "1",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/lawn-mower/BLME320RA-1.webp",
+        "specifications": "ड्राइव प्रकार: मैनुअल\nवोल्टेज: 110V - 50/60Hz\nइलेक्ट्रिक मोटर: 1200W अधिकतम शक्ति\nडिस्चार्ज फ़ंक्शन: पिक-अप के साथ रियर\nहैंडल: स्टैंडर्ड\nफ्रंट कवर: नहीं"
+      },
+      {
+        "code": "MLME320RA-2",
+        "name": "इलेक्ट्रिक लॉन मोवर",
+        "id": "2",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/lawn-mower/BLME320RA-2.webp",
+        "specifications": "ड्राइव प्रकार: मैनुअल\nवोल्टेज: 220V - 50/60Hz\nइलेक्ट्रिक मोटर: 1200W अधिकतम शक्ति\nडिस्चार्ज फ़ंक्शन: पिक-अप के साथ रियर\nहैंडल: स्टैंडर्ड\nफ्रंट कवर: नहीं"
+      },
+      {
+        "code": "MLM430RA",
+        "name": "पेट्रोल लॉन मोवर",
+        "id": "3",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/lawn-mower/BLM430RA.webp",
+        "specifications": "ड्राइव प्रकार: मैनुअल\nडिस्चार्ज फ़ंक्शन: 2 इन 1 रियर और पिक-अप\nहैंडल: स्टैंडर्ड\nफ्रंट कवर: नहीं\nडेक क्लीनिंग अटैचमेंट: नहीं"
+      },
+      {
+        "code": "MLM430RTA",
+        "name": "पेट्रोल लॉन मोवर",
+        "id": "4",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/lawn-mower/BLM430RTA.webp",
+        "specifications": "ड्राइव प्रकार: मैनुअल\nडिस्चार्ज फ़ंक्शन: 4 इन 1 — रियर, साइड, कलेक्शन, मल्चिंग\nहैंडल: रबर ग्रिप\nफ्रंट कवर: हाँ\nडेक क्लीनिंग अटैचमेंट: हाँ"
+      },
+      {
+        "code": "MLM530RA",
+        "name": "पेट्रोल लॉन मोवर",
+        "id": "5",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/lawn-mower/BLM530RTA.webp",
+        "specifications": "इंजन: 166CC पेट्रोल\nकटिंग चौड़ाई: 21\"\nकटिंग ऊँचाई: 30–80mm (6 केंद्रीय समायोजन विकल्प)\nडिस्चार्ज विकल्प: रियर डिस्चार्ज, कलेक्शन, साइड डिस्चार्ज और मल्चिंग — 4 इन 1\nकलेक्शन क्षमता: 70 लीटर\nप्रोपल्शन प्रकार: मैनुअल\nहैंडलबार: रबर हैंडलबार\nव्हील्स: फ्रंट 8\" और रियर 10\""
+      },
+      {
+        "code": "MLM530RTA",
+        "name": "पेट्रोल लॉन मोवर",
+        "id": "6",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/lawn-mower/BLM530RTA.webp",
+        "specifications": "इंजन: 166CC पेट्रोल\nकटिंग चौड़ाई: 21\"\nकटिंग ऊँचाई: 20–80mm (8 केंद्रीय समायोजन विकल्प)\nडिस्चार्ज विकल्प: रियर डिस्चार्ज, कलेक्शन, साइड डिस्चार्ज और मल्चिंग\nकलेक्शन क्षमता: 70 लीटर\nप्रोपल्शन प्रकार: सेल्फ-प्रोपेल्ड\nहैंडलबार: रबर हैंडलबार\nव्हील्स: फ्रंट 8\" और रियर 10\""
+      },
+      {
+        "code": "MLM560RA",
+        "name": "पेट्रोल लॉन मोवर",
+        "id": "7",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/lawn-mower/BLM560RA.webp",
+        "specifications": "इंजन: 166CC पेट्रोल\nकटिंग चौड़ाई: 22\"\nकटिंग ऊँचाई: 25–75mm (7 केंद्रीय समायोजन विकल्प)\nडिस्चार्ज विकल्प: रियर डिस्चार्ज, कलेक्शन, साइड डिस्चार्ज और मल्चिंग\nकलेक्शन क्षमता: 65 लीटर\nप्रोपल्शन प्रकार: मैनुअल\nहैंडलबार: रबर हैंडलबार\nव्हील्स: फ्रंट 8\" और रियर 10\""
+      },
+      {
+        "code": "MLM560RTA",
+        "name": "पेट्रोल लॉन मोवर",
+        "id": "8",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/lawn-mower/BLM560RTA.webp",
+        "specifications": "इंजन: 166CC पेट्रोल\nकटिंग चौड़ाई: 22\"\nकटिंग ऊँचाई: 25–75mm (7 केंद्रीय समायोजन विकल्प)\nडिस्चार्ज विकल्प: रियर डिस्चार्ज, कलेक्शन, साइड डिस्चार्ज और मल्चिंग\nकलेक्शन क्षमता: 65 लीटर\nप्रोपल्शन प्रकार: सेल्फ-प्रोपेल्ड\nहैंडलबार: रबर हैंडलबार\nव्हील्स: फ्रंट 8\" और रियर 10\""
+      }
+    ]
+  },
+  "brushcutter": {
+    "id": "6",
+    "name": "ब्रश कटर",
+    "category": "gardening-forestry",
+    "description": "वनस्पति प्रबंधन के लिए पेशेवर ब्रश कटर",
+    "hero_image": "/mechnova/products/brushcutter/hero-brushcutter.webp",
+    "error_image": "/mechnova/products/brushcutter/BBC26DA.webp",
+    "models": [
+      {
+        "code": "MBC26DA",
+        "name": "पेट्रोल ब्रश कटर",
+        "id": "1",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/brushcutter/BBC26DA.webp",
+        "specifications": "इंजन: पेट्रोल, 2-स्ट्रोक, 25.4CC\nअधिकतम शक्ति: 1.0HP\nईंधन मिश्रण: सिंथेटिक ऑयल 40:1, मिनरल ऑयल 25:1\nटैंक क्षमता: 0.7 लीटर\nकार्बोरेटर: डायाफ्राम\nमजबूत एग्जॉस्ट\nस्टार्टिंग प्रकार: मैनुअल रिकॉइल\nशाफ्ट व्यास: 26 mm\nD-हैंडल"
+      },
+      {
+        "code": "MBC33DA",
+        "name": "पेट्रोल ब्रश कटर",
+        "id": "2",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/brushcutter/BBC33DA.webp",
+        "specifications": "इंजन: पेट्रोल, 2-स्ट्रोक, 33.0CC\nअधिकतम शक्ति: 1.3HP\nईंधन मिश्रण: सिंथेटिक ऑयल 40:1, मिनरल ऑयल 25:1\nटैंक क्षमता: 0.7 लीटर\nकार्बोरेटर: डायाफ्राम\nमजबूत एग्जॉस्ट\nस्टार्टिंग प्रकार: मैनुअल रिकॉइल\nशाफ्ट व्यास: 26 mm\nD-हैंडल"
+      },
+      {
+        "code": "MBC43A",
+        "name": "पेट्रोल ब्रश कटर",
+        "id": "3",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/brushcutter/BBC43A.webp",
+        "specifications": "इंजन: पेट्रोल, 2-स्ट्रोक, 42.7CC\nअधिकतम शक्ति: 1.7HP\nईंधन मिश्रण: सिंथेटिक ऑयल 40:1, मिनरल ऑयल 25:1\nटैंक क्षमता: 0.8 लीटर\nकार्बोरेटर: डायाफ्राम\nमजबूत एग्जॉस्ट\nस्टार्टिंग प्रकार: मैनुअल रिकॉइल\nशाफ्ट व्यास: 26 mm\nएर्गोनोमिक स्प्लिट हैंडलबार"
+      },
+      {
+        "code": "MBC52A",
+        "name": "पेट्रोल ब्रश कटर",
+        "id": "4",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/brushcutter/BBC52A.webp",
+        "specifications": "इंजन: पेट्रोल, 2-स्ट्रोक, 51.6CC\nअधिकतम शक्ति: 2.0HP\nईंधन मिश्रण: सिंथेटिक ऑयल 40:1, मिनरल ऑयल 25:1\nटैंक क्षमता: 0.8 लीटर\nकार्बोरेटर: डायाफ्राम\nमजबूत एग्जॉस्ट\nस्टार्टिंग प्रकार: मैनुअल रिकॉइल\nशाफ्ट व्यास: 26 mm\nएर्गोनोमिक स्प्लिट हैंडलबार"
+      },
+      {
+        "code": "MBC26MTA",
+        "name": "मल्टी-फंक्शन पेट्रोल ब्रश कटर",
+        "id": "5",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/brushcutter/BBC26MTA.webp",
+        "specifications": "इंजन: पेट्रोल, 2-स्ट्रोक, 26CC\nअधिकतम शक्ति: 1.0HP\nईंधन मिश्रण: सिंथेटिक 40:1, मिनरल 25:1\nटैंक क्षमता: 0.7 लीटर\nकार्बोरेटर: डायाफ्राम\nमजबूत एग्जॉस्ट\nस्टार्टिंग प्रकार: मैनुअल रिकॉइल\nशाफ्ट व्यास: 26 mm\nएर्गोनोमिक D-हैंडल"
+      },
+      {
+        "code": "MBCE1000DA-1",
+        "name": "इलेक्ट्रिक ब्रश कटर",
+        "id": "6",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/brushcutter/BBCE1000DA-1.webp",
+        "specifications": "मोटर: इलेक्ट्रिक, 110V, 60Hz\nअधिकतम शक्ति: 1.0kW\nलूप D-हैंडल\nस्टील शाफ्ट, स्प्लिट डिज़ाइन"
+      },
+      {
+        "code": "MBCE1000DA-2",
+        "name": "इलेक्ट्रिक ब्रश कटर",
+        "id": "7",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/brushcutter/BBCE1000DA-2.webp",
+        "specifications": "मोटर: इलेक्ट्रिक, 220V, 60Hz\nअधिकतम शक्ति: 1.4kW\nलूप D-हैंडल\nस्टील शाफ्ट, स्प्लिट डिज़ाइन"
+      }
+    ]
+  },
+  "multi-tool": {
+    "id": "7",
+    "name": "मल्टी टूल",
+    "category": "gardening-forestry",
+    "description": "बागवानी के लिए बहु-उपयोगी उपकरण",
+    "hero_image": "/mechnova/products/multi-tool/hero-multi-tool.webp",
+    "models": []
+  },
+  "knapsack-sprayer": {
+    "id": "1",
+    "name": "नैपसैक स्प्रेयर",
+    "category": "fumigation",
+    "description": "फ्यूमिगेशन और कीट नियंत्रण के लिए पेशेवर स्प्रेयर",
+    "hero_image": "/mechnova/products/fumigation/hero-sprayer.webp",
+    "error_image": "/mechnova/products/fumigation/BS26BA.webp",
+    "models": [
+      {
+        "code": "MS26BA",
+        "name": "पीतल पंप वाला पेट्रोल बैकपैक स्प्रेयर",
+        "id": "1",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/fumigation/BS26BA.webp",
+        "specifications": "इंजन: 25.4CC पेट्रोल, 2-स्ट्रोक\nअधिकतम शक्ति: 1.0HP\nईंधन टैंक क्षमता: 0.6 लीटर\nस्प्रे टैंक क्षमता: 25 लीटर\nकार्य दबाव: 215–355 PSI\nस्प्रे वॉल्यूम: 5–8 लीटर/मिनट\nपंप प्रकार: हाई प्रेशर प्लंजर पंप\nपंप सामग्री: पीतल\nस्टार्टिंग सिस्टम: रिकॉइल"
+      },
+      {
+        "code": "MSBE18VBA-20",
+        "name": "कॉडलैस बैकपैक स्प्रेयर",
+        "id": "2",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/fumigation/BSBE18VBA-20.webp",
+        "specifications": "बैटरी: 18V लिथियम-आयन - 4.0Ah\nचार्जर: 110~220V\nटैंक क्षमता: 20 लीटर\nस्प्रे वॉल्यूम: 2.8 लीटर/मिनट\nपंप प्रकार: ऑटोमेटिक पंप"
+      }
+    ]
+  },
+  "diesel-generator": {
+    "id": "1",
+    "name": "डीजल जेनरेटर",
+    "category": "diesel-machines",
+    "description": "औद्योगिक और व्यावसायिक उपयोग के लिए डीज़ल जेनरेटर",
+    "hero_image": "/mechnova/products/diesel-generator/hero-diesel-generator.webp",
+    "error_image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+    "models": [
+      {
+        "code": "MDG2.0ASD-60",
+        "name": "डीजल जेनरेटर",
+        "id": "1",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+        "specifications": "अधिकतम शक्ति: 2.0 kVA\nरेटेड शक्ति: 1.8 kVA\nस्टेटर कॉइल: 100% कॉपर\nवोल्टेज: 110V/220V डुअल वोल्टेज - 60Hz\nइंजन: 211cc, 5HP, डीज़ल, 4-स्ट्रोक\n50% लोड पर रनटाइम: 10 घंटे\nफ्यूल टैंक क्षमता: 11.0 लीटर\nस्टार्टिंग सिस्टम: रिकॉइल\nतेल रिज़र्वोयर क्षमता: 750 ml"
+      },
+      {
+        "code": "MD1.7ASD-50",
+        "name": "डीजल जेनरेटर",
+        "id": "2",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+        "specifications": "अधिकतम शक्ति: 1.7 kVA\nरेटेड शक्ति: 1.5 kVA\nस्टेटर कॉइल: 100% कॉपर\nवोल्टेज: 110V/220V डुअल वोल्टेज - 50Hz\nइंजन: 211cc, 5HP, डीज़ल, 4-स्ट्रोक\n50% लोड पर रनटाइम: 10 घंटे\nफ्यूल टैंक क्षमता: 11.0 लीटर\nस्टार्टिंग सिस्टम: रिकॉइल\nतेल रिज़र्वोयर क्षमता: 750 ml"
+      },
+      {
+        "code": "MDG4.2ASD-60",
+        "name": "डीजल जेनरेटर",
+        "id": "3",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+        "specifications": "अधिकतम शक्ति: 4.2 kVA\nरेटेड शक्ति: 3.8 kVA\nस्टेटर कॉइल: 100% कॉपर\nवोल्टेज: 110V/220V डुअल वोल्टेज - 60Hz\nइंजन: 406cc, 10HP, डीज़ल, 4-स्ट्रोक\n50% लोड पर रनटाइम: 8 घंटे\nफ्यूल टैंक क्षमता: 11.0 लीटर\nस्टार्टिंग सिस्टम: रिकॉइल\nतेल रिज़र्वोयर क्षमता: 1.65 लीटर"
+      },
+      {
+        "code": "MDG3.6ASD-50",
+        "name": "डीजल जेनरेटर",
+        "id": "4",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+        "specifications": "अधिकतम शक्ति: 3.6 kVA\nरेटेड शक्ति: 3.4 kVA\nस्टेटर कॉइल: 100% कॉपर\nवोल्टेज: 110V/220V डुअल वोल्टेज - 50Hz\nइंजन: 406cc, 10HP, डीज़ल, 4-स्ट्रोक\n50% लोड पर रनटाइम: 8 घंटे\nफ्यूल टैंक क्षमता: 11.0 लीटर\nस्टार्टिंग सिस्टम: रिकॉइल\nतेल रिज़र्वोयर क्षमता: 1.65 लीटर"
+      },
+      {
+        "code": "MDG6.0ASD-60",
+        "name": "डीजल जेनरेटर",
+        "id": "5",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+        "specifications": "अधिकतम शक्ति: 6.0 kVA\nरेटेड शक्ति: 5.5 kVA\nस्टेटर कॉइल: 100% कॉपर\nवोल्टेज: 110V/220V डुअल वोल्टेज - 60Hz\nइंजन: 456cc, 13HP, डीज़ल, 4-स्ट्रोक\n50% लोड पर रनटाइम: 6 घंटे\nफ्यूल टैंक क्षमता: 11.0 लीटर\nस्टार्टिंग सिस्टम: रिकॉइल\nतेल रिज़र्वोयर क्षमता: 1.65 लीटर"
+      },
+      {
+        "code": "MDG5.5ASD-50",
+        "name": "डीजल जेनरेटर",
+        "id": "6",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+        "specifications": "अधिकतम शक्ति: 5.5 kVA\nरेटेड शक्ति: 5.0 kVA\nस्टेटर कॉइल: 100% कॉपर\nवोल्टेज: 110V/220V डुअल वोल्टेज - 50Hz\nइंजन: 456cc, 13HP, डीज़ल, 4-स्ट्रोक\n50% लोड पर रनटाइम: 6 घंटे\nफ्यूल टैंक क्षमता: 11.0 लीटर\nस्टार्टिंग सिस्टम: रिकॉइल\nतेल रिज़र्वोयर क्षमता: 1.65 लीटर"
+      }
+    ]
+  },
+  "diesel-engine": {
+    "id": "2",
+    "name": "डीजल इंजन",
+    "category": "diesel-machines",
+    "description": "उच्च मांग वाले अनुप्रयोगों के लिए शक्तिशाली और विश्वसनीय डीज़ल इंजन",
+    "hero_image": "/mechnova/products/diesel-engine/hero-diesel-engine.webp",
+    "error_image": "/mechnova/products/diesel-engine/BDE50A.webp",
+    "models": [
+      {
+        "code": "MDE50A",
+        "name": "डीजल इंजन",
+        "id": "1",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/diesel-engine/BDE50A.webp",
+        "specifications": "इंजन: 211cc, 4-स्ट्रोक\nकूलिंग सिस्टम: एयर\nसिलेंडर व्यास: 70 mm\nरेटेड शक्ति: 2.8kW / 3.75HP\nअधिकतम शक्ति: 3.3kW / 4.5HP\nफ्यूल टैंक क्षमता: 2.5 लीटर\nतेल रिज़र्वोयर क्षमता: 750 ml\nस्टार्टिंग सिस्टम: मैनुअल रिकॉइल\nमैनुअल स्टार्ट"
+      },
+      {
+        "code": "MDE70A",
+        "name": "डीजल इंजन",
+        "id": "2",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/diesel-engine/BDE70A.webp",
+        "specifications": "इंजन: 296cc, 4-स्ट्रोक\nकूलिंग सिस्टम: एयर\nसिलेंडर व्यास: 78 mm\nरेटेड शक्ति: 4.0kW / 5.4HP\nअधिकतम शक्ति: 4.8kW / 6.5HP\nफ्यूल टैंक क्षमता: 3.5 लीटर\nतेल रिज़र्वोयर क्षमता: 1100 ml\nस्टार्टिंग सिस्टम: मैनुअल रिकॉइल\nमैनुअल स्टार्ट"
+      },
+      {
+        "code": "MDE100A",
+        "name": "डीजल इंजन",
+        "id": "3",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/diesel-engine/BDE100A.webp",
+        "specifications": "इंजन: 456cc, 4-स्ट्रोक\nकूलिंग सिस्टम: एयर\nसिलेंडर व्यास: 88 mm\nरेटेड शक्ति: 6.9kW / 9.3HP\nअधिकतम शक्ति: 7.8kW / 10.5HP\nफ्यूल टैंक क्षमता: 5.5 लीटर\nतेल रिज़र्वोयर क्षमता: 1650 ml\nस्टार्टिंग सिस्टम: मैनुअल रिकॉइल\nमैनुअल स्टार्ट"
+      },
+      {
+        "code": "MDE100EA",
+        "name": "डीजल इंजन",
+        "id": "3",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/diesel-engine/BDE100EA.webp",
+        "specifications": "इंजन: 456cc, 4-स्ट्रोक\nकूलिंग सिस्टम: एयर\nसिलेंडर व्यास: 88 mm\nरेटेड शक्ति: 6.9kW / 9.3HP\nअधिकतम शक्ति: 7.8kW / 10.5HP\nफ्यूल टैंक क्षमता: 5.5 लीटर\nतेल रिज़र्वोयर क्षमता: 1650 ml\nस्टार्टिंग सिस्टम: इलेक्ट्रिक / मैनुअल रिकॉइल\nइलेक्ट्रिक स्टार्ट"
+      }
+    ]
+  },
+  "diesel-water-pump": {
+    "id": "3",
+    "name": "डीजल वॉटर पंप",
+    "category": "diesel-machines",
+    "description": "सिंचाई और जल निकासी के लिए डीज़ल वॉटर पंप",
+    "hero_image": "/mechnova/products/diesel-water-pump/hero-diesel-water-pump.webp",
+    "error_image": "/mechnova/products/diesel-water-pump/BDWP2x2SA.webp",
+    "models": [
+      {
+        "code": "MDWP2x2SA",
+        "name": "डीजल वॉटर पंप",
+        "id": "1",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/diesel-water-pump/BDWP2x2SA.webp",
+        "specifications": "पंप प्रकार: सेल्फ-प्राइमिंग\nइंजन: डीज़ल, 211cc\nस्टार्टिंग सिस्टम: रिकॉइल\nअधिकतम पंपिंग क्षमता: 22000 लीटर/घंटा\nसक्शन और डिस्चार्ज व्यास: 2 इंच x 2 इंच\nटोटल लिफ्ट: 15 मीटर\nसक्शन ऊँचाई: 7 मीटर\nफ्यूल टैंक क्षमता: 2.5 लीटर\nमैनुअल स्टार्ट"
+      },
+      {
+        "code": "MDWP3x3SA",
+        "name": "डीजल वॉटर पंप",
+        "id": "2",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/diesel-water-pump/BDWP3x3SA.webp",
+        "specifications": "पंप प्रकार: सेल्फ-प्राइमिंग\nइंजन: डीज़ल, 296cc\nस्टार्टिंग सिस्टम: रिकॉइल\nअधिकतम पंपिंग क्षमता: 35000 लीटर/घंटा\nसक्शन और डिस्चार्ज व्यास: 3 इंच x 3 इंच\nटोटल लिफ्ट: 17 मीटर\nसक्शन ऊँचाई: 7 मीटर\nफ्यूल टैंक क्षमता: 3.5 लीटर\nमैनुअल स्टार्ट"
+      },
+      {
+        "code": "MDWP2x2CA",
+        "name": "डीजल वॉटर पंप",
+        "id": "3",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/diesel-water-pump/BDWP2x2CA.webp",
+        "specifications": "पंप प्रकार: सेल्फ-प्राइमिंग\nइंजन: डीज़ल, 396cc\nस्टार्टिंग सिस्टम: रिकॉइल\nअधिकतम पंपिंग क्षमता: 25000 लीटर/घंटा\nसक्शन और डिस्चार्ज व्यास: 2 इंच x 2 इंच\nटोटल लिफ्ट: 70 मीटर\nसक्शन ऊँचाई: 5 मीटर\nफ्यूल टैंक क्षमता: 3.5 लीटर\nमैनुअल स्टार्ट"
+      }
+    ]
+  },
+  "electric-motor": {
+    "id": "1",
+    "name": "इलेक्ट्रिक मोटर",
+    "category": "electric-machines",
+    "description": "औद्योगिक और घरेलू उपयोग के लिए शक्तिशाली इलेक्ट्रिक मोटर",
+    "hero_image": "/mechnova/products/electric-motor/hero-electric-motor.webp",
+    "error_image": "/mechnova/products/electric-motor/BEM100A-60.webp",
+    "models": [
+      {
+        "code": "MEM100A-60",
+        "name": "इलेक्ट्रिक मोटर",
+        "id": "1",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/electric-motor/BEM100A-60.webp",
+        "specifications": "वोल्टेज: 110V\nफ्रीक्वेंसी: 60Hz\nअधिकतम शक्ति: 1.0HP\nRPM: 3450"
+      },
+      {
+        "code": "MEM100A-50",
+        "name": "इलेक्ट्रिक मोटर",
+        "id": "2",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/electric-motor/BEM100A-50.webp",
+        "specifications": "वोल्टेज: 220V\nफ्रीक्वेंसी: 50Hz\nअधिकतम शक्ति: 1.0HP\nRPM: 2800"
+      }
+    ]
+  },
+  "electric-pressure-washer": {
+    "id": "2",
+    "name": "इलेक्ट्रिक प्रेशर वॉशर",
+    "category": "electric-machines",
+    "description": "सफाई के लिए शक्तिशाली इलेक्ट्रिक प्रेशर वॉशर",
+    "hero_image": "/mechnova/products/pressure-washer/hero-electric-pressure-washer.webp",
+    "error_image": "/mechnova/products/pressure-washer/BPW1500A-50.webp",
+    "models": [
+      {
+        "code": "MPW1500A-50",
+        "name": "इलेक्ट्रिक प्रेशर वॉशर",
+        "id": "1",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/pressure-washer/BPW1500A-50.webp",
+        "specifications": "वोल्टेज: 110V\nफ्रीक्वेंसी: 50Hz\nअधिकतम शक्ति: 1500W\nकार्य दबाव: 75 बार\nअधिकतम दबाव: 105 बार"
+      }
+    ]
+  },
+  "gasoline-tiller": {
+    "id": "3",
+    "name": "पेट्रोल टिलर",
+    "category": "electric-machines",
+    "description": "मिट्टी की तैयारी के लिए पेट्रोल टिलर",
+    "hero_image": "/mechnova/products/tiller/hero-tiller.webp",
+    "error_image": "/mechnova/products/tiller/BTL170A.webp",
+    "models": [
+      {
+        "code": "MTL170A",
+        "name": "पेट्रोल टिलर",
+        "id": "1",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/tiller/BTL170A.webp",
+        "specifications": "इंजन: 7HP\nगियरबॉक्स: 3 गियर्स (2 आगे + 1 रिवर्स)\nपूलियां: 2\nट्रांसमिशन: ड्राई फ्रिक्शन डिस्क"
+      }
+    ]
+  },
+  "gasoline-high-pressure-washer": {
+    "id": "4",
+    "name": "पेट्रोल हाई प्रेशर वॉशर",
+    "category": "electric-machines",
+    "description": "गहरी और भारी सफाई के लिए पेट्रोल हाई प्रेशर वॉशर",
+    "hero_image": "/mechnova/products/high-pressure-washer/hero-gasoline-high-pressure-washer.webp",
+    "error_image": "/mechnova/products/high-pressure-washer/BGHP170A.webp",
+    "models": [
+      {
+        "code": "MGHP170A",
+        "name": "पेट्रोल हाई प्रेशर वॉशर",
+        "id": "1",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/high-pressure-washer/BGHP170A.webp",
+        "specifications": "अधिकतम दबाव: 2500 PSI\nन्यूनतम दबाव: 2000 PSI\nपानी का प्रवाह: 8.6 L/min\nपंप प्रकार: एक्सियल पंप"
+      }
+    ]
+  },
+  "gasoline-generator": {
+    "id": "5",
+    "name": "पेट्रोल जेनरेटर",
+    "category": "electric-machines",
+    "description": "औद्योगिक और घरेलू बिजली आवश्यकताओं के लिए पेट्रोल जेनरेटर",
+    "hero_image": "/mechnova/products/gasoline-generator/hero-gasoline-generator.webp",
+    "error_image": "/mechnova/products/gasoline-generator/BGGE1800A-110.webp",
+    "models": [
+      {
+        "code": "MGGE1800A-110",
+        "name": "पेट्रोल जेनरेटर",
+        "id": "1",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/gasoline-generator/BGGE1800A-110.webp",
+        "specifications": "वोल्टेज: 110V\nअधिकतम शक्ति: 1.8kVA\nरेटेड शक्ति: 1.5kVA\nकॉइलिंग: 100% कॉपर\nस्टार्टिंग सिस्टम: रिकॉइल"
+      },
+      {
+        "code": "MGGE1800A-220",
+        "name": "पेट्रोल जेनरेटर",
+        "id": "2",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/gasoline-generator/BGGE1800A-220.webp",
+        "specifications": "वोल्टेज: 220V\nअधिकतम शक्ति: 1.8kVA\nरेटेड शक्ति: 1.5kVA\nकॉइलिंग: 100% कॉपर\nस्टार्टिंग सिस्टम: रिकॉइल"
+      },
+      {
+        "code": "MGGE3500EA",
+        "name": "पेट्रोल जेनरेटर",
+        "id": "3",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/gasoline-generator/BGGE3500EA.webp",
+        "specifications": "वोल्टेज: 220V\nअधिकतम शक्ति: 3.0kVA\nरेटेड शक्ति: 2.8kVA\nकॉइलिंग: 100% कॉपर\nस्टार्टिंग सिस्टम: इलेक्ट्रिक + रिकॉइल"
+      },
+      {
+        "code": "MGGE5500EA",
+        "name": "पेट्रोल जेनरेटर",
+        "id": "4",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/gasoline-generator/BGGE5500EA.webp",
+        "specifications": "वोल्टेज: 220V\nअधिकतम शक्ति: 5.0kVA\nरेटेड शक्ति: 4.5kVA\nकॉइलिंग: 100% कॉपर\nस्टार्टिंग सिस्टम: इलेक्ट्रिक + रिकॉइल"
+      }
+    ]
+  },
+  "gasoline-water-pump": {
+    "id": "6",
+    "name": "पेट्रोल वॉटर पंप",
+    "category": "electric-machines",
+    "description": "सिंचाई और जल स्थानांतरण के लिए उच्च प्रदर्शन पेट्रोल वॉटर पंप",
+    "hero_image": "/mechnova/products/gasoline-water-pump/hero-gasoline-water-pump.webp",
+    "error_image": "/mechnova/products/gasoline-water-pump/BGWP2x2SA.webp",
+    "models": [
+      {
+        "code": "MGWP2x2SA",
+        "name": "पेट्रोल वॉटर पंप",
+        "id": "1",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/gasoline-water-pump/BGWP2x2SA.webp",
+        "specifications": "इंजन: 5HP, 4-स्ट्रोक\nडिस्चार्ज: 2 इंच\nअधिकतम पंप क्षमता: 25000 लीटर/घंटा\nस्टार्टिंग सिस्टम: रिकॉइल"
+      },
+      {
+        "code": "MGWP3x3SA",
+        "name": "पेट्रोल वॉटर पंप",
+        "id": "2",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/gasoline-water-pump/BGWP3x3SA.webp",
+        "specifications": "इंजन: 7HP, 4-स्ट्रोक\nडिस्चार्ज: 3 इंच\nअधिकतम पंप क्षमता: 35000 लीटर/घंटा\nस्टार्टिंग सिस्टम: रिकॉइल"
+      },
+      {
+        "code": "MGWP4x4SA",
+        "name": "पेट्रोल वॉटर पंप",
+        "id": "3",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/gasoline-water-pump/BGWP4x4SA.webp",
+        "specifications": "इंजन: 7HP, 4-स्ट्रोक\nडिस्चार्ज: 4 इंच\nअधिकतम पंप क्षमता: 45000 लीटर/घंटा\nस्टार्टिंग सिस्टम: रिकॉइल"
+      }
+    ]
+  },
+  "battery-pruning-saw": {
+    "id": "7",
+    "name": "बैटरी प्रूनिंग सॉ",
+    "category": "gardening-forestry",
+    "description": "छंटाई और कटाई के लिए हल्की और कुशल बैटरी प्रूनिंग सॉ",
+    "hero_image": "/mechnova/products/battery-pruning-saw/hero-battery-pruning-saw.webp",
+    "error_image": "/mechnova/products/battery-pruning-saw/BBPS42VA.webp",
+    "models": [
+      {
+        "code": "MBPS42VA",
+        "name": "बैटरी प्रूनिंग सॉ",
+        "id": "1",
+        "warranty": "12 महीने",
+        "image": "/mechnova/products/battery-pruning-saw/BBPS42VA.webp",
+        "specifications": "बैटरी: 42V लिथियम-आयन\nब्लेड लंबाई: 8\"\nशोर स्तर: कम\nउपयोग: बागवानी, हल्की कटाई"
+      }
+    ]
+  }
+}
