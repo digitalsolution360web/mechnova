@@ -72,13 +72,14 @@ export default function ProductSlugPage() {
         setOldProductData(null)
       } else {
         // For regular products, use the old modelData structure based on language
-        const modelData = locale === 'en' 
-    ? modelDataEn 
-    : locale === 'es' 
-        ? modelDataEs 
-        : locale === 'hi' 
-            ? modelDataHi 
-            : modelDataEn; // fallback to English if locale doesn't match
+const modelDataMap = {
+  en: modelDataEn,
+  es: modelDataEs,
+  hi: modelDataHi,
+};
+
+const modelData = modelDataMap[locale] || modelDataEn;
+
 
         const oldProduct = modelData[slug]
         if (oldProduct) {
