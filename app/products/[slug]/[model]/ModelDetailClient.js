@@ -79,7 +79,34 @@ export default function ModelDetailClient({ slug, model }) {
           </div>
 
           {/* Model Leaflet Images */
-        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center p-4 mb-8">
+
+  {/* LEFT — YOUTUBE VIDEO */}
+  <div className="w-full">
+    <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-lg">
+      <iframe
+        src="https://www.youtube.com/embed/dR8Go5A0gtI?si=65WWiwTbxRnWtrUn&rel=0&modestbranding=1"
+        title="Product Video"
+        className="absolute top-0 left-0 w-full h-full"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      />
+    </div>
+  </div>
+
+  {/* RIGHT — IMAGE */}
+  <div className="flex justify-center">
+    <img
+      src={currentModel.leaflet_image}
+      alt="Product Leaflet"
+      className="max-h-[900px] w-auto rounded-lg"
+      onError={(e) => (e.target.src = '/about.webp')}
+    />
+  </div>
+
+</div>
+
 
           {/* Product Image and Description */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
