@@ -73,7 +73,7 @@ export default function ModelDetailClient({ slug, model }) {
             <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-2">
               {productName}
             </h2>
-            <p className="text-2xl text-gray-600">
+            <p className="text-2xl text-gray-600 mb-4">
               Model: <span className="font-semibold text-[#0072ce]">{currentModel.code}</span>
             </p>
           </div>
