@@ -1,4 +1,5 @@
 import HeroSlider from "./HeroSlider";
+import Link from "next/link";
 import { useTranslation } from "@/lib/useTranslation";
 
 function Hero() {
@@ -23,9 +24,9 @@ function Hero() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mt-4 animate-slideInLeft delay-400">
-            <button className="px-8 py-3 rounded-full bg-gradient-to-r from-[#0072ce] to-[#00c3ff] text-white font-semibold shadow-lg hover:scale-105 transition-transform">
+            <Link href="/dealer" className="px-8 py-3 rounded-full bg-gradient-to-r from-[#0072ce] to-[#00c3ff] text-white font-semibold shadow-lg hover:scale-105 transition-transform">
               Get Started
-            </button>
+            </Link>
             <button 
               onClick={() => window.open('https://www.youtube.com/watch?v=LXJDFVtQ6-U', '_blank')}
               className="px-8 py-3 rounded-full border border-[#0072ce] text-[#0072ce] font-semibold shadow-lg hover:bg-[#0072ce] hover:text-white transition-all flex items-center gap-2 justify-center"
