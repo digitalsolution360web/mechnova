@@ -79,7 +79,7 @@ export default function ModelDetailClient({ slug, model }) {
           </div>
 
           {/* Model Leaflet Images */
-          {/* Video + Image Side by Side */}
+         
 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center p-4 mb-8">
 
   {/* LEFT — YOUTUBE VIDEO */}
