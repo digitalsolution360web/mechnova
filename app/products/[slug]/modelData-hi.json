@@ -656,7 +656,7 @@
         "specifications": "बैटरी: 42V लिथियम-आयन\nब्लेड लंबाई: 8\"\nशोर स्तर: कम\nउपयोग: बागवानी, हल्की कटाई"
       }
     ]
-  }
+  },
    "pressure-washer":{
         "id": "2",
         "name": "Electric Pressure Washer",
@@ -716,4 +716,5 @@
         ]
     },
 }
+
 
