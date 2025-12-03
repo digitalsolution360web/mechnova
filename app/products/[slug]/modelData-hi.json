@@ -657,66 +657,66 @@
       }
     ]
   },
-   "pressure-washer":{
-        "id": "2",
-        "name": "Electric Pressure Washer",
-        "category": "domestic",
-        "description": "Electric pressure washers for high-pressure cleaning",
-        "hero_image": "/mechnova/products/pressure-washer/hero-pressure-washer.webp",
-        "error_image": "/mechnova/products/pressure-washer/BEPW1450A1.webp",
-        "models": [
-            {
-                "code": "MEPW1450A1",
-                "name": "ELECTRIC PRESSURE WASHER",
-                "id": "1",
-                "warranty": "12 Months",
-                "image": "/mechnova/products/pressure-washer/BEPW1450A1.webp",
-                "specifications": "Motor: 1200W - 110V - 50/60Hz - brush motor\nRated pressure: 65Bar\nMax pressure: 100Bar\nRated flow: 5.5 l/min"
-            },
-            {
-                "code": "MEPW1450A2",
-                "name": "ELECTRIC PRESSURE WASHER",
-                "id": "2",
-                "warranty": "12 Months",
-                "image": "/mechnova/products/pressure-washer/BEPW1450A2.webp",
-                "specifications": "Motor: 1200W - 220V - 50/60Hz - brush motor\nRated pressure: 65Bar\nMax pressure: 100Bar\nRated flow: 5.5 l/min"
-            },
-            {
-                "code": "MEPW1850A1",
-                "name": "ELECTRIC PRESSURE WASHER",
-                "id": "3",
-                "warranty": "12 Months",
-                "image": "/mechnova/products/pressure-washer/BEPW1850A1.webp",
-                "specifications": "Motor: 1500W - 110V - 50/60Hz - brush motor\nRated pressure: 90Bar\nMax pressure: 130Bar\nRated flow: 5.5 l/min"
-            },
-            {
-                "code": "MEPW1850A2",
-                "name": "ELECTRIC PRESSURE WASHER",
-                "id": "4",
-                "warranty": "12 Months",
-                "image": "/mechnova/products/pressure-washer/BEPW1850A2.webp",
-                "specifications": "Motor: 1500W - 220V - 50/60Hz - brush motor\nRated pressure: 90Bar\nMax pressure: 130Bar\nRated flow: 5.5 l/min"
-            },
-            {
-                "code": "MEPW2185A-1",
-                "name": "ELECTRIC PRESSURE WASHER",
-                "id": "5",
-                "warranty": "12 Months",
-                "image": "/mechnova/products/pressure-washer/BEPW2185A-1.webp",
-                "specifications": "Motor: 1800W - 110V - 50/60Hz - brush motor\nRated pressure: 110Bar\nMax pressure: 150Bar\nRated flow: 6.0 l/min"
-            },
-            {
-                "code": "MEPW2185A-2",
-                "name": "ELECTRIC PRESSURE WASHER",
-                "id": "6",
-                "warranty": "12 Months",
-                "image": "/mechnova/products/pressure-washer/BEPW2185A-2.webp",
-                "specifications": "Motor: 1800W - 220V - 60Hz - Brush type\nRated pressure: 110Bar\nMax pressure: 150Bar\nRated flow: 6.0 l/min"
-            }
-        ]
-    }
-  
+   "pressure-washer": {
+    "id": "2",
+    "name": "इलेक्ट्रिक प्रेशर वॉशर",
+    "category": "घरेलू",
+    "description": "उच्च-दबाव की सफाई के लिए इलेक्ट्रिक प्रेशर वॉशर",
+    "hero_image": "/mechnova/products/pressure-washer/hero-pressure-washer.webp",
+    "error_image": "/mechnova/products/pressure-washer/BEPW1450A1.webp",
+    "models": [
+        {
+            "code": "MEPW1450A1",
+            "name": "इलेक्ट्रिक प्रेशर वॉशर",
+            "id": "1",
+            "warranty": "12 महीने",
+            "image": "/mechnova/products/pressure-washer/BEPW1450A1.webp",
+            "specifications": "मोटर: 1200W - 110V - 50/60Hz - ब्रश मोटर\nरेटेड प्रेशर: 65 बार\nअधिकतम प्रेशर: 100 बार\nरेटेड फ्लो: 5.5 ली/मिनट"
+        },
+        {
+            "code": "MEPW1450A2",
+            "name": "इलेक्ट्रिक प्रेशर वॉशर",
+            "id": "2",
+            "warranty": "12 महीने",
+            "image": "/mechnova/products/pressure-washer/BEPW1450A2.webp",
+            "specifications": "मोटर: 1200W - 220V - 50/60Hz - ब्रश मोटर\nरेटेड प्रेशर: 65 बार\nअधिकतम प्रेशर: 100 बार\nरेटेड फ्लो: 5.5 ली/मिनट"
+        },
+        {
+            "code": "MEPW1850A1",
+            "name": "इलेक्ट्रिक प्रेशर वॉशर",
+            "id": "3",
+            "warranty": "12 महीने",
+            "image": "/mechnova/products/pressure-washer/BEPW1850A1.webp",
+            "specifications": "मोटर: 1500W - 110V - 50/60Hz - ब्रश मोटर\nरेटेड प्रेशर: 90 बार\nअधिकतम प्रेशर: 130 बार\nरेटेड फ्लो: 5.5 ली/मिनट"
+        },
+        {
+            "code": "MEPW1850A2",
+            "name": "इलेक्ट्रिक प्रेशर वॉशर",
+            "id": "4",
+            "warranty": "12 महीने",
+            "image": "/mechnova/products/pressure-washer/BEPW1850A2.webp",
+            "specifications": "मोटर: 1500W - 220V - 50/60Hz - ब्रश मोटर\nरेटेड प्रेशर: 90 बार\nअधिकतम प्रेशर: 130 बार\nरेटेड फ्लो: 5.5 ली/मिनट"
+        },
+        {
+            "code": "MEPW2185A-1",
+            "name": "इलेक्ट्रिक प्रेशर वॉशर",
+            "id": "5",
+            "warranty": "12 महीने",
+            "image": "/mechnova/products/pressure-washer/BEPW2185A-1.webp",
+            "specifications": "मोटर: 1800W - 110V - 50/60Hz - ब्रश मोटर\nरेटेड प्रेशर: 110 बार\nअधिकतम प्रेशर: 150 बार\nरेटेड फ्लो: 6.0 ली/मिनट"
+        },
+        {
+            "code": "MEPW2185A-2",
+            "name": "इलेक्ट्रिक प्रेशर वॉशर",
+            "id": "6",
+            "warranty": "12 महीने",
+            "image": "/mechnova/products/pressure-washer/BEPW2185A-2.webp",
+            "specifications": "मोटर: 1800W - 220V - 60Hz - ब्रश प्रकार\nरेटेड प्रेशर: 110 बार\nअधिकतम प्रेशर: 150 बार\nरेटेड फ्लो: 6.0 ली/मिनट"
+        }
+    ]
 }
+}
+
 
 
 
