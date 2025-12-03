@@ -3,13 +3,6 @@ import { useEffect, useRef } from "react";
 import Image from "next/image";
 import { useTranslation } from '@/lib/useTranslation';
 
-const images = [
-  "/mechnova/banner/website-banner1.webp",
-  "/mechnova/banner/website-banner2.webp",
-  "/mechnova/banner/website-banner3.webp",
-  "/mechnova/banner/website-banner4.webp",
-];
-
 const EnglishImages = [
   "/mechnova/banner/english-website-banner1.webp",
   "/mechnova/banner/english-website-banner2.webp",
@@ -17,16 +10,33 @@ const EnglishImages = [
   "/mechnova/banner/english-website-banner4.webp",
 ];
 
+const HindiImages = [
+  "/mechnova/banner/hindi-website-banner1.webp",
+  "/mechnova/banner/hindi-website-banner2.webp",
+  "/mechnova/banner/hindi-website-banner3.webp",
+  "/mechnova/banner/hindi-website-banner4.webp",
+];
+
+const DefaultImages = [
+  "/mechnova/banner/website-banner1.webp",
+  "/mechnova/banner/website-banner2.webp",
+  "/mechnova/banner/website-banner3.webp",
+  "/mechnova/banner/website-banner4.webp",
+];
+
 export default function HeroSlider() {
   const { locale } = useTranslation();
   const sliderRef = useRef(null);
   const indexRef = useRef(0);
   
-  // Select images based on language
-  const selectedImages = locale === 'en' ? EnglishImages : images;
+  // Select images based on locale
+  let selectedImages;
+  if(locale === 'en') selectedImages = EnglishImages;
+  else if(locale === 'hi') selectedImages = HindiImages;
+  else selectedImages = DefaultImages;
   
   // Duplicate images for infinite effect
-  const infiniteImages = [...selectedImages, ...selectedImages, ...selectedImages, ...selectedImages, ...selectedImages, ...selectedImages, ...selectedImages, ...selectedImages, ...selectedImages, ...selectedImages, ...selectedImages, ...selectedImages];
+  const infiniteImages = [...selectedImages, ...selectedImages, ...selectedImages, ...selectedImages];
   const total = infiniteImages.length;
   const visibleCount = selectedImages.length;
 
@@ -42,7 +52,7 @@ export default function HeroSlider() {
         left: sliderRef.current.offsetWidth * indexRef.current,
         behavior: "smooth"
       });
-      // If at the end, reset to the middle set instantly (no animation)
+      // If at the end, reset to the middle set instantly
       if (indexRef.current === total - visibleCount) {
         setTimeout(() => {
           if (!sliderRef.current) return;
@@ -51,24 +61,24 @@ export default function HeroSlider() {
             behavior: "auto"
           });
           indexRef.current = visibleCount;
-        }, 400); // Wait for smooth scroll to finish
+        }, 400);
       }
     }, 2000);
     return () => clearInterval(interval);
-  }, [selectedImages, visibleCount, total]); // Added dependencies for when images change
+  }, [selectedImages, visibleCount, total]);
 
   return (
     <div
       ref={sliderRef}
-      className=" h-full flex overflow-x-auto scroll-smooth snap-x snap-mandatory "
-      style={{scrollbarWidth: "none"}}
+      className="h-full flex overflow-x-auto scroll-smooth snap-x snap-mandatory"
+      style={{ scrollbarWidth: "none" }}
     >
       {infiniteImages.map((src, i) => (
         <div key={i} className="w-full flex-shrink-0 h-full relative snap-center">
           <img
             src={src}
             alt={`Hero Slide ${(i % visibleCount) + 1}`}
-            style={{objectFit: 'cover'}}
+            style={{ objectFit: 'cover' }}
           />
         </div>
       ))}
