@@ -563,48 +563,149 @@
       }
     ]
   },
-  "gasoline-generator": {
-    "id": "5",
-    "name": "पेट्रोल जेनरेटर",
-    "category": "electric-machines",
-    "description": "औद्योगिक और घरेलू बिजली आवश्यकताओं के लिए पेट्रोल जेनरेटर",
-    "hero_image": "/mechnova/products/gasoline-generator/hero-gasoline-generator.webp",
-    "error_image": "/mechnova/products/gasoline-generator/BGGE1800A-110.webp",
+"gasoline-engine": {
+    "id": "3",
+    "name": "पेट्रोल इंजन",
+    "category": "कृषि-औद्योगिक",
+    "description": "कृषि और औद्योगिक उपयोग के लिए पेट्रोल इंजन",
+    "hero_image": "/mechnova/products/gasoline-engine/hero-gasoline-engine.webp",
+    "error_image": "/mechnova/products/gasoline-engine/BE40A.webp",
     "models": [
-      {
-        "code": "MGGE1800A-110",
-        "name": "पेट्रोल जेनरेटर",
-        "id": "1",
-        "warranty": "12 महीने",
-        "image": "/mechnova/products/gasoline-generator/BGGE1800A-110.webp",
-        "specifications": "वोल्टेज: 110V\nअधिकतम शक्ति: 1.8kVA\nरेटेड शक्ति: 1.5kVA\nकॉइलिंग: 100% कॉपर\nस्टार्टिंग सिस्टम: रिकॉइल"
-      },
-      {
-        "code": "MGGE1800A-220",
-        "name": "पेट्रोल जेनरेटर",
-        "id": "2",
-        "warranty": "12 महीने",
-        "image": "/mechnova/products/gasoline-generator/BGGE1800A-220.webp",
-        "specifications": "वोल्टेज: 220V\nअधिकतम शक्ति: 1.8kVA\nरेटेड शक्ति: 1.5kVA\nकॉइलिंग: 100% कॉपर\nस्टार्टिंग सिस्टम: रिकॉइल"
-      },
-      {
-        "code": "MGGE3500EA",
-        "name": "पेट्रोल जेनरेटर",
-        "id": "3",
-        "warranty": "12 महीने",
-        "image": "/mechnova/products/gasoline-generator/BGGE3500EA.webp",
-        "specifications": "वोल्टेज: 220V\nअधिकतम शक्ति: 3.0kVA\nरेटेड शक्ति: 2.8kVA\nकॉइलिंग: 100% कॉपर\nस्टार्टिंग सिस्टम: इलेक्ट्रिक + रिकॉइल"
-      },
-      {
-        "code": "MGGE5500EA",
-        "name": "पेट्रोल जेनरेटर",
-        "id": "4",
-        "warranty": "12 महीने",
-        "image": "/mechnova/products/gasoline-generator/BGGE5500EA.webp",
-        "specifications": "वोल्टेज: 220V\nअधिकतम शक्ति: 5.0kVA\nरेटेड शक्ति: 4.5kVA\nकॉइलिंग: 100% कॉपर\nस्टार्टिंग सिस्टम: इलेक्ट्रिक + रिकॉइल"
-      }
+        {
+            "code": "ME40A",
+            "name": "पेट्रोल इंजन",
+            "id": "1",
+            "warranty": "12 महीने",
+            "image": "/mechnova/products/gasoline-engine/BE40A.webp",
+            "specifications": "इंजन: 4.0 HP, 4-स्ट्रोक, 113cc\nप्रौद्योगिकी: OHV, ओवरहेड वाल्व\nकूलिंग सिस्टम: एयर\nसिलेंडर व्यास: 60*40 mm\nअधिकतम शक्ति: 4 HP\nईंधन टैंक क्षमता: 2.0 लीटर\nतेल रिज़र्व क्षमता: 350 ml\nस्टार्टिंग सिस्टम: रिकॉइल"
+        },
+        {
+            "code": "ME70A",
+            "name": "पेट्रोल इंजन",
+            "id": "2",
+            "warranty": "12 महीने",
+            "image": "/mechnova/products/gasoline-engine/BE70A.webp",
+            "specifications": "इंजन: 7.0 HP, 4-स्ट्रोक, 210cc\nप्रौद्योगिकी: OHV, ओवरहेड वाल्व\nकूलिंग सिस्टम: एयर\nसिलेंडर व्यास: 70*54 mm\nअधिकतम शक्ति: 7 HP\nईंधन टैंक क्षमता: 3.6 लीटर\nतेल रिज़र्व क्षमता: 600 ml\nस्टार्टिंग सिस्टम: रिकॉइल"
+        }
     ]
-  },
+},
+
+"gasoline-generator": {
+    "id": "4",
+    "name": "पेट्रोल जेनरेटर",
+    "category": "कृषि-औद्योगिक",
+    "description": "घरेलू और औद्योगिक उपयोग के लिए पेट्रोल जेनरेटर",
+    "hero_image": "/mechnova/products/gasoline-generator/hero-gasoline-generator.webp",
+    "error_image": "/mechnova/products/gasoline-generator/BG1.2AS1-60.webp",
+    "models": [
+        {
+            "code": "MG1.2AS1-60",
+            "name": "पेट्रोल जेनरेटर",
+            "id": "1",
+            "warranty": "12 महीने",
+            "image": "/mechnova/products/gasoline-generator/BG1.2AS1-60.webp",
+            "specifications": "अधिकतम शक्ति: 1.2 KW\nसामान्य शक्ति: 1.1 KW\nस्टेटर कॉइल: 100% कॉपर\nवोल्टेज: 110V - 60Hz\nइंजन: 113cc - 4HP / OHV, पेट्रोल, 4-स्ट्रोक\n50% लोड पर स्वायत्तता: 12 घंटे\nईंधन टैंक क्षमता: 9.6 लीटर\nस्टार्टिंग सिस्टम: रिकॉइल\nतेल रिज़र्व क्षमता: 350 ml"
+        },
+        {
+            "code": "MG1.2AS2-60",
+            "name": "पेट्रोल जेनरेटर",
+            "id": "2",
+            "warranty": "12 महीने",
+            "image": "/mechnova/products/gasoline-generator/BG1.2AS1-60.webp",
+            "specifications": "अधिकतम शक्ति: 1.2 KW\nसामान्य शक्ति: 1.1 KW\nस्टेटर कॉइल: 100% कॉपर\nवोल्टेज: 220V - 60Hz\nइंजन: 113cc - 4HP / OHV, पेट्रोल, 4-स्ट्रोक\n50% लोड पर स्वायत्तता: 12 घंटे\nईंधन टैंक क्षमता: 9.6 लीटर\nस्टार्टिंग सिस्टम: रिकॉइल\nतेल रिज़र्व क्षमता: 350 ml"
+        },
+
+        {
+            "code": "MG1.0AS1-50",
+            "name": "पेट्रोल जेनरेटर",
+            "id": "3",
+            "warranty": "12 महीने",
+            "image": "/mechnova/products/gasoline-generator/BG1.2AS1-60.webp",
+            "specifications": "अधिकतम शक्ति: 1.0 KW\nसामान्य शक्ति: 0.9 KW\nस्टेटर कॉइल: 100% कॉपर\nवोल्टेज: 110V - 50Hz\nइंजन: 113cc - 4HP / OHV, पेट्रोल, 4-स्ट्रोक\n50% लोड पर स्वायत्तता: 12 घंटे\nईंधन टैंक क्षमता: 9.6 लीटर\nस्टार्टिंग सिस्टम: रिकॉइल\nतेल रिज़र्व क्षमता: 350 ml"
+        },
+
+        {
+            "code": "MG1.0AS2-50",
+            "name": "पेट्रोल जेनरेटर",
+            "id": "4",
+            "warranty": "12 महीने",
+            "image": "/mechnova/products/gasoline-generator/BG1.2AS1-60.webp",
+            "specifications": "अधिकतम शक्ति: 1.0 KW\nसामान्य शक्ति: 0.9 KW\nस्टेटर कॉइल: 100% कॉपर\nवोल्टेज: 220V - 50Hz\nइंजन: 113cc - 4HP / OHV, पेट्रोल, 4-स्ट्रोक\n50% लोड पर स्वायत्तता: 12 घंटे\nईंधन टैंक क्षमता: 9.6 लीटर\nस्टार्टिंग सिस्टम: रिकॉइल\nतेल रिज़र्व क्षमता: 350 ml"
+        },
+
+        {
+            "code": "MG3.0AS1-60",
+            "name": "पेट्रोल जेनरेटर",
+            "id": "5",
+            "warranty": "12 महीने",
+            "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+            "specifications": "अधिकतम शक्ति: 3.0 KW\nसामान्य शक्ति: 2.8 KW\nस्टेटर कॉइल: 100% कॉपर\nवोल्टेज: 110V - 60Hz\nइंजन: 212cc - 7HP / OHV, पेट्रोल, 4-स्ट्रोक\n50% लोड पर स्वायत्तता: 12 घंटे\nईंधन टैंक क्षमता: 15.0 लीटर\nस्टार्टिंग सिस्टम: रिकॉइल\nतेल रिज़र्व क्षमता: 600 ml"
+        },
+
+        {
+            "code": "MG3.0AS2-60",
+            "name": "पेट्रोल जेनरेटर",
+            "id": "6",
+            "warranty": "12 महीने",
+            "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+            "specifications": "अधिकतम शक्ति: 3.0 KW\nसामान्य शक्ति: 2.8 KW\nस्टेटर कॉइल: 100% कॉपर\nवोल्टेज: 220V - 60Hz\nइंजन: 212cc - 7HP / OHV, पेट्रोल, 4-स्ट्रोक\n50% लोड पर स्वायत्तता: 12 घंटे\nईंधन टैंक क्षमता: 15.0 लीटर\nस्टार्टिंग सिस्टम: रिकॉइल\nतेल रिज़र्व क्षमता: 600 ml"
+        },
+
+        {
+            "code": "MG2.7AS1-50",
+            "name": "पेट्रोल जेनरेटर",
+            "id": "7",
+            "warranty": "12 महीने",
+            "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+            "specifications": "अधिकतम शक्ति: 2.7 KW\nसामान्य शक्ति: 2.5 KW\nस्टेटर कॉइल: 100% कॉपर\nवोल्टेज: 110V - 50Hz\nइंजन: 212cc - 7HP / OHV, पेट्रोल, 4-स्ट्रोक\n50% लोड पर स्वायत्तता: 12 घंटे\nईंधन टैंक क्षमता: 15.0 लीटर\nस्टार्टिंग सिस्टम: रिकॉइल\nतेल रिज़र्व क्षमता: 600 ml"
+        },
+
+        {
+            "code": "MG2.7AS2-50",
+            "name": "पेट्रोल जेनरेटर",
+            "id": "8",
+            "warranty": "12 महीने",
+            "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+            "specifications": "अधिकतम शक्ति: 2.7 KW\nसामान्य शक्ति: 2.5 KW\nस्टेटर कॉइल: 100% कॉपर\nवोल्टेज: 220V - 50Hz\nइंजन: 212cc - 7HP / OHV, पेट्रोल, 4-स्ट्रोक\n50% लोड पर स्वायत्तता: 12 घंटे\nईंधन टैंक क्षमता: 15.0 लीटर\nस्टार्टिंग सिस्टम: रिकॉइल\nतेल रिज़र्व क्षमता: 600 ml"
+        },
+
+        {
+            "code": "MG6.5AS1-60",
+            "name": "पेट्रोल जेनरेटर",
+            "id": "9",
+            "warranty": "12 महीने",
+            "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+            "specifications": "अधिकतम शक्ति: 6.5 KW\nसामान्य शक्ति: 6.0 KW\nस्टेटर कॉइल: 100% कॉपर\nवोल्टेज: 110V - 60Hz\nइंजन: 420cc - 15HP / OHV, पेट्रोल, 4-स्ट्रोक\n50% लोड पर स्वायत्तता: 12 घंटे\nईंधन टैंक क्षमता: 25.0 लीटर\nस्टार्टिंग सिस्टम: रिकॉइल\nतेल रिज़र्व क्षमता: 1100 ml"
+        },
+
+        {
+            "code": "MG6.5AS2-60",
+            "name": "पेट्रोल जेनरेटर",
+            "id": "10",
+            "warranty": "12 महीने",
+            "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+            "specifications": "अधिकतम शक्ति: 6.5 KW\nसामान्य शक्ति: 6.0 KW\nस्टेटर कॉइल: 100% कॉपर\nवोल्टेज: 220V - 60Hz\nइंजन: 420cc - 15HP / OHV, पेट्रोल, 4-स्ट्रोक\n50% लोड पर स्वायत्तता: 12 घंटे\nईंधन टैंक क्षमता: 25.0 लीटर\nस्टार्टिंग सिस्टम: रिकॉइल\nतेल रिज़र्व क्षमता: 1100 ml"
+        },
+
+        {
+            "code": "MG5.8AS1-50",
+            "name": "पेट्रोल जेनरेटर",
+            "id": "11",
+            "warranty": "12 महीने",
+            "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+            "specifications": "अधिकतम शक्ति: 5.8 KW\nसामान्य शक्ति: 5.4 KW\nस्टेटर कॉइल: 100% कॉपर\nवोल्टेज: 110V - 50Hz\nइंजन: 420cc - 15HP / OHV, पेट्रोल, 4-स्ट्रोक\n50% लोड पर स्वायत्तता: 12 घंटे\nईंधन टैंक क्षमता: 25.0 लीटर\nस्टार्टिंग सिस्टम: रिकॉइल\nतेल रिज़र्व क्षमता: 1100 ml"
+        },
+
+        {
+            "code": "MG5.8AS2-50",
+            "name": "पेट्रोल जेनरेटर",
+            "id": "12",
+            "warranty": "12 महीने",
+            "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+            "specifications": "अधिकतम शक्ति: 5.8 KW\nसामान्य शक्ति: 5.4 KW\nस्टेटर कॉइल: 100% कॉपर\nवोल्टेज: 220V - 50Hz\nइंजन: 420cc - 15HP / OHV, पेट्रोल, 4-स्ट्रोक\n50% लोड पर स्वायत्तता: 12 घंटे\nईंधन टैंक क्षमता: 25.0 लीटर\nस्टार्टिंग सिस्टम: रिकॉइल\nतेल रिज़र्व क्षमता: 1100 ml"
+        }
+    ]
+}  ,
   "gasoline-water-pump": {
     "id": "6",
     "name": "पेट्रोल वॉटर पंप",
@@ -716,6 +817,7 @@
     ]
 }
 }
+
 
 
 
