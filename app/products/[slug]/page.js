@@ -17,7 +17,12 @@ function ModelCard({ slug, model }) {
   
   return (
     <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 p-6 flex flex-col">
-    
+      <img 
+        src={model.image} 
+        alt={model.name} 
+        className="w-full object-contain mb-4 rounded" 
+        onError={e => e.target.src='/about.webp'} 
+      />
       <h3 className="font-bold text-xl text-gray-900 mb-3 text-center">{model.code}</h3>
       {/* <p className="text-gray-600 mb-3 text-sm">
         Model: <span className="font-semibold text-[#0072ce]">{model.code}</span>
