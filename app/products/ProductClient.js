@@ -43,7 +43,7 @@ export default function ProdPage() {
           <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-transparent flex items-center">
             <div className="px-8 md:px-20">
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-2">{t('home.productsPage.title')} <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent"></span></h1>
-              <p className="text-lg md:text-2xl text-blue-100">{t('home.productsPage.subtitle')}Arpit</p>
+              <p className="text-lg md:text-2xl text-blue-100">{t('home.productsPage.subtitle')}</p>
             </div>
           </div>
         </div>
