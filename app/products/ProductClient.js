@@ -12,7 +12,7 @@ function ProductCard({ categoryKey, productKey, product }) {
   
   return (
     <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 p-4 flex flex-col items-center text-center">
-      <img src="" alt={product.name} className="w-full h-40 object-contain mb-4 rounded" onError={e => e.target.src='/about.webp'} />
+      <img src= alt={product.name} className="w-full h-40 object-contain mb-4 rounded" onError={e => e.target.src='/about.webp'} />
       <h3 className="font-bold text-lg text-gray-900 mb-2">{product.name}</h3>
       <Link href={`/products/${productKey}`} className="mt-auto inline-block bg-[#0072ce] text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-600 transition">{t('home.productsPage.exploreModels')}</Link>
     </div>
