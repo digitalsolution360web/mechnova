@@ -110,7 +110,7 @@ const modelData = modelDataMap[locale] || modelDataEn;
 useEffect(() => {
   if (sliderRef.current && oldProductData && oldProductData.models) {
     const sliderContainer = sliderRef.current;
-    const visibleCount = 1; // Number of images visible at once (adjust based on your layout)
+    const visibleCount = 1; // Number of images visible at once (adjust this based on your layout)
     const totalImages = oldProductData.models.flatMap((model) => model.images).length;
 
     // Autoplay: Scroll every 3 seconds
@@ -118,17 +118,18 @@ useEffect(() => {
       if (sliderContainer && oldProductData) {
         indexRef.current = (indexRef.current + 1) % totalImages;
 
+        // Scroll the container to the new position (move to the next image)
         sliderContainer.scrollTo({
-          left: (sliderContainer.offsetWidth * indexRef.current) / visibleCount,
-          behavior: "smooth",
+          left: (sliderContainer.scrollWidth / totalImages) * indexRef.current, // Calculate based on total images width
+          behavior: 'smooth',
         });
       }
-    }, 3000);
+    }, 3000); // Scroll every 3 seconds
 
     // Cleanup interval on component unmount
     return () => clearInterval(interval);
   }
-}, [oldProductData]);
+}, [oldProductData]); // This effect will run when `oldProductData` changes
 
 
   // If neither detailed nor old product data exists
@@ -189,13 +190,13 @@ useEffect(() => {
                     {/* Image Slider for Model */}
                     <div className="w-full h-full md:w-2/5 flex justify-center items-center relative">
   <div
-    ref={sliderRef}
-    className="h-full flex overflow-x-auto scroll-smooth snap-x snap-mandatory"
+    ref={sliderRef} // Apply ref here to control scrolling
+    className="h-full flex overflow-x-auto scroll-smooth" // Removed snap classes
     style={{ scrollbarWidth: "none" }}
   >
     {model.images && model.images.length > 0 ? (
       model.images.map((image, i) => (
-        <div key={i} className="w-full flex-shrink-0 h-full relative snap-center">
+        <div key={i} className="w-full flex-shrink-0 h-full relative">
           <img
             src={image}
             alt={`${model.name} Image ${i + 1}`}
@@ -207,7 +208,7 @@ useEffect(() => {
         </div>
       ))
     ) : (
-      <div className="w-full flex-shrink-0 h-full relative snap-center">
+      <div className="w-full flex-shrink-0 h-full relative">
         <img
           src={model.image}
           alt={model.name}
