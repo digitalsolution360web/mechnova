@@ -109,7 +109,6 @@ const modelData = modelDataMap[locale] || modelDataEn;
     return (
       <>
         <Header />
-       <h1>Arpit1</h1>
         <main className="min-h-screen bg-gray-50 flex items-center justify-center">
           <div className="text-center">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">
@@ -133,7 +132,6 @@ const modelData = modelDataMap[locale] || modelDataEn;
     return (
       <>
         <Header />
-       <h1>Arpit2</h1>
         <main className="bg-gradient-to-br from-[#E6F2FB] to-[#cbe7ff] pb-12 ">
           {/* Hero banner */}
           <div className="relative w-full mb-10">
@@ -205,7 +203,6 @@ const modelData = modelDataMap[locale] || modelDataEn;
     return (
       <>
         <Header />
-       <h1>Arpit3</h1>
         <main className="bg-gradient-to-br from-[#E6F2FB] to-[#cbe7ff] min-h-screen pb-12">
         <div className="block" style={{ height: '4.5em' }} aria-hidden="true" />
         {/* Hero Banner */}
