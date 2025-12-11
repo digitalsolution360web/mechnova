@@ -200,10 +200,18 @@ useEffect(() => {
                   >
                     {/* Image Slider for Model */}
                     <div className="w-full h-full md:w-2/5 flex justify-center items-center relative">
-  <div
+ <div
   ref={(el) => (sliderRefs.current[idx] = el)}
-  className="h-full flex overflow-x-auto scroll-smooth  no-scrollbar"
+  style={{
+    display: "flex",
+    overflowX: "auto",
+    scrollBehavior: "smooth",
+    scrollbarWidth: "none",        // Firefox
+    msOverflowStyle: "none",       // IE & Edge
+  }}
+  className="h-full"
 >
+
 
     {Array.isArray(model.images) && model.images.length > 0 ? (
       model.images.map((image, i) => (
