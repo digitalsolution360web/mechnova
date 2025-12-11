@@ -202,7 +202,7 @@ useEffect(() => {
                     <div className="w-full h-full md:w-2/5 flex justify-center items-center relative">
   <div
   ref={(el) => (sliderRefs.current[idx] = el)}
-  className="h-full flex overflow-x-auto scroll-smooth"
+  className="h-full flex overflow-x-auto scroll-smooth  no-scrollbar"
 >
 
     {Array.isArray(model.images) && model.images.length > 0 ? (
