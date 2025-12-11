@@ -48,6 +48,8 @@ export default function ProductSlugPage() {
   const [oldProductData, setOldProductData] = useState(null)
   const sliderRef = useRef(null);
   const indexRef = useRef(0);
+  const sliderRefs = useRef([]);
+
 
   useEffect(() => {
     if (slug) {
@@ -108,35 +110,31 @@ const modelData = modelDataMap[locale] || modelDataEn;
 
   // Autoplay logic for sliding images
 useEffect(() => {
-  if (sliderRef.current && oldProductData && oldProductData.models) {
-    const sliderContainer = sliderRef.current;
-    const images = sliderContainer.children;
-    const totalImages = images.length;
+  if (!oldProductData || !oldProductData.models) return;
 
-    // Only set up the autoplay if there are images
-    if (totalImages > 0) {
-      const interval = setInterval(() => {
-        if (sliderContainer && images.length > 0) {
-          // Increment the index and ensure it wraps around
-          indexRef.current = (indexRef.current + 1) % totalImages;
+  const intervals = [];
 
-          // Calculate the width of each image
-          const imageWidth = images[0].offsetWidth;
+  oldProductData.models.forEach((model, index) => {
+    const slider = sliderRefs.current[index];
+    if (!slider) return;
 
-          // Scroll the container to the new position (move to the next image)
-          sliderContainer.scrollTo({
-            left: imageWidth * indexRef.current, // Scroll to the next image
-            behavior: 'smooth',
-          });
-        }
-      }, 3000); // Scroll every 3 seconds
+    const totalImages = model.images.length;
+    let slideIndex = 0;
 
-      // Cleanup interval on component unmount or oldProductData change
-      return () => clearInterval(interval);
-    }
-  }
-}, [oldProductData]); // Re-run when `oldProductData` changes
+    const interval = setInterval(() => {
+      slideIndex = (slideIndex + 1) % totalImages;
 
+      slider.scrollTo({
+        left: slider.clientWidth * slideIndex,
+        behavior: "smooth",
+      });
+    }, 3000);
+
+    intervals.push(interval);
+  });
+
+  return () => intervals.forEach(clearInterval);
+}, [oldProductData]);
 
 
   // If neither detailed nor old product data exists
@@ -197,10 +195,10 @@ useEffect(() => {
                     {/* Image Slider for Model */}
                     <div className="w-full h-full md:w-2/5 flex justify-center items-center relative">
   <div
-    ref={sliderRef}
-    className="h-full flex overflow-x-auto scroll-smooth"
-    style={{ scrollbarWidth: "none", scrollSnapType: "x mandatory" }} // Updated styles
-  >
+  ref={(el) => (sliderRefs.current[idx] = el)}
+  className="h-full flex overflow-x-auto scroll-smooth"
+>
+
     {model.images && model.images.length > 0 ? (
       model.images.map((image, i) => (
         <div key={i} className="w-full flex-shrink-0 h-full relative snap-center">
