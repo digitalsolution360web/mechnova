@@ -208,7 +208,6 @@ export default function ModelDetailClient({ slug, model }) {
           </div>
         </div>
       </main>
-              <h1>Arpit</h1>
       <Footer />
     </>
   )
