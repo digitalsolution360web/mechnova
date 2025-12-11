@@ -118,12 +118,18 @@ useEffect(() => {
     const slider = sliderRefs.current[index];
     if (!slider) return;
 
-    const totalImages = model.images.length;
+    // SAFELY HANDLE IMAGES
+    const images = Array.isArray(model.images) && model.images.length > 0
+      ? model.images
+      : [model.image];
+
+    const totalImages = images.length;
+    if (totalImages <= 1) return; // Skip autoplay for single image
+
     let slideIndex = 0;
 
     const interval = setInterval(() => {
       slideIndex = (slideIndex + 1) % totalImages;
-
       slider.scrollTo({
         left: slider.clientWidth * slideIndex,
         behavior: "smooth",
@@ -199,7 +205,7 @@ useEffect(() => {
   className="h-full flex overflow-x-auto scroll-smooth"
 >
 
-    {model.images && model.images.length > 0 ? (
+    {Array.isArray(model.images) && model.images.length > 0 ? (
       model.images.map((image, i) => (
         <div key={i} className="w-full flex-shrink-0 h-full relative snap-center">
           <img
