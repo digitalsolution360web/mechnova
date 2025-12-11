@@ -106,6 +106,31 @@ const modelData = modelDataMap[locale] || modelDataEn;
     }
   }, [slug, locale])
 
+  // Autoplay logic for sliding images
+useEffect(() => {
+  if (sliderRef.current && oldProductData && oldProductData.models) {
+    const sliderContainer = sliderRef.current;
+    const visibleCount = 1; // Number of images visible at once (adjust based on your layout)
+    const totalImages = oldProductData.models.flatMap((model) => model.images).length;
+
+    // Autoplay: Scroll every 3 seconds
+    const interval = setInterval(() => {
+      if (sliderContainer && oldProductData) {
+        indexRef.current = (indexRef.current + 1) % totalImages;
+
+        sliderContainer.scrollTo({
+          left: (sliderContainer.offsetWidth * indexRef.current) / visibleCount,
+          behavior: "smooth",
+        });
+      }
+    }, 3000);
+
+    // Cleanup interval on component unmount
+    return () => clearInterval(interval);
+  }
+}, [oldProductData]);
+
+
   // If neither detailed nor old product data exists
   if (!productData && !oldProductData) {
     return (
@@ -163,38 +188,39 @@ const modelData = modelDataMap[locale] || modelDataEn;
                   >
                     {/* Image Slider for Model */}
                     <div className="w-full h-full md:w-2/5 flex justify-center items-center relative">
-                      <div
-                        ref={sliderRef}
-                        className="h-full flex overflow-x-auto scroll-smooth snap-x snap-mandatory"
-                        style={{ scrollbarWidth: "none" }}
-                      >
-                        {model.images && model.images.length > 0 ? (
-                          model.images.map((image, i) => (
-                            <div key={i} className="w-full flex-shrink-0 h-full relative snap-center">
-                              <img
-                                src={image}
-                                alt={`${model.name} Image ${i + 1}`}
-                                className="rounded-lg shadow-lg bg-white w-full h-full object-cover"
-                                onError={(e) => { 
-                                  e.target.src = oldProductData.error_image || '/about.webp'; 
-                                }} // Fallback image
-                              />
-                            </div>
-                          ))
-                        ) : (
-                          <div className="w-full flex-shrink-0 h-full relative snap-center">
-                            <img
-                              src={model.image}
-                              alt={model.name}
-                              className="rounded-lg shadow-lg bg-white w-full h-full object-cover"
-                              onError={(e) => { 
-                                e.target.src = oldProductData.error_image || '/about.webp'; 
-                              }} // Fallback image
-                            />
-                          </div>
-                        )}
-                      </div>
-                    </div>
+  <div
+    ref={sliderRef}
+    className="h-full flex overflow-x-auto scroll-smooth snap-x snap-mandatory"
+    style={{ scrollbarWidth: "none" }}
+  >
+    {model.images && model.images.length > 0 ? (
+      model.images.map((image, i) => (
+        <div key={i} className="w-full flex-shrink-0 h-full relative snap-center">
+          <img
+            src={image}
+            alt={`${model.name} Image ${i + 1}`}
+            className="rounded-lg shadow-lg bg-white w-full h-full object-cover"
+            onError={(e) => { 
+              e.target.src = oldProductData.error_image || '/about.webp'; 
+            }} // Fallback image
+          />
+        </div>
+      ))
+    ) : (
+      <div className="w-full flex-shrink-0 h-full relative snap-center">
+        <img
+          src={model.image}
+          alt={model.name}
+          className="rounded-lg shadow-lg bg-white w-full h-full object-cover"
+          onError={(e) => { 
+            e.target.src = oldProductData.error_image || '/about.webp'; 
+          }} // Fallback image
+        />
+      </div>
+    )}
+  </div>
+</div>
+
 
                     {/* Model Info */}
                     <div className="flex-1 flex flex-col justify-center bg-gray-50 rounded-lg p-6 shadow">
