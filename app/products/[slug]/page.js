@@ -161,7 +161,6 @@ useEffect(() => {
             </Link>
           </div>
         </main>
-              Arpit1
         <Footer />
       </>
     )
@@ -285,7 +284,6 @@ useEffect(() => {
             </Link>
           </div>
         </main>
-             Arpit2
         <Footer />
       </>
     );
@@ -348,7 +346,6 @@ useEffect(() => {
           </div>
         </div>
       </main>
-              Arpit3
       <Footer />
     </>
     )
