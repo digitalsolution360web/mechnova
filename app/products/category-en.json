@@ -1,3 +1,4 @@
+
 {
     "gardening-forestry": {
         "id": "1",
@@ -23,7 +24,7 @@
         "products": {
             "gasoline-tiller": {
                 "id": "1",
-                "name": "Gasoline Tiller",
+                "name": "Power Weeder",
                 "detail": "yes",
                 "image": "/mechnova/products/gasoline-tiller/hero-gasoline-tiller.webp"
             },
