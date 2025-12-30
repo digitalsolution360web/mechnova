@@ -7,10 +7,12 @@ import { useTranslation } from '@/lib/useTranslation'
 import Link from 'next/link'
 import categoryDataEs from '../category-es.json'
 import categoryDataEn from '../category-en.json'
+import categoryDataBn from '../category-bn.json'
 import detailedModelData from './detailedModelData.json'
 import modelDataEn from './modelData-en.json'
 import modelDataEs from './modelData-es.json'
 import modelDataHi from './modelData-hi.json'
+import modelDataBn from './modelData-bn.json'
 
 function ModelCard({ slug, model }) {
   const { t } = useTranslation()
@@ -54,7 +56,12 @@ export default function ProductSlugPage() {
   useEffect(() => {
     if (slug) {
       // Get category data based on language
-      const categoryData = locale === 'en' ? categoryDataEn : categoryDataEs
+     const categoryData =
+  locale === 'en' ? categoryDataEn :
+  locale === 'es' ? categoryDataEs :
+  locale === 'bn' ? categoryDataBn :
+  categoryDataEn; // fallback
+
       
       // Find the category and product info
       let foundProduct = null
@@ -79,8 +86,10 @@ export default function ProductSlugPage() {
 const modelDataMap = {
   en: modelDataEn,
   es: modelDataEs,
-  ...(modelDataHi && { hi: modelDataHi }),
+  hi: modelDataHi || modelDataEn,  // fallback to English
+  bn: modelDataBn || modelDataEn,  // fallback to English
 };
+
 
 const modelData = modelDataMap[locale] || modelDataEn;
 
