@@ -24,8 +24,13 @@ function ProductCard({ categoryKey, productKey, product }) {
 export default function ProdPage() {
   const { t, locale } = useTranslation()
   
-  // Conditionally load category data based on language
-  const categoryData = locale === 'en' ? categoryDataEn : locale === 'es' ? categoryDataBn : locale === 'bn' ? categoryDataEs : categoryDataHi;
+const categoryData = locale === 'en'
+  ? categoryDataEn
+  : locale === 'es'
+    ? categoryDataEs
+    : locale === 'bn'
+      ? categoryDataBn
+      : categoryDataHi;
 
   
   // Convert categoryData to array and sort by id
