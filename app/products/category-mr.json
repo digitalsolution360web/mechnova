@@ -1,0 +1,44 @@
+{
+  "gardening-forestry": {
+    "id": "1",
+    "name": "बागकाम आणि वानिकी",
+    "products": {
+      "chainsaw": {
+        "id": "1",
+        "name": "चेनसॉ",
+        "detail": "no",
+        "image": "/mechnova/products/chainsaw/hero-chainsaw.webp"
+      },
+      "brushcutter": {
+        "id": "6",
+        "name": "ब्रशकटर",
+        "detail": "no",
+        "image": "/mechnova/products/brushcutter/hero-brushcutter.webp"
+      }
+    }
+  },
+  "agro-industrial": {
+    "id": "5",
+    "name": "कृषि-औद्योगिक",
+    "products": {
+      "gasoline-tiller": {
+        "id": "1",
+        "name": "पॉवर विडर",
+        "detail": "yes",
+        "image": "/mechnova/products/gasoline-tiller/hero-gasoline-tiller.webp"
+      },
+      "gasoline-water-pump": {
+        "id": "2",
+        "name": "गॅसोलीन वॉटर पंप",
+        "detail": "no",
+        "image": "/mechnova/products/gasoline-water-pump/hero-gasoline-water-pump.webp"
+      },
+      "gasoline-engine": {
+        "id": "3",
+        "name": "गॅसोलीन इंजिन",
+        "detail": "no",
+        "image": "/mechnova/products/gasoline-engine/hero-gasoline-engine.webp"
+      }
+    }
+  }
+}

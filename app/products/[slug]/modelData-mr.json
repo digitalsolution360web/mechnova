@@ -1,0 +1,926 @@
+{
+    "chainsaw": {
+        "id": "1",
+        "name": "चेनसॉ",
+        "description": "कापणी आणि छाटणीसाठी व्यावसायिक चेनसॉ",
+        "category": "gardening-forestry",
+        "hero_image": "/mechnova/banner/banner-m.webp",
+        "error_image": "/mechnova/products/chainsaw/BCS25A-10SN.webp",
+        "models": [
+            {
+                "code": "MCS25A-10SN",
+                "name": "गॅसोलिन चेनसॉ",
+                "id": "1",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/chainsaw/BCS25A-10SN.webp",
+                "specifications": "इंजिन: गॅसोलिन, 2-स्ट्रोक, 25CC\nकमाल पॉवर: 1.0HP\nगाईड बार: 10\"\nचेन: 3/8\" x .050\"\nइंधन टँक क्षमता: ml\nतेल टँक क्षमता: ml\nकमाल RPM: प्रति मिनिट\nइंधन मिश्रण: सिंथेटिक तेलासाठी 40:1 आणि मिनरल तेलासाठी 25:1"
+            },
+            {
+                "code": "MCS42A-16SN",
+                "name": "गॅसोलिन चेनसॉ",
+                "id": "2",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/chainsaw/BCS25A-10SN.webp",
+                "specifications": "इंजिन: गॅसोलिन, 2-स्ट्रोक, 42CC\nकमाल पॉवर: 2.1HP\nगाईड बार: 16\"\nचेन: 3/8\" x .050\"\nइंधन टँक क्षमता: 300 ml\nतेल टँक क्षमता: 210 ml\nकमाल RPM: 13000 प्रति मिनिट\nइंधन मिश्रण: सिंथेटिक तेलासाठी 40:1 आणि मिनरल तेलासाठी 25:1"
+            },
+            {
+                "code": "MCS53A-18SN",
+                "name": "गॅसोलिन चेनसॉ",
+                "id": "3",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/chainsaw/BCS25A-10SN.webp",
+                "specifications": "इंजिन: गॅसोलिन, 2-स्ट्रोक, 50.8CC\nकमाल पॉवर: 2.8HP\nगाईड बार: 18\"\nचेन: .325\"\nइंधन टँक क्षमता: 550 ml\nतेल टँक क्षमता: 260 ml\nकमाल RPM: 12500 प्रति मिनिट\nइंधन मिश्रण: सिंथेटिक तेलासाठी 40:1 आणि मिनरल तेलासाठी 25:1"
+            },
+            {
+                "code": "MCS58A-20SN",
+                "name": "गॅसोलिन चेनसॉ",
+                "id": "4",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/chainsaw/BCS25A-10SN.webp",
+                "specifications": "इंजिन: गॅसोलिन, 2-स्ट्रोक, 54CC\nकमाल पॉवर: 3.2HP\nगाईड बार: 18\"\nचेन: .325\"\nइंधन टँक क्षमता: 550 ml\nतेल टँक क्षमता: 260 ml\nकमाल RPM: 12500 प्रति मिनिट\nइंधन मिश्रण: सिंथेटिक तेलासाठी 40:1 आणि मिनरल तेलासाठी 25:1"
+            },
+            {
+                "code": "MCSE1500A-16SN-1",
+                "name": "इलेक्ट्रिक चेनसॉ",
+                "id": "5",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/chainsaw/BCSE1500A-16SN-110V.webp",
+                "specifications": "मोटर: इलेक्ट्रिक, 110V, 50/60Hz\nकमाल पॉवर: 1500W\nगाईड बार: 16\"\nतेल टँक क्षमता: 120 ml\nकमाल चेन स्पीड: 15 m/s"
+            },
+            {
+                "code": "MCSE1500A-16SN-2",
+                "name": "इलेक्ट्रिक चेनसॉ",
+                "id": "6",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/chainsaw/BCSE1500A-16SN-110V.webp",
+                "specifications": "मोटर: इलेक्ट्रिक, 220V, 50/60Hz\nकमाल पॉवर: 1500W\nगाईड बार: 16\"\nतेल टँक क्षमता: 120 ml\nकमाल चेन स्पीड: 13.5 m/s"
+            },
+            {
+                "code": "MCSE1800A-18SN-1",
+                "name": "इलेक्ट्रिक चेनसॉ",
+                "id": "7",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/chainsaw/BCSE1500A-16SN-110V.webp",
+                "specifications": "मोटर: इलेक्ट्रिक, 110V, 50/60Hz\nकमाल पॉवर: 2000W\nगाईड बार: 18\"\nतेल टँक क्षमता: 120 ml\nकमाल चेन स्पीड: 13.5 m/s"
+            },
+            {
+                "code": "MCSE2000A-18SN-2",
+                "name": "इलेक्ट्रिक चेनसॉ",
+                "id": "8",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/chainsaw/BCSE1500A-16SN-110V.webp",
+                "specifications": "मोटर: इलेक्ट्रिक, 220V, 60Hz\nकमाल पॉवर: 2000W\nगाईड बार: 18\"\nतेल टँक क्षमता: 120 ml\nकमाल चेन स्पीड: 13.5 m/s"
+            },
+            {
+                "code": "MCSE2500A-20SN-2",
+                "name": "इलेक्ट्रिक चेनसॉ",
+                "id": "9",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/chainsaw/BCSE1500A-16SN-110V.webp",
+                "specifications": "मोटर: इलेक्ट्रिक, 220V, 60Hz\nकमाल पॉवर: 2500W\nगाईड बार: 20\"\nतेल टँक क्षमता: 120 ml\nकमाल चेन स्पीड: 13.5 m/s"
+            },
+            {
+                "code": "MPP750A-8SN-1",
+                "name": "इलेक्ट्रिक पोल प्रुनर",
+                "id": "10",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/chainsaw/BPPE750A-8SN.webp",
+                "specifications": "मोटर: इलेक्ट्रिक, 110V, 50/60Hz\nकमाल पॉवर: 750W\nगाईड बार: 8\"\nतेल टँक क्षमता: 80 ml\nएकूण लांबी: 2m ते 2.8m"
+            },
+            {
+                "code": "MPP750A-8SN-2",
+                "name": "इलेक्ट्रिक पोल प्रुनर",
+                "id": "11",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/chainsaw/BPPE750A-8SN.webp",
+                "specifications": "मोटर: इलेक्ट्रिक, 220V, 50/60Hz\nकमाल पॉवर: 750W\nगाईड बार: 8\"\nतेल टँक क्षमता: 80 ml\nएकूण लांबी: 2m ते 2.8m"
+            }
+        ]
+    },
+
+    
+    "hedge-trimmer": {
+        "id": "2",
+        "name": "हेज ट्रिमर",
+        "category": "gardening-forestry",
+        "description": "बागकाम आणि लँडस्केपिंगसाठी व्यावसायिक हेज ट्रिमर्स",
+        "hero_image": "/mechnova/products/hedge-trimmer/hero-hedge-trimmer.webp",
+        "error_image": "/mechnova/products/hedge-trimmer/BHT600A.webp",
+        "models": [
+            {
+                "code": "MHT600A",
+                "name": "गॅसोलिन हेज ट्रिमर",
+                "id": "1",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/hedge-trimmer/BHT600A.webp",
+                "specifications": "इंजिन: 26CC, गॅसोलिन, 2-स्ट्रोक\nकमाल पॉवर: 1.0HP\nब्लेड लांबी: 600 mm\nडबल अ‍ॅक्शन कटिंग"
+            }
+        ]
+    },
+    "blower": {
+        "id": "3",
+        "name": "ब्लोअर",
+        "category": "gardening-forestry",
+        "description": "सफाईसाठी शक्तिशाली ब्लोअर्स",
+        "hero_image": "/mechnova/products/blower/hero-blower.webp",
+        "error_image": "/mechnova/products/blower/BB43BA.webp",
+        "models": [
+            {
+                "code": "MB26A",
+                "name": "गॅसोलिन ब्लोअर",
+                "id": "1",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/blower/BB26A.webp",
+                "specifications": "इंजिन: 25.4CC गॅसोलिन, 2-स्ट्रोक\nकमाल पॉवर: 1.0HP @ 7500RPM\nइंधन मिश्रण: सिंथेटिक तेलासाठी 40:1, मिनरल तेलासाठी 25:1\nटँक क्षमता: 0.45 लिटर\nकार्बोरेटर: डायाफ्राम\nमजबूत एक्झॉस्ट\nस्टार्ट प्रकार: मॅन्युअल रीकॉईल\nएअर वॉल्यूम: 0.17m³/s किंवा 612m³/तास"
+            },
+            {
+                "code": "MB43BA",
+                "name": "गॅसोलिन बॅकपॅक ब्लोअर",
+                "id": "2",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/blower/BB43BA.webp",
+                "specifications": "इंजिन: 42.7CC, गॅसोलिन, 2-स्ट्रोक\nकमाल पॉवर: 1.7HP @ 6500RPM\nएअर वॉल्यूम: 0.28m³/s किंवा 1008 m³/तास\nकार्बोरेटर प्रकार: डायाफ्राम\nटँक क्षमता: 1 लिटर\nथ्रॉटल कंट्रोल: हँडलवर"
+            },
+            {
+                "code": "MVB26A",
+                "name": "गॅसोलिन ब्लो-व्हॅक",
+                "id": "3",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/blower/BVB26A.webp",
+                "specifications": "इंजिन: 25.4CC गॅसोलिन, 2-स्ट्रोक\nकमाल पॉवर: 1.0HP @ 7500RPM\nइंधन मिश्रण: सिंथेटिक तेलासाठी 40:1, मिनरल तेलासाठी 25:1\nटँक क्षमता: 0.45 लिटर\nकार्बोरेटर: डायाफ्राम\nमजबूत एक्झॉस्ट\nस्टार्ट प्रकार: मॅन्युअल रीकॉईल\nएअर वॉल्यूम: 0.17m³/s किंवा 612m³/तास"
+            }
+        ]
+    },
+    "earth-auger": {
+        "id": "4",
+        "name": "अर्थ ऑगर",
+        "category": "gardening-forestry",
+        "description": "छिद्र ड्रिलिंगसाठी अर्थ ऑगर्स",
+        "hero_image": "/mechnova/products/earth-auger/hero-earth-auger.webp",
+        "error_image": "/mechnova/products/earth-auger/BEA43A-200.webp",
+        "models": [
+            {
+                "code": "MEA43A-200",
+                "name": "गॅसोलिन अर्थ ऑगर",
+                "id": "1",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/earth-auger/BEA43A-200.webp",
+                "specifications": "इंजिन: गॅसोलिन, 2-स्ट्रोक, 43CC, 1.7HP\nसिंगल ऑपरेटर\nसिंगल ड्रिलसह 200 mm व्यास"
+            },
+            {
+                "code": "MEA52A-200",
+                "name": "गॅसोलिन अर्थ ऑगर",
+                "id": "2",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/earth-auger/BEA52A-200.webp",
+                "specifications": "इंजिन: गॅसोलिन, 2-स्ट्रोक, 52CC, 2.0HP\nसिंगल ऑपरेटर\nसिंगल ड्रिलसह 200 mm व्यास"
+            }
+        ]
+    },
+    
+    "lawn-mower": {
+        "id": "5",
+        "name": "लॉन मावर",
+        "category": "gardening-forestry",
+        "description": "लॉन देखभालीसाठी व्यावसायिक लॉन मावर्स",
+        "hero_image": "/mechnova/products/lawn-mower/hero-lawn-mower.webp",
+        "error_image": "/mechnova/products/lawn-mower/BLME320RA-1.webp",
+        "models": [
+            {
+                "code": "MLME320RA-1",
+                "name": "इलेक्ट्रिक लॉन मावर",
+                "id": "1",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/lawn-mower/BLME320RA-1.webp",
+                "specifications": "ड्राईव्ह प्रकार: मॅन्युअल\nव्होल्टेज: 110V - 50/60Hz\nइलेक्ट्रिक मोटर: 1200W कमाल पॉवर\nडिस्चार्ज फंक्शन: रियर विथ पिक-अप\nहँडल: स्टँडर्ड\nफ्रंट कव्हर: नाही"
+            },
+            {
+                "code": "MLME320RA-2",
+                "name": "इलेक्ट्रिक लॉन मावर",
+                "id": "2",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/lawn-mower/BLME320RA-2.webp",
+                "specifications": "ड्राईव्ह प्रकार: मॅन्युअल\nव्होल्टेज: 220V - 50/60Hz\nइलेक्ट्रिक मोटर: 1200W कमाल पॉवर\nडिस्चार्ज फंक्शन: रियर विथ पिक-अप\nहँडल: स्टँडर्ड\nफ्रंट कव्हर: नाही"
+            },
+            {
+                "code": "MLM430RA",
+                "name": "गॅसोलिन लॉन मावर",
+                "id": "3",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/lawn-mower/BLM430RA.webp",
+                "specifications": "ड्राईव्ह प्रकार: मॅन्युअल\nडिस्चार्ज फंक्शन: 2 इन 1 रियर आणि पिक-अप\nहँडल: स्टँडर्ड\nफ्रंट कव्हर: नाही\nडेक क्लिनिंग अ‍ॅटॅचमेंट: नाही"
+            },
+            {
+                "code": "MLM430RTA",
+                "name": "गॅसोलिन लॉन मावर",
+                "id": "4",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/lawn-mower/BLM430RTA.webp",
+                "specifications": "ड्राईव्ह प्रकार: मॅन्युअल\nडिस्चार्ज फंक्शन: 4 इन 1 - रियर, साईड, कलेक्शन, मल्चिंग\nहँडल: रबर ग्रिप\nफ्रंट कव्हर: होय\nडेक क्लिनिंग अ‍ॅटॅचमेंट: होय"
+            },
+            {
+                "code": "MLM530RA",
+                "name": "गॅसोलिन लॉन मावर",
+                "id": "5",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/lawn-mower/BLM530RTA.webp",
+                "specifications": "इंजिन: 166CC गॅसोलिन\nकटिंग रुंदी: 21\"\nकटिंग उंची: 30-80mm (6 सेंट्रल अ‍ॅडजस्टमेंट पर्याय)\nडिस्चार्ज पर्याय: रियर डिस्चार्ज, कलेक्शन, साईड डिस्चार्ज आणि मल्चिंग 4 इन 1\nकलेक्शन क्षमता: 70 लिटर\nप्रोपल्शन प्रकार: मॅन्युअल\nहँडलबार: रबर हँडलबार\nचाकं: फ्रंट 8\" आणि रियर 10\""
+            },
+            {
+                "code": "MLM530RTA",
+                "name": "गॅसोलिन लॉन मावर",
+                "id": "6",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/lawn-mower/BLM530RTA.webp",
+                "specifications": "इंजिन: 166CC गॅसोलिन\nकटिंग रुंदी: 21\"\nकटिंग उंची: 20-80mm (8 सेंट्रल अ‍ॅडजस्टमेंट पर्याय)\nडिस्चार्ज पर्याय: रियर डिस्चार्ज, कलेक्शन, साईड डिस्चार्ज आणि मल्चिंग\nकलेक्शन क्षमता: 70 लिटर\nप्रोपल्शन प्रकार: सेल्फ-प्रोपेल्ड\nहँडलबार: रबर हँडलबार\nचाकं: फ्रंट 8\" आणि रियर 10\""
+            },
+            {
+                "code": "MLM560RA",
+                "name": "गॅसोलिन लॉन मावर",
+                "id": "7",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/lawn-mower/BLM560RA.webp",
+                "specifications": "इंजिन: 166CC गॅसोलिन\nकटिंग रुंदी: 22\"\nकटिंग उंची: 25-75mm (7 सेंट्रल अ‍ॅडजस्टमेंट पर्याय)\nडिस्चार्ज पर्याय: रियर डिस्चार्ज, कलेक्शन, साईड डिस्चार्ज आणि मल्चिंग\nकलेक्शन क्षमता: 65 लिटर\nप्रोपल्शन प्रकार: मॅन्युअल\nहँडलबार: रबर हँडलबार\nचाकं: फ्रंट 8\" आणि रियर 10\""
+            },
+            {
+                "code": "MLM560RTA",
+                "name": "गॅसोलिन लॉन मावर",
+                "id": "8",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/lawn-mower/BLM560RTA.webp",
+                "specifications": "इंजिन: 166CC गॅसोलिन\nकटिंग रुंदी: 22\"\nकटिंग उंची: 25-75mm (7 सेंट्रल अ‍ॅडजस्टमेंट पर्याय)\nडिस्चार्ज पर्याय: रियर डिस्चार्ज, कलेक्शन, साईड डिस्चार्ज आणि मल्चिंग\nकलेक्शन क्षमता: 65 लिटर\nप्रोपल्शन प्रकार: सेल्फ-प्रोपेल्ड\nहँडलबार: रबर हँडलबार\nचाकं: फ्रंट 8\" आणि रियर 10\""
+            }
+        ]
+    },
+
+    
+    "brushcutter": {
+        "id": "6",
+        "name": "ब्रश कटर",
+        "category": "gardening-forestry",
+        "description": "वनस्पती व्यवस्थापनासाठी व्यावसायिक ब्रश कटर",
+        "hero_image": "/mechnova/products/brushcutter/hero-brushcutter.webp",
+        "error_image": "/mechnova/products/brushcutter/BBC26DA.webp",
+        "models": [
+            {
+                "code": "MBC26DA",
+                "name": "गॅसोलिन ब्रश कटर",
+                "id": "1",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/brushcutter/BBC26DA.webp",
+                "specifications": "इंजिन: गॅसोलिन, 2-स्ट्रोक, 25.4CC\nकमाल पॉवर: 1.0HP\nइंधन मिश्रण: सिंथेटिक तेलासाठी 40:1 आणि खनिज तेलासाठी 25:1\nटँक क्षमता: 0.7 लिटर\nकार्ब्युरेटर: डायाफ्राम\nरिइनफोर्स्ड एग्झॉस्ट\nस्टार्टिंग प्रकार: मॅन्युअल रिकोइल\nशाफ्ट व्यास: 26 mm\nD-हँडल"
+            },
+            {
+                "code": "MBC33DA",
+                "name": "गॅसोलिन ब्रश कटर",
+                "id": "2",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/brushcutter/BBC33DA.webp",
+                "specifications": "इंजिन: गॅसोलिन, 2-स्ट्रोक, 33.0CC\nकमाल पॉवर: 1.3HP\nइंधन मिश्रण: सिंथेटिक तेलासाठी 40:1 आणि खनिज तेलासाठी 25:1\nटँक क्षमता: 0.7 लिटर\nकार्ब्युरेटर: डायाफ्राम\nरिइनफोर्स्ड एग्झॉस्ट\nस्टार्टिंग प्रकार: मॅन्युअल रिकोइल\nशाफ्ट व्यास: 26 mm\nD-हँडल"
+            },
+            {
+                "code": "MBC43A",
+                "name": "गॅसोलिन ब्रश कटर",
+                "id": "3",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/brushcutter/BBC43A.webp",
+                "specifications": "इंजिन: गॅसोलिन, 2-स्ट्रोक, 42.7CC\nकमाल पॉवर: 1.7HP\nइंधन मिश्रण: सिंथेटिक तेलासाठी 40:1 आणि खनिज तेलासाठी 25:1\nटँक क्षमता: 0.8 लिटर\nकार्ब्युरेटर: डायाफ्राम\nरिइनफोर्स्ड एग्झॉस्ट\nस्टार्टिंग प्रकार: मॅन्युअल रिकोइल\nशाफ्ट व्यास: 26 mm\nएर्गोनॉमिक स्प्लिट हँडलबार"
+            },
+            {
+                "code": "MBC52A",
+                "name": "गॅसोलिन ब्रश कटर",
+                "id": "4",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/brushcutter/BBC52A.webp",
+                "specifications": "इंजिन: गॅसोलिन, 2-स्ट्रोक, 51.6CC\nकमाल पॉवर: 2.0HP\nइंधन मिश्रण: सिंथेटिक तेलासाठी 40:1 आणि खनिज तेलासाठी 25:1\nटँक क्षमता: 0.8 लिटर\nकार्ब्युरेटर: डायाफ्राम\nरिइनफोर्स्ड एग्झॉस्ट\nस्टार्टिंग प्रकार: मॅन्युअल रिकोइल\nशाफ्ट व्यास: 26 mm\nएर्गोनॉमिक स्प्लिट हँडलबार"
+            },
+            {
+                "code": "MBC26MTA",
+                "name": "मल्टी-फंक्शन गॅसोलिन ब्रश कटर",
+                "id": "5",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/brushcutter/BBC26MTA.webp",
+                "specifications": "इंजिन: गॅसोलिन, 2-स्ट्रोक, 26CC\nकमाल पॉवर: 1.0HP\nइंधन मिश्रण: सिंथेटिक तेलासाठी 40:1 आणि खनिज तेलासाठी 25:1\nटँक क्षमता: 0.7 लिटर\nकार्ब्युरेटर: डायाफ्राम\nरिइनफोर्स्ड एग्झॉस्ट\nस्टार्टिंग प्रकार: मॅन्युअल रिकोइल\nशाफ्ट व्यास: 26 mm\nएर्गोनॉमिक D-हँडल"
+            },
+            {
+                "code": "MBCE1000DA-1",
+                "name": "इलेक्ट्रिक ब्रश कटर",
+                "id": "6",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/brushcutter/BBCE1000DA-1.webp",
+                "specifications": "मोटर: इलेक्ट्रिक 110V, 60Hz\nकमाल पॉवर: 1.0kW\nलूप D-हँडल\nस्टील शाफ्ट, स्प्लिट डिझाइन"
+            },
+            {
+                "code": "MBCE1000DA-2",
+                "name": "इलेक्ट्रिक ब्रश कटर",
+                "id": "7",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/brushcutter/BBCE1000DA-2.webp",
+                "specifications": "मोटर: इलेक्ट्रिक 220V, 60Hz\nकमाल पॉवर: 1.4kW\nलूप D-हँडल\nस्टील शाफ्ट, स्प्लिट डिझाइन"
+            }
+        ]
+    },
+    "multi-tool": {
+        "id": "7",
+        "name": "मल्टी टूल",
+        "category": "gardening-forestry",
+        "description": "बागकामासाठी बहुपरकारचे साधन",
+        "hero_image": "/mechnova/products/multi-tool/hero-multi-tool.webp",
+        "models": []
+    },
+    "knapsack-sprayer": {
+        "id": "1",
+        "name": "नॅपसॅक स्प्रेयर",
+        "category": "fumigation",
+        "description": "फुमिगेशन आणि कीटक नियंत्रणासाठी व्यावसायिक स्प्रेयर",
+        "hero_image": "/mechnova/products/fumigation/hero-sprayer.webp",
+        "error_image": "/mechnova/products/fumigation/BS26BA.webp",
+        "models": [
+            {
+                "code": "MS26BA",
+                "name": "गॅसोलिन बॅकपॅक स्प्रेयर विथ ब्रास पंप",
+                "id": "1",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/fumigation/BS26BA.webp",
+                "specifications": "इंजिन: 25.4CC गॅसोलिन, 2-स्ट्रोक\nकमाल पॉवर: 1.0HP\nइंधन टँक क्षमता: 0.6 लिटर\nटँक क्षमता: 25 लिटर\nवर्किंग प्रेशर: 215-355 PSI\nस्प्रे वॉल्यूम: 5-8 (लिटर/मिनिट)\nपंप प्रकार: हाय प्रेशर प्लंजर पंप\nपंप साहित्य: ब्रास\nस्टार्टिंग सिस्टम: रिकोइल"
+            },
+            {
+                "code": "MSBE18VBA-20",
+                "name": "कॉर्डलेस बॅकपॅक स्प्रेयर",
+                "id": "2",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/fumigation/BSBE18VBA-20.webp",
+                "specifications": "बॅटरी: 18V लिथियम-आयन - 4.0Ah\nचार्जर: 110~220V\nटँक क्षमता: 20 लिटर\nस्प्रे वॉल्यूम: 2.8 (लिटर/मिनिट)\nपंप प्रकार: ऑटोमॅटिक पंप"
+            }
+        ]
+    },
+    
+    "diesel-generator": {
+        "id": "1",
+        "name": "डिझेल जनरेटर",
+        "category": "diesel-machines",
+        "description": "औद्योगिक आणि व्यावसायिक वापरासाठी डिझेल जनरेटर",
+        "hero_image": "/mechnova/products/diesel-generator/hero-diesel-generator.webp",
+        "error_image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+        "models": [
+            {
+                "code": "MDG2.0ASD-60",
+                "name": "डिझेल जनरेटर",
+                "id": "1",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+                "specifications": "कमाल पॉवर: 2.0 kVA\nरेटेड पॉवर: 1.8 kVA\nस्टेटर कॉइल: 100% कॉपर\nव्होल्टेज: 110V/220V ड्युअल व्होल्टेज - 60Hz\nइंजिन: 211cc, 5HP, डिझेल, 4-स्ट्रोक\n50% लोडवर रनटाइम: 10 तास\nइंधन टँक क्षमता: 11.0 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 750 ml"
+            },
+            {
+                "code": "MD1.7ASD-50",
+                "name": "डिझेल जनरेटर",
+                "id": "2",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+                "specifications": "कमाल पॉवर: 1.7 kVA\nरेटेड पॉवर: 1.5 kVA\nस्टेटर कॉइल: 100% कॉपर\nव्होल्टेज: 110V/220V ड्युअल व्होल्टेज - 50Hz\nइंजिन: 211cc, 5HP, डिझेल, 4-स्ट्रोक\n50% लोडवर रनटाइम: 10 तास\nइंधन टँक क्षमता: 11.0 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 750 ml"
+            },
+            {
+                "code": "MDG4.2ASD-60",
+                "name": "डिझेल जनरेटर",
+                "id": "3",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+                "specifications": "कमाल पॉवर: 4.2 kVA\nरेटेड पॉवर: 3.8 kVA\nस्टेटर कॉइल: 100% कॉपर\nव्होल्टेज: 110V/220V ड्युअल व्होल्टेज - 60Hz\nइंजिन: 406cc, 10HP, डिझेल, 4-स्ट्रोक\n50% लोडवर रनटाइम: 8 तास\nइंधन टँक क्षमता: 11.0 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 1.65 लिटर"
+            },
+            {
+                "code": "MDG3.6ASD-50",
+                "name": "डिझेल जनरेटर",
+                "id": "4",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+                "specifications": "कमाल पॉवर: 3.6 kVA\nरेटेड पॉवर: 3.4 kVA\nस्टेटर कॉइल: 100% कॉपर\nव्होल्टेज: 110V/220V ड्युअल व्होल्टेज - 50Hz\nइंजिन: 406cc, 10HP, डिझेल, 4-स्ट्रोक\n50% लोडवर रनटाइम: 8 तास\nइंधन टँक क्षमता: 11.0 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 1.65 लिटर"
+            },
+            {
+                "code": "MDG6.0ASD-60",
+                "name": "डिझेल जनरेटर",
+                "id": "5",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+                "specifications": "कमाल पॉवर: 6.0 kVA\nरेटेड पॉवर: 5.5 kVA\nस्टेटर कॉइल: 100% कॉपर\nव्होल्टेज: 110V/220V ड्युअल व्होल्टेज - 60Hz\nइंजिन: 456cc, 13HP, डिझेल, 4-स्ट्रोक\n50% लोडवर रनटाइम: 6 तास\nइंधन टँक क्षमता: 11.0 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 1.65 लिटर"
+            },
+            {
+                "code": "MDG5.5ASD-50",
+                "name": "डिझेल जनरेटर",
+                "id": "6",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+                "specifications": "कमाल पॉवर: 5.5 kVA\nरेटेड पॉवर: 5.0 kVA\nस्टेटर कॉइल: 100% कॉपर\nव्होल्टेज: 110V/220V ड्युअल व्होल्टेज - 50Hz\nइंजिन: 456cc, 13HP, डिझेल, 4-स्ट्रोक\n50% लोडवर रनटाइम: 6 तास\nइंधन टँक क्षमता: 11.0 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 1.65 लिटर"
+            }
+        ]
+    },
+    "diesel-engine": {
+        "id": "2",
+        "name": "डिझेल इंजिन",
+        "category": "diesel-machines",
+        "description": "उच्च मागणीसाठी सामर्थ्यवान आणि विश्वासार्ह डिझेल इंजिन",
+        "hero_image": "/mechnova/products/diesel-engine/hero-diesel-engine.webp",
+        "error_image": "/mechnova/products/diesel-engine/BDE50A.webp",
+        "models": [
+            {
+                "code": "MDE50A",
+                "name": "डिझेल इंजिन",
+                "id": "1",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/diesel-engine/BDE50A.webp",
+                "specifications": "इंजिन: 211cc, 4-स्ट्रोक\nकूलिंग सिस्टम: एअर\nसिलिंडर व्यास: 70 mm\nरेटेड पॉवर: 2.8 kW / 3.75HP\nकमाल पॉवर: 3.3 kW / 4.5HP\nइंधन टँक क्षमता: 2.5 लिटर\nतेल टाकी क्षमता: 750 ml\nस्टार्टिंग सिस्टम: मॅन्युअल रिकोइल\nमॅन्युअल स्टार्ट"
+            },
+            {
+                "code": "MDE70A",
+                "name": "डिझेल इंजिन",
+                "id": "2",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/diesel-engine/BDE70A.webp",
+                "specifications": "इंजिन: 296cc, 4-स्ट्रोक\nकूलिंग सिस्टम: एअर\nसिलिंडर व्यास: 78 mm\nरेटेड पॉवर: 4.0 kW / 5.4HP\nकमाल पॉवर: 4.8 kW / 6.5HP\nइंधन टँक क्षमता: 3.5 लिटर\nतेल टाकी क्षमता: 1100 ml\nस्टार्टिंग सिस्टम: मॅन्युअल रिकोइल\nमॅन्युअल स्टार्ट"
+            },
+            {
+                "code": "MDE100A",
+                "name": "डिझेल इंजिन",
+                "id": "3",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/diesel-engine/BDE100A.webp",
+                "specifications": "इंजिन: 456cc, 4-स्ट्रोक\nकूलिंग सिस्टम: एअर\nसिलिंडर व्यास: 88 mm\nरेटेड पॉवर: 6.9 kW / 9.3HP\nकमाल पॉवर: 7.8 kW / 10.5HP\nइंधन टँक क्षमता: 5.5 लिटर\nतेल टाकी क्षमता: 1650 ml\nस्टार्टिंग सिस्टम: मॅन्युअल रिकोइल\nमॅन्युअल स्टार्ट"
+            },
+            {
+                "code": "MDE100EA",
+                "name": "डिझेल इंजिन",
+                "id": "4",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/diesel-engine/BDE100EA.webp",
+                "specifications": "इंजिन: 456cc, 4-स्ट्रोक\nकूलिंग सिस्टम: एअर\nसिलिंडर व्यास: 88 mm\nरेटेड पॉवर: 6.9 kW / 9.3HP\nकमाल पॉवर: 7.8 kW / 10.5HP\nइंधन टँक क्षमता: 5.5 लिटर\nतेल टाकी क्षमता: 1650 ml\nस्टार्टिंग सिस्टम: इलेक्ट्रिक / मॅन्युअल रिकोइल\nइलेक्ट्रिक स्टार्ट"
+            }
+        ]
+    },
+
+    
+    "diesel-water-pump": {
+        "id": "3",
+        "name": "डिझेल वॉटर पंप",
+        "category": "diesel-machines",
+        "description": "सिंचन आणि ड्रेनेजसाठी डिझेल वॉटर पंप",
+        "hero_image": "/mechnova/products/diesel-water-pump/hero-diesel-water-pump.webp",
+        "error_image": "/mechnova/products/diesel-water-pump/BDWP2x2SA.webp",
+        "models": [
+            {
+                "code": "MDWP2x2SA",
+                "name": "डिझेल वॉटर पंप",
+                "id": "1",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/diesel-water-pump/BDWP2x2SA.webp",
+                "specifications": "पंप प्रकार: सेल्फ-प्राइमिंग\nइंजिन: डिझेल, 211cc\nस्टार्टिंग सिस्टम: रिकोइल\nकमाल पंपिंग क्षमता: 22000 लिटर प्रति तास\nसक्शन आणि डिस्चार्ज व्यास: 2 इंच x 2 इंच\nएकूण लिफ्ट: 15 मीटर\nसक्शन हाइट: 7 मीटर\nइंधन टँक आकार: 2.5 लिटर\nमॅन्युअल स्टार्ट"
+            },
+            {
+                "code": "MDWP3x3SA",
+                "name": "डिझेल वॉटर पंप",
+                "id": "2",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/diesel-water-pump/BDWP3x3SA.webp",
+                "specifications": "पंप प्रकार: सेल्फ-प्राइमिंग\nइंजिन: डिझेल, 296cc\nस्टार्टिंग सिस्टम: रिकोइल\nकमाल पंपिंग क्षमता: 35000 लिटर प्रति तास\nसक्शन आणि डिस्चार्ज व्यास: 3 इंच x 3 इंच\nएकूण लिफ्ट: 17 मीटर\nसक्शन हाइट: 7 मीटर\nइंधन टँक आकार: 3.5 लिटर\nमॅन्युअल स्टार्ट"
+            },
+            {
+                "code": "MDWP2x2CA",
+                "name": "डिझेल वॉटर पंप",
+                "id": "3",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/diesel-water-pump/BDWP2x2CA.webp",
+                "specifications": "पंप प्रकार: सेल्फ-प्राइमिंग\nइंजिन: डिझेल, 396cc\nस्टार्टिंग सिस्टम: रिकोइल\nकमाल पंपिंग क्षमता: 25000 लिटर प्रति तास\nसक्शन आणि डिस्चार्ज व्यास: 2 इंच x 2 इंच\nएकूण लिफ्ट: 70 मीटर\nसक्शन हाइट: 5 मीटर\nइंधन टँक आकार: 3.5 लिटर\nमॅन्युअल स्टार्ट"
+            }
+        ]
+    },
+    
+
+    "electric-motor": {
+        "id": "1",
+        "name": "इलेक्ट्रिक मोटर",
+        "category": "domestic",
+        "description": "घरी आणि औद्योगिक वापरासाठी इलेक्ट्रिक मोटर्स",
+        "hero_image": "/mechnova/products/electric-motors/hero-electric-motor.webp",
+        "error_image": "/mechnova/products/electric-motors/BEE10HA-DS60.webp",
+        "models": [
+            {
+                "code": "MEE10HA-DS60",
+                "name": "इलेक्ट्रिक मोटर",
+                "id": "1",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/electric-motors/BEE10HA-DS60.webp",
+                "specifications": "पॉवर: 1.0HP / 0.75kW\nव्होल्टेज: 110 / 220V - 60Hz\nसिंगल फेज\n2 पोल्स - हाय स्पीड\nकॉपर वाइंड\nमध्यम स्टार्टिंग टॉर्क"
+            },
+            {
+                "code": "MEE15HA-DS60",
+                "name": "इलेक्ट्रिक मोटर",
+                "id": "2",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/electric-motors/BEE15HA-DS60.webp",
+                "specifications": "पॉवर: 1.5HP / 1.1kW\nव्होल्टेज: 110 / 220V - 60Hz\nसिंगल फेज\n2 पोल्स - हाय स्पीड\nकॉपर वाइंड\nमध्यम स्टार्टिंग टॉर्क"
+            },
+            {
+                "code": "MEE20HA-DS60",
+                "name": "इलेक्ट्रिक मोटर",
+                "id": "3",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/electric-motors/BEE20HA-DS60.webp",
+                "specifications": "पॉवर: 2.0HP / 1.5kW\nव्होल्टेज: 110 / 220V - 60Hz\nसिंगल फेज\n2 पोल्स - हाय स्पीड\nकॉपर वाइंड\nमध्यम स्टार्टिंग टॉर्क"
+            },
+            {
+                "code": "MEE30HA-DS60",
+                "name": "इलेक्ट्रिक मोटर",
+                "id": "4",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/electric-motors/BEE30HA-DS60.webp",
+                "specifications": "पॉवर: 3.0HP / 2.2kW\nव्होल्टेज: 110 / 220V - 60Hz\nसिंगल फेज\n2 पोल्स - हाय स्पीड\nकॉपर वाइंड\nमध्यम स्टार्टिंग टॉर्क"
+            },
+            {
+                "code": "MEE40HA-DS60",
+                "name": "इलेक्ट्रिक मोटर",
+                "id": "5",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/electric-motors/BEE40HA-DS60.webp",
+                "specifications": "पॉवर: 4.0HP / 3.0kW\nव्होल्टेज: 110 / 220V - 60Hz\nसिंगल फेज\n2 पोल्स - हाय स्पीड\nकॉपर वाइंड\nमध्यम स्टार्टिंग टॉर्क"
+            },
+            {
+                "code": "MEE10LA-DS60",
+                "name": "इलेक्ट्रिक मोटर",
+                "id": "6",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/electric-motors/BEE10LA-DS60.webp",
+                "specifications": "पॉवर: 1.0HP / 0.75kW\nव्होल्टेज: 110 / 220V - 60Hz\nसिंगल फेज\n4 पोल्स - लो स्पीड\nकॉपर वाइंड\nमध्यम स्टार्टिंग टॉर्क"
+            },
+            {
+                "code": "MEE15LA-DS60",
+                "name": "इलेक्ट्रिक मोटर",
+                "id": "7",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/electric-motors/BEE15LA-DS60.webp",
+                "specifications": "पॉवर: 1.5HP / 1.1kW\nव्होल्टेज: 110 / 220V - 60Hz\nसिंगल फेज\n4 पोल्स - लो स्पीड\nकॉपर वाइंड\nमध्यम स्टार्टिंग टॉर्क"
+            },
+            {
+                "code": "MEE20LA-DS60",
+                "name": "इलेक्ट्रिक मोटर",
+                "id": "8",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/electric-motors/BEE20LA-DS60.webp",
+                "specifications": "पॉवर: 2.0HP / 1.5kW\nव्होल्टेज: 110 / 220V - 60Hz\nसिंगल फेज\n4 पोल्स - लो स्पीड\nकॉपर वाइंड\nमध्यम स्टार्टिंग टॉर्क"
+            },
+            {
+                "code": "MEE30LA-DS60",
+                "name": "इलेक्ट्रिक मोटर",
+                "id": "9",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/electric-motors/BEE30LA-DS60.webp",
+                "specifications": "पॉवर: 3.0HP / 2.2kW\nव्होल्टेज: 110 / 220V - 60Hz\nसिंगल फेज\n4 पोल्स - लो स्पीड\nकॉपर वाइंड\nमध्यम स्टार्टिंग टॉर्क"
+            },
+            {
+                "code": "MEE40LA-DS60",
+                "name": "इलेक्ट्रिक मोटर",
+                "id": "10",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/electric-motors/BEE40LA-DS60.webp",
+                "specifications": "पॉवर: 4.0HP / 3.0kW\nव्होल्टेज: 110 / 220V - 60Hz\nसिंगल फेज\n4 पोल्स - लो स्पीड\nकॉपर वाइंड\nमध्यम स्टार्टिंग टॉर्क"
+            }
+        ]
+    },
+
+     "pressure-washer": {
+        "id": "2",
+        "name": "इलेक्ट्रिक प्रेशर वॉशर",
+        "category": "domestic",
+        "description": "उच्च दाब स्वच्छतेसाठी इलेक्ट्रिक प्रेशर वॉशर",
+        "hero_image": "/mechnova/products/pressure-washer/hero-pressure-washer.webp",
+        "error_image": "/mechnova/products/pressure-washer/BEPW1450A1.webp",
+        "models": [
+            {
+                "code": "MEPW1450A1",
+                "name": "इलेक्ट्रिक प्रेशर वॉशर",
+                "id": "1",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/pressure-washer/BEPW1450A1.webp",
+                "specifications": "मोटर: 1200W - 110V - 50/60Hz - ब्रश मोटर\nरेटेड प्रेशर: 65 बार\nकमाल प्रेशर: 100 बार\nरेटेड फ्लो: 5.5 लिटर/मिनिट"
+            },
+            {
+                "code": "MEPW1450A2",
+                "name": "इलेक्ट्रिक प्रेशर वॉशर",
+                "id": "2",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/pressure-washer/BEPW1450A2.webp",
+                "specifications": "मोटर: 1200W - 220V - 50/60Hz - ब्रश मोटर\nरेटेड प्रेशर: 65 बार\nकमाल प्रेशर: 100 बार\nरेटेड फ्लो: 5.5 लिटर/मिनिट"
+            },
+            {
+                "code": "MEPW1850A1",
+                "name": "इलेक्ट्रिक प्रेशर वॉशर",
+                "id": "3",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/pressure-washer/BEPW1850A1.webp",
+                "specifications": "मोटर: 1500W - 110V - 50/60Hz - ब्रश मोटर\nरेटेड प्रेशर: 90 बार\nकमाल प्रेशर: 130 बार\nरेटेड फ्लो: 5.5 लिटर/मिनिट"
+            },
+            {
+                "code": "MEPW1850A2",
+                "name": "इलेक्ट्रिक प्रेशर वॉशर",
+                "id": "4",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/pressure-washer/BEPW1850A2.webp",
+                "specifications": "मोटर: 1500W - 220V - 50/60Hz - ब्रश मोटर\nरेटेड प्रेशर: 90 बार\nकमाल प्रेशर: 130 बार\nरेटेड फ्लो: 5.5 लिटर/मिनिट"
+            },
+            {
+                "code": "MEPW2185A-1",
+                "name": "इलेक्ट्रिक प्रेशर वॉशर",
+                "id": "5",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/pressure-washer/BEPW2185A-1.webp",
+                "specifications": "मोटर: 1800W - 110V - 50/60Hz - ब्रश मोटर\nरेटेड प्रेशर: 110 बार\nकमाल प्रेशर: 150 बार\nरेटेड फ्लो: 6.0 लिटर/मिनिट"
+            },
+            {
+                "code": "MEPW2185A-2",
+                "name": "इलेक्ट्रिक प्रेशर वॉशर",
+                "id": "6",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/pressure-washer/BEPW2185A-2.webp",
+                "specifications": "मोटर: 1800W - 220V - 60Hz - ब्रश प्रकार\nरेटेड प्रेशर: 110 बार\nकमाल प्रेशर: 150 बार\nरेटेड फ्लो: 6.0 लिटर/मिनिट"
+            }
+        ]
+    },
+
+    
+   
+    "gasoline-tiller": {
+        "id": "1",
+        "name": "गॅसोलीन टिलर",
+        "category": "agro-industrial",
+        "detail": "होय",
+        "description": "माती तयारीसाठी गॅसोलीन टिलर",
+        "hero_image": "/mechnova/products/gasoline-tiller/hero-gasoline-tiller.webp",
+        "error_image": "/mechnova/products/gasoline-tiller/BT900GA-208CC.webp",
+        "models": [
+            {
+                "code": "MT900GA-208CC",
+                "name": "गॅसोलीन टिलर",
+                "id": "1",
+                "warranty": "6 महिने",
+                "image": "/mechnova/products/gasoline-tiller/BT900GA-208CC.webp",
+                "specifications": "इंजिन: गॅसोलीन, 4-स्ट्रोक, 212CC\nटिलेज कल्टिव्हेटर\nहँडलबार उंची आणि रोटेशनमध्ये अ‍ॅडजस्टेबल\nकटिंग रुंदी: 900 मिमी पर्यंत\nटिलेज खोली: 100 मिमी पर्यंत\nफॉरवर्ड आणि रिव्हर्स स्पीडसह\nइंधन टँक क्षमता: 3.6 लिटर\nगिअरबॉक्सद्वारे ट्रान्समिशन, PTO सह\nमॅन्युअल रिकोइल स्टार्ट"
+            },
+            {
+                "code": "MT900G-208CC",
+                "name": "गॅसोलीन टिलर",
+                "id": "2",
+                "warranty": "6 महिने",
+                "image": "/mechnova/products/gasoline-tiller/BT900GA-208CC.webp",
+                "specifications": "इंजिन: गॅसोलीन, 4-स्ट्रोक, 212CC\nटिलेज कल्टिव्हेटर\nहँडलबार उंची आणि रोटेशनमध्ये अ‍ॅडजस्टेबल\nकटिंग रुंदी: 900 मिमी पर्यंत\nटिलेज खोली: 100 मिमी पर्यंत\nफॉरवर्ड आणि रिव्हर्स स्पीडसह\nइंधन टँक क्षमता: 3.6 लिटर\nगिअरबॉक्सद्वारे ट्रान्समिशन, PTO सह\nमॅन्युअल रिकोइल स्टार्ट"
+            }
+        ]
+    },
+
+    
+    
+    "gasoline-engine": {
+        "id": "3",
+        "name": "गॅसोलीन इंजिन",
+        "category": "agro-industrial",
+        "description": "कृषी आणि औद्योगिक वापरासाठी गॅसोलीन इंजिन",
+        "hero_image": "/mechnova/products/gasoline-engine/hero-gasoline-engine.webp",
+        "error_image": "/mechnova/products/gasoline-engine/BE40A.webp",
+        "models": [
+            {
+                "code": "ME40A",
+                "name": "गॅसोलीन इंजिन",
+                "id": "1",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/gasoline-engine/BE40A.webp",
+                "specifications": "इंजिन: 4.0 HP, 4-स्ट्रोक, 113cc\nतंत्रज्ञान: OHV, ओव्हरहेड व्हॉल्व्ह\nकूलिंग सिस्टम: एअर\nसिलिंडर व्यास: 60*40 मिमी\nकमाल पॉवर: 4 HP\nइंधन टँक क्षमता: 2.0 लिटर\nतेल टाकी क्षमता: 350 ml\nस्टार्टिंग सिस्टम: रिकोइल"
+            },
+            {
+                "code": "ME70A",
+                "name": "गॅसोलीन इंजिन",
+                "id": "2",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/gasoline-engine/BE70A.webp",
+                "specifications": "इंजिन: 7.0 HP, 4-स्ट्रोक, 210cc\nतंत्रज्ञान: OHV, ओव्हरहेड व्हॉल्व्ह\nकूलिंग सिस्टम: एअर\nसिलिंडर व्यास: 70*54 मिमी\nकमाल पॉवर: 7 HP\nइंधन टँक क्षमता: 3.6 लिटर\nतेल टाकी क्षमता: 600 ml\nस्टार्टिंग सिस्टम: रिकोइल"
+            }
+        ]
+    },
+
+    
+    "gasoline-generator": {
+        "id": "4",
+        "name": "गॅसोलीन जनरेटर",
+        "category": "agro-industrial",
+        "description": "घरगुती आणि औद्योगिक वापरासाठी गॅसोलीन जनरेटर",
+        "hero_image": "/mechnova/products/gasoline-generator/hero-gasoline-generator.webp",
+        "error_image": "/mechnova/products/gasoline-generator/BG1.2AS1-60.webp",
+        "models": [
+            {
+                "code": "MG1.2AS1-60",
+                "name": "गॅसोलीन जनरेटर",
+                "id": "1",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/gasoline-generator/BG1.2AS1-60.webp",
+                "specifications": "कमाल पॉवर: 1.2 KW\nनॉमिनल पॉवर: 1.1 KW\nस्टेटर कॉइल: 100% तांबे\nव्होल्टेज: 110V - 60Hz\nइंजिन: 113cc - 4HP / OHV, गॅसोलीन, 4-स्ट्रोक\n50% लोडवर कार्यकाल: 12 तास\nइंधन टँक क्षमता: 9.6 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 350 ml"
+            },
+            {
+                "code": "MG1.2AS2-60",
+                "name": "गॅसोलीन जनरेटर",
+                "id": "2",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/gasoline-generator/BG1.2AS1-60.webp",
+                "specifications": "कमाल पॉवर: 1.2 KW\nनॉमिनल पॉवर: 1.1 KW\nस्टेटर कॉइल: 100% तांबे\nव्होल्टेज: 220V - 60Hz\nइंजिन: 113cc - 4HP / OHV, गॅसोलीन, 4-स्ट्रोक\n50% लोडवर कार्यकाल: 12 तास\nइंधन टँक क्षमता: 9.6 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 350 ml"
+            },
+            {
+                "code": "MG1.0AS1-50",
+                "name": "गॅसोलीन जनरेटर",
+                "id": "3",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/gasoline-generator/BG1.2AS1-60.webp",
+                "specifications": "कमाल पॉवर: 1.0 KW\nनॉमिनल पॉवर: 0.9 KW\nस्टेटर कॉइल: 100% तांबे\nव्होल्टेज: 110V - 50Hz\nइंजिन: 113cc - 4HP / OHV, गॅसोलीन, 4-स्ट्रोक\n50% लोडवर कार्यकाल: 12 तास\nइंधन टँक क्षमता: 9.6 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 350 ml"
+            },
+            {
+                "code": "MG1.0AS2-50",
+                "name": "गॅसोलीन जनरेटर",
+                "id": "4",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/gasoline-generator/BG1.2AS1-60.webp",
+                "specifications": "कमाल पॉवर: 1.0 KW\nनॉमिनल पॉवर: 0.9 KW\nस्टेटर कॉइल: 100% तांबे\nव्होल्टेज: 220V - 50Hz\nइंजिन: 113cc - 4HP / OHV, गॅसोलीन, 4-स्ट्रोक\n50% लोडवर कार्यकाल: 12 तास\nइंधन टँक क्षमता: 9.6 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 350 ml"
+            },
+            {
+                "code": "MG3.0AS1-60",
+                "name": "गॅसोलीन जनरेटर",
+                "id": "5",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+                "specifications": "कमाल पॉवर: 3.0 KW\nनॉमिनल पॉवर: 2.8 KW\nस्टेटर कॉइल: 100% तांबे\nव्होल्टेज: 110V - 60Hz\nइंजिन: 212cc - 7HP / OHV, गॅसोलीन, 4-स्ट्रोक\n50% लोडवर कार्यकाल: 12 तास\nइंधन टँक क्षमता: 15.0 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 600 ml"
+            },
+            {
+                "code": "MG3.0AS2-60",
+                "name": "गॅसोलीन जनरेटर",
+                "id": "6",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+                "specifications": "कमाल पॉवर: 3.0 KW\nनॉमिनल पॉवर: 2.8 KW\nस्टेटर कॉइल: 100% तांबे\nव्होल्टेज: 220V - 60Hz\nइंजिन: 212cc - 7HP / OHV, गॅसोलीन, 4-स्ट्रोक\n50% लोडवर कार्यकाल: 12 तास\nइंधन टँक क्षमता: 15.0 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 600 ml"
+            },
+            {
+                "code": "MG2.7AS1-50",
+                "name": "गॅसोलीन जनरेटर",
+                "id": "7",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+                "specifications": "कमाल पॉवर: 2.7 KW\nनॉमिनल पॉवर: 2.5 KW\nस्टेटर कॉइल: 100% तांबे\nव्होल्टेज: 110V - 50Hz\nइंजिन: 212cc - 7HP / OHV, गॅसोलीन, 4-स्ट्रोक\n50% लोडवर कार्यकाल: 12 तास\nइंधन टँक क्षमता: 15.0 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 600 ml"
+            },
+            {
+                "code": "MG2.7AS2-50",
+                "name": "गॅसोलीन जनरेटर",
+                "id": "8",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+                "specifications": "कमाल पॉवर: 2.7 KW\nनॉमिनल पॉवर: 2.5 KW\nस्टेटर कॉइल: 100% तांबे\nव्होल्टेज: 220V - 50Hz\nइंजिन: 212cc - 7HP / OHV, गॅसोलीन, 4-स्ट्रोक\n50% लोडवर कार्यकाल: 12 तास\nइंधन टँक क्षमता: 15.0 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 600 ml"
+            },
+            {
+                "code": "MG6.5AS1-60",
+                "name": "गॅसोलीन जनरेटर",
+                "id": "9",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+                "specifications": "कमाल पॉवर: 6.5 KW\nनॉमिनल पॉवर: 6.0 KW\nस्टेटर कॉइल: 100% तांबे\nव्होल्टेज: 110V - 60Hz\nइंजिन: 420cc - 15HP / OHV, गॅसोलीन, 4-स्ट्रोक\n50% लोडवर कार्यकाल: 12 तास\nइंधन टँक क्षमता: 25.0 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 1100 ml"
+            },
+            {
+                "code": "MG6.5AS2-60",
+                "name": "गॅसोलीन जनरेटर",
+                "id": "10",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+                "specifications": "कमाल पॉवर: 6.5 KW\nनॉमिनल पॉवर: 6.0 KW\nस्टेटर कॉइल: 100% तांबे\nव्होल्टेज: 220V - 60Hz\nइंजिन: 420cc - 15HP / OHV, गॅसोलीन, 4-स्ट्रोक\n50% लोडवर कार्यकाल: 12 तास\nइंधन टँक क्षमता: 25.0 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 1100 ml"
+            },
+            {
+                "code": "MG5.8AS1-50",
+                "name": "गॅसोलीन जनरेटर",
+                "id": "11",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+                "specifications": "कमाल पॉवर: 5.8 KW\nनॉमिनल पॉवर: 5.4 KW\nस्टेटर कॉइल: 100% तांबे\nव्होल्टेज: 110V - 50Hz\nइंजिन: 420cc - 15HP / OHV, गॅसोलीन, 4-स्ट्रोक\n50% लोडवर कार्यकाल: 12 तास\nइंधन टँक क्षमता: 25.0 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 1100 ml"
+            },
+            {
+                "code": "MG5.8AS2-50",
+                "name": "गॅसोलीन जनरेटर",
+                "id": "12",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+                "specifications": "कमाल पॉवर: 5.8 KW\nनॉमिनल पॉवर: 5.4 KW\nस्टेटर कॉइल: 100% तांबे\nव्होल्टेज: 220V - 50Hz\nइंजिन: 420cc - 15HP / OHV, गॅसोलीन, 4-स्ट्रोक\n50% लोडवर कार्यकाल: 12 तास\nइंधन टँक क्षमता: 25.0 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 1100 ml"
+            }
+        ]
+    },
+    
+    "gasoline-inverter": {
+        "id": "5",
+        "name": "गॅसोलीन इन्व्हर्टर जनरेटर",
+        "category": "agro-industrial",
+        "description": "स्थिर आणि कार्यक्षम वीजसाठी गॅसोलीन इन्व्हर्टर जनरेटर.",
+        "hero_image": "/mechnova/products/gasoline-inverter/hero-gasoline-inverter.webp",
+        "error_image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+        "models": [
+            {
+                "code": "MG2.2AiS1-60",
+                "name": "गॅसोलीन इन्व्हर्टर जनरेटर",
+                "id": "1",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+                "specifications": "कमाल पॉवर: 2.2 KW\nनॉमिनल पॉवर: 2.0 KW\nस्टेटर कॉइल: 100% तांबे\nव्होल्टेज: 110V - 60Hz\nइंजिन: 212cc - 7HP / OHV, गॅसोलीन, 4-स्ट्रोक\n50% लोडवर कार्यकाल: 16 तास\nइंधन टँक क्षमता: 15.0 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 600 ml"
+            },
+            {
+                "code": "MG2.2AiS2-60",
+                "name": "गॅसोलीन इन्व्हर्टर जनरेटर",
+                "id": "2",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+                "specifications": "कमाल पॉवर: 2.2 KW\nनॉमिनल पॉवर: 2.0 KW\nस्टेटर कॉइल: 100% तांबे\nव्होल्टेज: 220V - 60Hz\nइंजिन: 212cc - 7HP / OHV, गॅसोलीन, 4-स्ट्रोक\n50% लोडवर कार्यकाल: 16 तास\nइंधन टँक क्षमता: 15.0 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 600 ml"
+            },
+            {
+                "code": "MG2.2AiS1-50",
+                "name": "गॅसोलीन इन्व्हर्टर जनरेटर",
+                "id": "3",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+                "specifications": "कमाल पॉवर: 2.2 KW\nनॉमिनल पॉवर: 2.0 KW\nस्टेटर कॉइल: 100% तांबे\nव्होल्टेज: 110V - 60Hz\nइंजिन: 212cc - 7HP / OHV, गॅसोलीन, 4-स्ट्रोक\n50% लोडवर कार्यकाल: 16 तास\nइंधन टँक क्षमता: 15.0 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 600 ml"
+            },
+            {
+                "code": "MG2.2AiS2-50",
+                "name": "गॅसोलीन इन्व्हर्टर जनरेटर",
+                "id": "4",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+                "specifications": "कमाल पॉवर: 2.2 KW\nनॉमिनल पॉवर: 2.0 KW\nस्टेटर कॉइल: 100% तांबे\nव्होल्टेज: 220V - 60Hz\nइंजिन: 212cc - 7HP / OHV, गॅसोलीन, 4-स्ट्रोक\n50% लोडवर कार्यकाल: 16 तास\nइंधन टँक क्षमता: 15.0 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 600 ml"
+            },
+            {
+                "code": "MG3.7AiS1-60",
+                "name": "गॅसोलीन इन्व्हर्टर जनरेटर",
+                "id": "5",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+                "specifications": "कमाल पॉवर: 3.7 KW\nनॉमिनल पॉवर: 3.5 KW\nस्टेटर कॉइल: 100% तांबे\nव्होल्टेज: 110V - 60Hz\nइंजिन: 223cc - 8HP / OHV, गॅसोलीन, 4-स्ट्रोक\n50% लोडवर कार्यकाल: 15 तास\nइंधन टँक क्षमता: 15.0 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 600 ml"
+            },
+            {
+                "code": "MG3.7AiS2-60",
+                "name": "गॅसोलीन इन्व्हर्टर जनरेटर",
+                "id": "6",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+                "specifications": "कमाल पॉवर: 3.7 KW\nनॉमिनल पॉवर: 3.5 KW\nस्टेटर कॉइल: 100% तांबे\nव्होल्टेज: 220V - 60Hz\nइंजिन: 223cc - 8HP / OHV, गॅसोलीन, 4-स्ट्रोक\n50% लोडवर कार्यकाल: 15 तास\nइंधन टँक क्षमता: 15.0 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 600 ml"
+            },
+            {
+                "code": "MG3.7AiS1-50",
+                "name": "गॅसोलीन इन्व्हर्टर जनरेटर",
+                "id": "7",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+                "specifications": "कमाल पॉवर: 3.7 KW\nनॉमिनल पॉवर: 3.5 KW\nस्टेटर कॉइल: 100% तांबे\nव्होल्टेज: 110V - 50Hz\nइंजिन: 223cc - 8HP / OHV, गॅसोलीन, 4-स्ट्रोक\n50% लोडवर कार्यकाल: 15 तास\nइंधन टँक क्षमता: 15.0 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 600 ml"
+            },
+            {
+                "code": "MG3.7AiS2-50",
+                "name": "गॅसोलीन इन्व्हर्टर जनरेटर",
+                "id": "8",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+                "specifications": "कमाल पॉवर: 3.7 KW\nनॉमिनल पॉवर: 3.5 KW\nस्टेटर कॉइल: 100% तांबे\nव्होल्टेज: 220V - 50Hz\nइंजिन: 223cc - 8HP / OHV, गॅसोलीन, 4-स्ट्रोक\n50% लोडवर कार्यकाल: 15 तास\nइंधन टँक क्षमता: 15.0 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 600 ml"
+            },
+            {
+                "code": "MG2.0AiSS1-60",
+                "name": "गॅसोलीन इन्व्हर्टर जनरेटर",
+                "id": "9",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/gasoline-inverter/BG2.0AiSS1-60.webp",
+                "specifications": "कमाल पॉवर: 2.0 KW\nनॉमिनल पॉवर: 1.8 KW\nस्टेटर कॉइल: 100% तांबे\nव्होल्टेज: 110V - 60Hz\nइंजिन: 79.8cc - 3HP, गॅसोलीन, 4-स्ट्रोक\n50% लोडवर कार्यकाल: 10 तास\nइंधन टँक क्षमता: 4.0 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 350 ml"
+            },
+            {
+                "code": "MG2.0AiSS2-60",
+                "name": "गॅसोलीन इन्व्हर्टर जनरेटर",
+                "id": "10",
+                "warranty": "12 महिने",
+                "image": "/mechnova/products/gasoline-inverter/BG2.0AiSS1-60.webp",
+                "specifications": "कमाल पॉवर: 2.0 KW\nनॉमिनल पॉवर: 1.8 KW\nस्टेटर कॉइल: 100% तांबे\nव्होल्टेज: 220V - 60Hz\nइंजिन: 79.8cc - 3HP, गॅसोलीन, 4-स्ट्रोक\n50% लोडवर कार्यकाल: 10 तास\nइंधन टँक क्षमता: 4.0 लिटर\nस्टार्टिंग सिस्टम: रिकोइल\nतेल टाकी क्षमता: 350 ml"
+            }
+        ]
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

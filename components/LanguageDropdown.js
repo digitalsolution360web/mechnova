@@ -23,7 +23,9 @@ export default function LanguageDropdown({ className = '' }) {
       case 'es': return 'ES';
       case 'hi': return 'HI';
       case 'bn': return 'BN';
+      case 'mr': return 'MR'; 
       default: return 'EN';
+      
     }
   };
 
@@ -100,6 +102,19 @@ export default function LanguageDropdown({ className = '' }) {
             বাংলা
           </button>
         </li>
+        <li>
+        <button
+          className={`w-full text-left px-4 py-2 hover:bg-[#e6f2fb] ${
+            locale === 'mr' ? 'font-bold text-[#0072ce]' : ''
+          }`}
+          onClick={() => { switchLocale('mr'); setOpen(false); }}
+          role="option"
+          aria-selected={locale === 'mr'}
+        >
+          मराठी
+        </button>
+      </li>
+
 
         </ul>
       )}
