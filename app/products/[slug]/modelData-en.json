@@ -646,7 +646,7 @@
 
     "gasoline-tiller":{
         "id": "1",
-        "name": "Gasoline Tiller",
+        "name": "POWER WEEDER",
         "category": "agro-industrial",
         "detail": "yes",
         "description": "Gasoline tillers for soil preparation",
@@ -655,7 +655,7 @@
         "models": [
             {
                 "code": "MT900GA-208CC",
-                "name": "GASOLINE TILLER",
+                "name": "POWER WEEDER",
                 "id": "1", 
                 "warranty": "6 Months",
                 "image": "/mechnova/products/gasoline-tiller/BT900GA-208CC.webp",
@@ -663,7 +663,7 @@
             },
             {
                 "code": "MT900G-208CC",
-                "name": "GASOLINE TILLER",
+                "name": "POWER WEEDER",
                 "id": "2", 
                 "warranty": "6 Months",
                 "image": "/mechnova/products/gasoline-tiller/BT900GA-208CC.webp",
