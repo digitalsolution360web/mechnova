@@ -9,12 +9,14 @@ import categoryDataEs from '../category-es.json'
 import categoryDataEn from '../category-en.json'
 import categoryDataBn from '../category-bn.json'
 import categoryDataMr from '../category-mr.json'
+import categoryDataTe from '../category-te.json'
 import detailedModelData from './detailedModelData.json'
 import modelDataEn from './modelData-en.json'
 import modelDataEs from './modelData-es.json'
 import modelDataHi from './modelData-hi.json'
 import modelDataBn from './modelData-bn.json'
 import modelDataMr from './modelData-mr.json'
+import modelDataTe from './modelData-te.json'
 
 function ModelCard({ slug, model }) {
   const { t } = useTranslation()
@@ -63,6 +65,7 @@ export default function ProductSlugPage() {
   locale === 'es' ? categoryDataEs :
   locale === 'bn' ? categoryDataBn :
    locale === 'mr' ? categoryDataMr :
+   locale === 'te' ? categoryDataTe :
   
   categoryDataEn; // fallback
 
@@ -92,7 +95,10 @@ const modelDataMap = {
   es: modelDataEs,
   hi: modelDataHi || modelDataEn,  // fallback to English
   bn: modelDataBn || modelDataEn, 
-   mr: modelDataMr, 
+  mr: modelDataMr, 
+  te: modelDataTe,
+
+
 };
 
 

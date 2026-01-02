@@ -24,6 +24,7 @@ export default function LanguageDropdown({ className = '' }) {
       case 'hi': return 'HI';
       case 'bn': return 'BN';
       case 'mr': return 'MR'; 
+      case 'te': return 'TE'; 
       default: return 'EN';
       
     }
@@ -114,6 +115,20 @@ export default function LanguageDropdown({ className = '' }) {
           मराठी
         </button>
       </li>
+      <li>
+      <button
+        className={`w-full text-left px-4 py-2 hover:bg-[#e6f2fb] ${
+          locale === 'te' ? 'font-bold text-[#0072ce]' : ''
+        }`}
+        onClick={() => { switchLocale('te'); setOpen(false); }}
+        role="option"
+        aria-selected={locale === 'te'}
+      >
+        తెలుగు
+      </button>
+    </li>
+
+      
 
 
         </ul>

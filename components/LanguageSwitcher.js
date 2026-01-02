@@ -16,6 +16,7 @@ export default function LanguageSwitcher({ className = '' }) {
       <option value="hi">हिन्दी</option>
       <option value="bn">বাংলা</option>
       <option value="mr">मराठी</option>
+       <option value="te">తెలుగు</option> 
 
     </select>
   );

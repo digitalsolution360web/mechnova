@@ -1,0 +1,952 @@
+{
+  "chainsaw": {
+    "id": "1",
+    "name": "చెయిన్‌సా",
+    "description": "కట్టింగ్ మరియు కత్తిరింపు కోసం ప్రొఫెషనల్ చెయిన్‌సా",
+    "category": "gardening-forestry",
+    "hero_image": "/mechnova/banner/banner-m.webp",
+    "error_image": "/mechnova/products/chainsaw/BCS25A-10SN.webp",
+    "models": [
+      {
+        "code": "MCS25A-10SN",
+        "name": "పెట్రోల్ చెయిన్‌సా",
+        "id": "1",
+        "warranty": "12 నెలలు",
+        "image": "/mechnova/products/chainsaw/BCS25A-10SN.webp",
+        "specifications": "ఇంజిన్: పెట్రోల్, 2-స్ట్రోక్, 25CC\nగరిష్ట శక్తి: 1.0HP\nగైడ్ బార్: 10\"\nచెయిన్: 3/8\" x .050\"\nఇంధన ట్యాంక్ సామర్థ్యం: ml\nఆయిల్ ట్యాంక్ సామర్థ్యం: ml\nగరిష్ట RPM: నిమిషానికి\nఇంధన మిశ్రమం: సింథటిక్ ఆయిల్‌కు 40:1 మరియు మినరల్ ఆయిల్‌కు 25:1"
+      },
+      {
+        "code": "MCS42A-16SN",
+        "name": "పెట్రోల్ చెయిన్‌సా",
+        "id": "2",
+        "warranty": "12 నెలలు",
+        "image": "/mechnova/products/chainsaw/BCS25A-10SN.webp",
+        "specifications": "ఇంజిన్: పెట్రోల్, 2-స్ట్రోక్, 42CC\nగరిష్ట శక్తి: 2.1HP\nగైడ్ బార్: 16\"\nచెయిన్: 3/8\" x .050\"\nఇంధన ట్యాంక్ సామర్థ్యం: 300 ml\nఆయిల్ ట్యాంక్ సామర్థ్యం: 210 ml\nగరిష్ట RPM: నిమిషానికి 13000\nఇంధన మిశ్రమం: సింథటిక్ ఆయిల్‌కు 40:1 మరియు మినరల్ ఆయిల్‌కు 25:1"
+      },
+      {
+        "code": "MCS53A-18SN",
+        "name": "పెట్రోల్ చెయిన్‌సా",
+        "id": "3",
+        "warranty": "12 నెలలు",
+        "image": "/mechnova/products/chainsaw/BCS25A-10SN.webp",
+        "specifications": "ఇంజిన్: పెట్రోల్, 2-స్ట్రోక్, 50.8CC\nగరిష్ట శక్తి: 2.8HP\nగైడ్ బార్: 18\"\nచెయిన్: .325\"\nఇంధన ట్యాంక్ సామర్థ్యం: 550 ml\nఆయిల్ ట్యాంక్ సామర్థ్యం: 260 ml\nగరిష్ట RPM: నిమిషానికి 12500\nఇంధన మిశ్రమం: సింథటిక్ ఆయిల్‌కు 40:1 మరియు మినరల్ ఆయిల్‌కు 25:1"
+      },
+      {
+        "code": "MCS58A-20SN",
+        "name": "పెట్రోల్ చెయిన్‌సా",
+        "id": "4",
+        "warranty": "12 నెలలు",
+        "image": "/mechnova/products/chainsaw/BCS25A-10SN.webp",
+        "specifications": "ఇంజిన్: పెట్రోల్, 2-స్ట్రోక్, 54CC\nగరిష్ట శక్తి: 3.2HP\nగైడ్ బార్: 18\"\nచెయిన్: .325\"\nఇంధన ట్యాంక్ సామర్థ్యం: 550 ml\nఆయిల్ ట్యాంక్ సామర్థ్యం: 260 ml\nగరిష్ట RPM: నిమిషానికి 12500\nఇంధన మిశ్రమం: సింథటిక్ ఆయిల్‌కు 40:1 మరియు మినరల్ ఆయిల్‌కు 25:1"
+      },
+      {
+        "code": "MCSE1500A-16SN-1",
+        "name": "ఎలక్ట్రిక్ చెయిన్‌సా",
+        "id": "5",
+        "warranty": "12 నెలలు",
+        "image": "/mechnova/products/chainsaw/BCSE1500A-16SN-110V.webp",
+        "specifications": "మోటార్: ఎలక్ట్రిక్, 110V, 50/60Hz\nగరిష్ట శక్తి: 1500W\nగైడ్ బార్: 16\"\nఆయిల్ ట్యాంక్ సామర్థ్యం: 120 ml\nగరిష్ట చెయిన్ వేగం: 15m/s"
+      },
+      {
+        "code": "MCSE1500A-16SN-2",
+        "name": "ఎలక్ట్రిక్ చెయిన్‌సా",
+        "id": "6",
+        "warranty": "12 నెలలు",
+        "image": "/mechnova/products/chainsaw/BCSE1500A-16SN-110V.webp",
+        "specifications": "మోటార్: ఎలక్ట్రిక్, 220V, 50/60Hz\nగరిష్ట శక్తి: 1500W\nగైడ్ బార్: 16\"\nఆయిల్ ట్యాంక్ సామర్థ్యం: 120 ml\nగరిష్ట చెయిన్ వేగం: 13.5m/s"
+      },
+      {
+        "code": "MCSE1800A-18SN-1",
+        "name": "ఎలక్ట్రిక్ చెయిన్‌సా",
+        "id": "7",
+        "warranty": "12 నెలలు",
+        "image": "/mechnova/products/chainsaw/BCSE1500A-16SN-110V.webp",
+        "specifications": "మోటార్: ఎలక్ట్రిక్, 110V, 50/60Hz\nగరిష్ట శక్తి: 2000W\nగైడ్ బార్: 18\"\nఆయిల్ ట్యాంక్ సామర్థ్యం: 120 ml\nగరిష్ట చెయిన్ వేగం: 13.5m/s"
+      },
+      {
+        "code": "MCSE2000A-18SN-2",
+        "name": "ఎలక్ట్రిక్ చెయిన్‌సా",
+        "id": "8",
+        "warranty": "12 నెలలు",
+        "image": "/mechnova/products/chainsaw/BCSE1500A-16SN-110V.webp",
+        "specifications": "మోటార్: ఎలక్ట్రిక్, 220V, 60Hz\nగరిష్ట శక్తి: 2000W\nగైడ్ బార్: 18\"\nఆయిల్ ట్యాంక్ సామర్థ్యం: 120 ml\nగరిష్ట చెయిన్ వేగం: 13.5m/s"
+      },
+      {
+        "code": "MCSE2500A-20SN-2",
+        "name": "ఎలక్ట్రిక్ చెయిన్‌సా",
+        "id": "9",
+        "warranty": "12 నెలలు",
+        "image": "/mechnova/products/chainsaw/BCSE1500A-16SN-110V.webp",
+        "specifications": "మోటార్: ఎలక్ట్రిక్, 220V, 60Hz\nగరిష్ట శక్తి: 2500W\nగైడ్ బార్: 20\"\nఆయిల్ ట్యాంక్ సామర్థ్యం: 120 ml\nగరిష్ట చెయిన్ వేగం: 13.5m/s"
+      },
+      {
+        "code": "MPP750A-8SN-1",
+        "name": "ఎలక్ట్రిక్ పోల్ ప్రూనర్",
+        "id": "10",
+        "warranty": "12 నెలలు",
+        "image": "/mechnova/products/chainsaw/BPPE750A-8SN.webp",
+        "specifications": "మోటార్: ఎలక్ట్రిక్, 110V, 50/60Hz\nగరిష్ట శక్తి: 750W\nగైడ్ బార్: 8\"\nఆయిల్ ట్యాంక్ సామర్థ్యం: 80 ml\nమొత్తం పొడవు: 2m నుండి 2.8m"
+      },
+      {
+        "code": "MPP750A-8SN-2",
+        "name": "ఎలక్ట్రిక్ పోల్ ప్రూనర్",
+        "id": "11",
+        "warranty": "12 నెలలు",
+        "image": "/mechnova/products/chainsaw/BPPE750A-8SN.webp",
+        "specifications": "మోటార్: ఎలక్ట్రిక్, 220V, 50/60Hz\nగరిష్ట శక్తి: 750W\nగైడ్ బార్: 8\"\nఆయిల్ ట్యాంక్ సామర్థ్యం: 80 ml\nమొత్తం పొడవు: 2m నుండి 2.8m"
+      }
+    ]
+  },
+
+  "hedge-trimmer": {
+  "id": "2",
+  "name": "హెడ్జ్ ట్రిమ్మర్",
+  "category": "gardening-forestry",
+  "description": "తోటపని మరియు ల్యాండ్‌స్కేపింగ్ కోసం ప్రొఫెషనల్ హెడ్జ్ ట్రిమ్మర్లు",
+  "hero_image": "/mechnova/products/hedge-trimmer/hero-hedge-trimmer.webp",
+  "error_image": "/mechnova/products/hedge-trimmer/BHT600A.webp",
+  "models": [
+    {
+      "code": "MHT600A",
+      "name": "పెట్రోల్ హెడ్జ్ ట్రిమ్మర్",
+      "id": "1",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/hedge-trimmer/BHT600A.webp",
+      "specifications": "ఇంజిన్: 26CC, పెట్రోల్, 2-స్ట్రోక్\nగరిష్ట శక్తి: 1.0HP\nబ్లేడ్ పొడవు: 600 mm\nడబుల్ యాక్షన్ కట్టింగ్"
+    }
+  ]
+},
+"blower": {
+  "id": "3",
+  "name": "బ్లోయర్",
+  "category": "gardening-forestry",
+  "description": "శుభ్రపరిచే పనుల కోసం శక్తివంతమైన బ్లోయర్లు",
+  "hero_image": "/mechnova/products/blower/hero-blower.webp",
+  "error_image": "/mechnova/products/blower/BB43BA.webp",
+  "models": [
+    {
+      "code": "MB26A",
+      "name": "పెట్రోల్ బ్లోయర్",
+      "id": "1",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/blower/BB26A.webp",
+      "specifications": "ఇంజిన్: 25.4CC పెట్రోల్, 2-స్ట్రోక్\nగరిష్ట శక్తి: 1.0HP @ 7500RPM\nఇంధన మిశ్రమం: సింథటిక్ ఆయిల్ కోసం 40:1 మరియు మినరల్ ఆయిల్ కోసం 25:1\nట్యాంక్ సామర్థ్యం: 0.45 లీటర్లు\nకార్బ్యూరేటర్: డయాఫ్రామ్\nబలమైన ఎగ్జాస్ట్\nస్టార్టింగ్ విధానం: మాన్యువల్ రికోయిల్\nగాలి పరిమాణం: 0.17m³/s లేదా 612m³/గంట"
+    },
+    {
+      "code": "MB43BA",
+      "name": "పెట్రోల్ బ్యాక్‌ప్యాక్ బ్లోయర్",
+      "id": "2",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/blower/BB43BA.webp",
+      "specifications": "ఇంజిన్: 42.7CC, పెట్రోల్, 2-స్ట్రోక్\nగరిష్ట శక్తి: 1.7HP @ 6500RPM\nగాలి పరిమాణం: 0.28m³/s లేదా 1008 m³/గంట\nకార్బ్యూరేటర్ రకం: డయాఫ్రామ్\nట్యాంక్ సామర్థ్యం: 1 లీటర్\nథ్రాటిల్ కంట్రోల్: హ్యాండిల్‌పై"
+    },
+    {
+      "code": "MVB26A",
+      "name": "పెట్రోల్ బ్లో-వాక్",
+      "id": "3",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/blower/BVB26A.webp",
+      "specifications": "ఇంజిన్: 25.4CC పెట్రోల్, 2-స్ట్రోక్\nగరిష్ట శక్తి: 1.0HP @ 7500RPM\nఇంధన మిశ్రమం: సింథటిక్ ఆయిల్ కోసం 40:1 మరియు మినరల్ ఆయిల్ కోసం 25:1\nట్యాంక్ సామర్థ్యం: 0.45 లీటర్లు\nకార్బ్యూరేటర్: డయాఫ్రామ్\nబలమైన ఎగ్జాస్ట్\nస్టార్టింగ్ విధానం: మాన్యువల్ రికోయిల్\nగాలి పరిమాణం: 0.17m³/s లేదా 612m³/గంట"
+    }
+  ]
+},
+"earth-auger": {
+  "id": "4",
+  "name": "ఎర్త్ ఆగర్",
+  "category": "gardening-forestry",
+  "description": "తొల్లద్రిల్లింగ్ కోసం ఎర్త్ ఆగర్",
+  "hero_image": "/mechnova/products/earth-auger/hero-earth-auger.webp",
+  "error_image": "/mechnova/products/earth-auger/BEA43A-200.webp",
+  "models": [
+    {
+      "code": "MEA43A-200",
+      "name": "పెట్రోల్ ఎర్త్ ఆగర్",
+      "id": "1",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/earth-auger/BEA43A-200.webp",
+      "specifications": "ఇంజిన్: పెట్రోల్, 2-స్ట్రోక్, 43CC, 1.7HP\nఒక ఆపరేటర్\n200 mm వ్యాసం ఉన్న ఒకే డ్రిల్"
+    },
+    {
+      "code": "MEA52A-200",
+      "name": "పెట్రోల్ ఎర్త్ ఆగర్",
+      "id": "2",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/earth-auger/BEA52A-200.webp",
+      "specifications": "ఇంజిన్: పెట్రోల్, 2-స్ట్రోక్, 52CC, 2.0HP\nఒక ఆపరేటర్\n200 mm వ్యాసం ఉన్న ఒకే డ్రిల్"
+    }
+  ]
+},
+"lawn-mower": {
+  "id": "5",
+  "name": "లాన్ మోవర్",
+  "category": "gardening-forestry",
+  "description": "లాన్ నిర్వహణ కోసం ప్రొఫెషనల్ లాన్ మోవర్స్",
+  "hero_image": "/mechnova/products/lawn-mower/hero-lawn-mower.webp",
+  "error_image": "/mechnova/products/lawn-mower/BLME320RA-1.webp",
+  "models": [
+    {
+      "code": "MLME320RA-1",
+      "name": "ఎలక్ట్రిక్ లాన్ మోవర్",
+      "id": "1",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/lawn-mower/BLME320RA-1.webp",
+      "specifications": "డ్రైవ్ రకం: మాన్యువల్\nవోల్టేజ్: 110V - 50/60Hz\nఎలక్ట్రిక్ మోటార్: 1200W గరిష్ట శక్తి\nడిస్చార్జ్ ఫంక్షన్: రియర్‌తో పిక్-అప్\nహ్యాండిల్: స్టాండర్డ్\nఫ్రంట్ కవర్: లేదు"
+    },
+    {
+      "code": "MLME320RA-2",
+      "name": "ఎలక్ట్రిక్ లాన్ మోవర్",
+      "id": "2",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/lawn-mower/BLME320RA-2.webp",
+      "specifications": "డ్రైవ్ రకం: మాన్యువల్\nవోల్టేజ్: 220V - 50/60Hz\nఎలక్ట్రిక్ మోటార్: 1200W గరిష్ట శక్తి\nడిస్చార్జ్ ఫంక్షన్: రియర్‌తో పిక్-అప్\nహ్యాండిల్: స్టాండర్డ్\nఫ్రంట్ కవర్: లేదు"
+    },
+    {
+      "code": "MLM430RA",
+      "name": "పెట్రోల్ లాన్ మోవర్",
+      "id": "3",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/lawn-mower/BLM430RA.webp",
+      "specifications": "డ్రైవ్ రకం: మాన్యువల్\nడిస్చార్జ్ ఫంక్షన్: 2 ఇన్ 1 — రియర్ మరియు పిక్-అప్\nహ్యాండిల్: స్టాండర్డ్\nఫ్రంట్ కవర్: లేదు\nడెక్ క్లీనింగ్ అటాచ్మెంట్: లేదు"
+    },
+    {
+      "code": "MLM430RTA",
+      "name": "పెట్రోల్ లాన్ మోవర్",
+      "id": "4",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/lawn-mower/BLM430RTA.webp",
+      "specifications": "డ్రైవ్ రకం: మాన్యువల్\nడిస్చార్జ్ ఫంక్షన్: 4 ఇన్ 1 — రియర్, సైడ్, కలెక్షన్, మల్చింగ్\nహ్యాండిల్: రబ్బర్ గ్రిప్\nఫ్రంట్ కవర్: అవును\nడెక్ క్లీనింగ్ అటాచ్మెంట్: అవును"
+    },
+    {
+      "code": "MLM530RA",
+      "name": "పెట్రోల్ లాన్ మోవర్",
+      "id": "5",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/lawn-mower/BLM530RTA.webp",
+      "specifications": "ఇంజిన్: 166CC పెట్రోల్\nకట్టింగ్ వెడల్పు: 21\"\nకట్టింగ్ ఎత్తు: 30–80mm (6 సెంట్రల్ అడ్జస్ట్మెంట్ ఆప్షన్లు)\nడిస్చార్జ్ ఆప్షన్లు: రియర్ డిస్చార్జ్, కలెక్షన్, సైడ్ డిస్చార్జ్ మరియు మల్చింగ్ — 4 ఇన్ 1\nకలెక్షన్ సామర్థ్యం: 70 లీటర్లు\nప్రొపల్షన్ రకం: మాన్యువల్\nహ్యాండిల్‌బార్: రబ్బర్ హ్యాండిల్‌బార్\nవీల్స్: ఫ్రంట్ 8\" మరియు రియర్ 10\""
+    },
+    {
+      "code": "MLM530RTA",
+      "name": "పెట్రోల్ లాన్ మోవర్",
+      "id": "6",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/lawn-mower/BLM530RTA.webp",
+      "specifications": "ఇంజిన్: 166CC పెట్రోల్\nకట్టింగ్ వెడల్పు: 21\"\nకట్టింగ్ ఎత్తు: 20–80mm (8 సెంట్రల్ అడ్జస్ట్మెంట్ ఆప్షన్లు)\nడిస్చార్జ్ ఆప్షన్లు: రియర్ డిస్చార్జ్, కలెక్షన్, సైడ్ డిస్చార్జ్ మరియు మల్చింగ్\nకలెక్షన్ సామర్థ్యం: 70 లీటర్లు\nప్రొపల్షన్ రకం: సెల్ఫ్-ప్రొపెల్డ్\nహ్యాండిల్‌బార్: రబ్బర్ హ్యాండిల్‌బార్\nవీల్స్: ఫ్రంట్ 8\" మరియు రియర్ 10\""
+    },
+    {
+      "code": "MLM560RA",
+      "name": "పెట్రోల్ లాన్ మోవర్",
+      "id": "7",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/lawn-mower/BLM560RA.webp",
+      "specifications": "ఇంజిన్: 166CC పెట్రోల్\nకట్టింగ్ వెడల్పు: 22\"\nకట్టింగ్ ఎత్తు: 25–75mm (7 సెంట్రల్ అడ్జస్ట్మెంట్ ఆప్షన్లు)\nడిస్చార్జ్ ఆప్షన్లు: రియర్ డిస్చార్జ్, కలెక్షన్, సైడ్ డిస్చార్జ్ మరియు మల్చింగ్\nకలెక్షన్ సామర్థ్యం: 65 లీటర్లు\nప్రొపల్షన్ రకం: మాన్యువల్\nహ్యాండిల్‌బార్: రబ్బర్ హ్యాండిల్‌బార్\nవీల్స్: ఫ్రంట్ 8\" మరియు రియర్ 10\""
+    },
+    {
+      "code": "MLM560RTA",
+      "name": "పెట్రోల్ లాన్ మోవర్",
+      "id": "8",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/lawn-mower/BLM560RTA.webp",
+      "specifications": "ఇంజిన్: 166CC పెట్రోల్\nకట్టింగ్ వెడల్పు: 22\"\nకట్టింగ్ ఎత్తు: 25–75mm (7 సెంట్రల్ అడ్జస్ట్మెంట్ ఆప్షన్లు)\nడిస్చార్జ్ ఆప్షన్లు: రియర్ డిస్చార్జ్, కలెక్షన్, సైడ్ డిస్చార్జ్ మరియు మల్చింగ్\nకలెక్షన్ సామర్థ్యం: 65 లీటర్లు\nప్రొపల్షన్ రకం: సెల్ఫ్-ప్రొపెల్డ్\nహ్యాండిల్‌బార్: రబ్బర్ హ్యాండిల్‌బార్\nవీల్స్: ఫ్రంట్ 8\" మరియు రియర్ 10\""
+    }
+  ]
+},
+"brushcutter": {
+  "id": "6",
+  "name": "బ్రష్ కట్టర్",
+  "category": "gardening-forestry",
+  "description": "పుష్పజాతి నిర్వహణ కోసం ప్రొఫెషనల్ బ్రష్ కట్టర్స్",
+  "hero_image": "/mechnova/products/brushcutter/hero-brushcutter.webp",
+  "error_image": "/mechnova/products/brushcutter/BBC26DA.webp",
+  "models": [
+    {
+      "code": "MBC26DA",
+      "name": "పెట్రోల్ బ్రష్ కట్టర్",
+      "id": "1",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/brushcutter/BBC26DA.webp",
+      "specifications": "ఇంజిన్: పెట్రోల్, 2-స్ట్రోక్, 25.4CC\nగరిష్ట శక్తి: 1.0HP\nఇంధన మిశ్రమం: సింథటిక్ ఆయిల్ 40:1, మినరల్ ఆయిల్ 25:1\nట్యాంక్ సామర్థ్యం: 0.7 లీటర్లు\nకార్బ్యురేటర్: డయాఫ్రామ్\nమాజ్బూత్ ఎగ్జాస్ట్\nస్టార్టింగ్ రకం: మాన్యువల్ రీకాయిల్\nషాఫ్ట్ వ్యాసం: 26 mm\nD-హ్యాండిల్"
+    },
+    {
+      "code": "MBC33DA",
+      "name": "పెట్రోల్ బ్రష్ కట్టర్",
+      "id": "2",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/brushcutter/BBC33DA.webp",
+      "specifications": "ఇంజిన్: పెట్రోల్, 2-స్ట్రోక్, 33.0CC\nగరిష్ట శక్తి: 1.3HP\nఇంధన మిశ్రమం: సింథటిక్ ఆయిల్ 40:1, మినరల్ ఆయిల్ 25:1\nట్యాంక్ సామర్థ్యం: 0.7 లీటర్లు\nకార్బ్యురేటర్: డయాఫ్రామ్\nమాజ్బూత్ ఎగ్జాస్ట్\nస్టార్టింగ్ రకం: మాన్యువల్ రీకాయిల్\nషాఫ్ట్ వ్యాసం: 26 mm\nD-హ్యాండిల్"
+    },
+    {
+      "code": "MBC43A",
+      "name": "పెట్రోల్ బ్రష్ కట్టర్",
+      "id": "3",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/brushcutter/BBC43A.webp",
+      "specifications": "ఇంజిన్: పెట్రోల్, 2-స్ట్రోక్, 42.7CC\nగరిష్ట శక్తి: 1.7HP\nఇంధన మిశ్రమం: సింథటిక్ ఆయిల్ 40:1, మినరల్ ఆయిల్ 25:1\nట్యాంక్ సామర్థ్యం: 0.8 లీటర్లు\nకార్బ్యురేటర్: డయాఫ్రామ్\nమాజ్బూత్ ఎగ్జాస్ట్\nస్టార్టింగ్ రకం: మాన్యువల్ రీకాయిల్\nషాఫ్ట్ వ్యాసం: 26 mm\nఎర్గోనామిక్ స్ప్లిట్ హ్యాండిల్‌బార్"
+    },
+    {
+      "code": "MBC52A",
+      "name": "పెట్రోల్ బ్రష్ కట్టర్",
+      "id": "4",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/brushcutter/BBC52A.webp",
+      "specifications": "ఇంజిన్: పెట్రోల్, 2-స్ట్రోక్, 51.6CC\nగరిష్ట శక్తి: 2.0HP\nఇంధన మిశ్రమం: సింథటిక్ ఆయిల్ 40:1, మినరల్ ఆయిల్ 25:1\nట్యాంక్ సామర్థ్యం: 0.8 లీటర్లు\nకార్బ్యురేటర్: డయాఫ్రామ్\nమాజ్బూత్ ఎగ్జాస్ట్\nస్టార్టింగ్ రకం: మాన్యువల్ రీకాయిల్\nషాఫ్ట్ వ్యాసం: 26 mm\nఎర్గోనామిక్ స్ప్లిట్ హ్యాండిల్‌బార్"
+    },
+    {
+      "code": "MBC26MTA",
+      "name": "మల్టీ-ఫంక్షన్ PETROL బ్రష్ కట్టర్",
+      "id": "5",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/brushcutter/BBC26MTA.webp",
+      "specifications": "ఇంజిన్: పెట్రోల్, 2-స్ట్రోక్, 26CC\nగరిష్ట శక్తి: 1.0HP\nఇంధన మిశ్రమం: సింథటిక్ 40:1, మినరల్ 25:1\nట్యాంక్ సామర్థ్యం: 0.7 లీటర్లు\nకార్బ్యురేటర్: డయాఫ్రామ్\nమాజ్బూత్ ఎగ్జాస్ట్\nస్టార్టింగ్ రకం: మాన్యువల్ రీకాయిల్\nషాఫ్ట్ వ్యాసం: 26 mm\nఎర్గోనామిక్ D-హ్యాండిల్"
+    },
+    {
+      "code": "MBCE1000DA-1",
+      "name": "ఎలక్ట్రిక్ బ్రష్ కట్టర్",
+      "id": "6",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/brushcutter/BBCE1000DA-1.webp",
+      "specifications": "మోటార్: ఎలక్ట్రిక్, 110V, 60Hz\nగరిష్ట శక్తి: 1.0kW\nలూప్ D-హ్యాండిల్\nస్టీల్ షాఫ్ట్, స్ప్లిట్ డిజైన్"
+    },
+    {
+      "code": "MBCE1000DA-2",
+      "name": "ఎలక్ట్రిక్ బ్రష్ కట్టర్",
+      "id": "7",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/brushcutter/BBCE1000DA-2.webp",
+      "specifications": "మోటార్: ఎలక్ట్రిక్, 220V, 60Hz\nగరిష్ట శక్తి: 1.4kW\nలూప్ D-హ్యాండిల్\nస్టీల్ షాఫ్ట్, స్ప్లిట్ డిజైన్"
+    }
+  ]
+},
+"multi-tool": {
+  "id": "7",
+  "name": "మల్టీ టూల్",
+  "category": "gardening-forestry",
+  "description": "తోటపాటల కోసం బహుముఖ సాధనాలు",
+  "hero_image": "/mechnova/products/multi-tool/hero-multi-tool.webp",
+  "models": []
+},
+"knapsack-sprayer": {
+  "id": "1",
+  "name": "నాప్సాక్ స్ప్రేయర్",
+  "category": "fumigation",
+  "description": "ఫ్యూమిగేషన్ మరియు కీటా నియంత్రణ కోసం ప్రొఫెషనల్ స్ప్రేయర్స్",
+  "hero_image": "/mechnova/products/fumigation/hero-sprayer.webp",
+  "error_image": "/mechnova/products/fumigation/BS26BA.webp",
+  "models": [
+    {
+      "code": "MS26BA",
+      "name": "బ్రాస్ పంఫ్ ఉన్న PETROL బ్యాక్‌ప్యాక్ స్ప్రేయర్",
+      "id": "1",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/fumigation/BS26BA.webp",
+      "specifications": "ఇంజిన్: 25.4CC PETROL, 2-స్ట్రోక్\nగరిష్ట శక్తి: 1.0HP\nఇంధన ట్యాంక్ సామర్థ్యం: 0.6 లీటర్లు\nస్ప్రే ట్యాంక్ సామర్థ్యం: 25 లీటర్లు\nకార్య ఒత్తిడి: 215–355 PSI\nస్ప్రే వాల్యూమ్: 5–8 లీటర్లు/నిమిషం\nపంప్ రకం: హై ప్రెషర్ ప్లంజర్ పంప్\nపంప్ పదార్థం: బ్రాస్\nస్టార్టింగ్ సిస్టమ్: రీకాయిల్"
+    },
+    {
+      "code": "MSBE18VBA-20",
+      "name": "కార్డ్లెస్ బ్యాక్‌ప్యాక్ స్ప్రేయర్",
+      "id": "2",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/fumigation/BSBE18VBA-20.webp",
+      "specifications": "బ్యాటరీ: 18V లిథియం-ఐయాన్ - 4.0Ah\nచార్జర్: 110~220V\nట్యాంక్ సామర్థ్యం: 20 లీటర్లు\nస్ప్రే వాల్యూమ్: 2.8 లీటర్లు/నిమిషం\nపంప్ రకం: ఆటోమేటిక్ పంప్"
+    }
+  ]
+},
+"diesel-generator": {
+  "id": "1",
+  "name": "డీజిల్ జెనరేటర్",
+  "category": "diesel-machines",
+  "description": "పరిశ్రమ మరియు వాణిజ్య ఉపయోగానికి డీజిల్ జెనరేటర్లు",
+  "hero_image": "/mechnova/products/diesel-generator/hero-diesel-generator.webp",
+  "error_image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+  "models": [
+    {
+      "code": "MDG2.0ASD-60",
+      "name": "డీజిల్ జెనరేటర్",
+      "id": "1",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+      "specifications": "గరిష్ట శక్తి: 2.0 kVA\nరేటెడ్ శక్తి: 1.8 kVA\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 110V/220V డ్యూయల్ వోల్టేజ్ - 60Hz\nఇంజిన్: 211cc, 5HP, డీజిల్, 4-స్ట్రోక్\n50% లోడ్ రన్‌టైమ్: 10 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 11.0 లీటర్లు\nస్టార్టింగ్ సిస్టమ్: రీకాయిల్\nతైల రిజర్వాయర్ సామర్థ్యం: 750 ml"
+    },
+    {
+      "code": "MD1.7ASD-50",
+      "name": "డీజిల్ జెనరేటర్",
+      "id": "2",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+      "specifications": "గరిష్ట శక్తి: 1.7 kVA\nరేటెడ్ శక్తి: 1.5 kVA\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 110V/220V డ్యూయల్ వోల్టేజ్ - 50Hz\nఇంజిన్: 211cc, 5HP, డీజిల్, 4-స్ట్రోక్\n50% లోడ్ రన్‌టైమ్: 10 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 11.0 లీటర్లు\nస్టార్టింగ్ సిస్టమ్: రీకాయిల్\nతైల రిజర్వాయర్ సామర్థ్యం: 750 ml"
+    },
+    {
+      "code": "MDG4.2ASD-60",
+      "name": "డీజిల్ జెనరేటర్",
+      "id": "3",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+      "specifications": "గరిష్ట శక్తి: 4.2 kVA\nరేటెడ్ శక్తి: 3.8 kVA\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 110V/220V డ్యూయల్ వోల్టేజ్ - 60Hz\nఇంజిన్: 406cc, 10HP, డీజిల్, 4-స్ట్రోక్\n50% లోడ్ రన్‌టైమ్: 8 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 11.0 లీటర్లు\nస్టార్టింగ్ సిస్టమ్: రీకాయిల్\nతైల రిజర్వాయర్ సామర్థ్యం: 1.65 లీటర్లు"
+    },
+    {
+      "code": "MDG3.6ASD-50",
+      "name": "డీజిల్ జెనరేటర్",
+      "id": "4",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+      "specifications": "గరిష్ట శక్తి: 3.6 kVA\nరేటెడ్ శక్తి: 3.4 kVA\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 110V/220V డ్యూయల్ వోల్టేజ్ - 50Hz\nఇంజిన్: 406cc, 10HP, డీజిల్, 4-స్ట్రోక్\n50% లోడ్ రన్‌టైమ్: 8 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 11.0 లీటర్లు\nస్టార్టింగ్ సిస్టమ్: రీకాయిల్\nతైల రిజర్వాయర్ సామర్థ్యం: 1.65 లీటర్లు"
+    },
+    {
+      "code": "MDG6.0ASD-60",
+      "name": "డీజిల్ జెనరేటర్",
+      "id": "5",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+      "specifications": "గరిష్ట శక్తి: 6.0 kVA\nరేటెడ్ శక్తి: 5.5 kVA\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 110V/220V డ్యూయల్ వోల్టేజ్ - 60Hz\nఇంజిన్: 456cc, 13HP, డీజిల్, 4-స్ట్రోక్\n50% లోడ్ రన్‌టైమ్: 6 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 11.0 లీటర్లు\nస్టార్టింగ్ సిస్టమ్: రీకాయిల్\nతైల రిజర్వాయర్ సామర్థ్యం: 1.65 లీటర్లు"
+    },
+    {
+      "code": "MDG5.5ASD-50",
+      "name": "డీజిల్ జెనరేటర్",
+      "id": "6",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+      "specifications": "గరిష్ట శక్తి: 5.5 kVA\nరేటెడ్ శక్తి: 5.0 kVA\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 110V/220V డ్యూయల్ వోల్టేజ్ - 50Hz\nఇంజిన్: 456cc, 13HP, డీజిల్, 4-స్ట్రోక్\n50% లోడ్ రన్‌టైమ్: 6 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 11.0 లీటర్లు\nస్టార్టింగ్ సిస్టమ్: రీకాయిల్\nతైల రిజర్వాయర్ సామర్థ్యం: 1.65 లీటర్లు"
+    }
+  ]
+},
+"diesel-engine": {
+  "id": "2",
+  "name": "డీజిల్ ఇంజిన్",
+  "category": "diesel-machines",
+  "description": "అధిక డిమాండ్ ఉన్న అప్లికేషన్ల కోసం శక్తివంతమైన మరియు నమ్మకమైన డీజిల్ ఇంజిన్లు",
+  "hero_image": "/mechnova/products/diesel-engine/hero-diesel-engine.webp",
+  "error_image": "/mechnova/products/diesel-engine/BDE50A.webp",
+  "models": [
+    {
+      "code": "MDE50A",
+      "name": "డీజిల్ ఇంజిన్",
+      "id": "1",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/diesel-engine/BDE50A.webp",
+      "specifications": "ఇంజిన్: 211cc, 4-స్ట్రోక్\nకూలింగ్ సిస్టమ్: ఎయిర్\nసిలిండర్ వ్యాసం: 70 mm\nరేటెడ్ శక్తి: 2.8kW / 3.75HP\nగరిష్ట శక్తి: 3.3kW / 4.5HP\nఇంధన ట్యాంక్ సామర్థ్యం: 2.5 లీటర్లు\nతైల్ రిజర్వాయర్ సామర్థ్యం: 750 ml\nస్టార్టింగ్ సిస్టమ్: మాన్యువల్ రీకాయిల్\nమాన్యువల్ స్టార్ట్"
+    },
+    {
+      "code": "MDE70A",
+      "name": "డీజిల్ ఇంజిన్",
+      "id": "2",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/diesel-engine/BDE70A.webp",
+      "specifications": "ఇంజిన్: 296cc, 4-స్ట్రోక్\nకూలింగ్ సిస్టమ్: ఎయిర్\nసిలిండర్ వ్యాసం: 78 mm\nరేటెడ్ శక్తి: 4.0kW / 5.4HP\nగరిష్ట శక్తి: 4.8kW / 6.5HP\nఇంధన ట్యాంక్ సామర్థ్యం: 3.5 లీటర్లు\nతైల్ రిజర్వాయర్ సామర్థ్యం: 1100 ml\nస్టార్టింగ్ సిస్టమ్: మాన్యువల్ రీకాయిల్\nమాన్యువల్ స్టార్ట్"
+    },
+    {
+      "code": "MDE100A",
+      "name": "డీజిల్ ఇంజిన్",
+      "id": "3",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/diesel-engine/BDE100A.webp",
+      "specifications": "ఇంజిన్: 456cc, 4-స్ట్రోక్\nకూలింగ్ సిస్టమ్: ఎయిర్\nసిలిండర్ వ్యాసం: 88 mm\nరేటెడ్ శక్తి: 6.9kW / 9.3HP\nగరిష్ట శక్తి: 7.8kW / 10.5HP\nఇంధన ట్యాంక్ సామర్థ్యం: 5.5 లీటర్లు\nతైల్ రిజర్వాయర్ సామర్థ్యం: 1650 ml\nస్టార్టింగ్ సిస్టమ్: మాన్యువల్ రీకాయిల్\nమాన్యువల్ స్టార్ట్"
+    },
+    {
+      "code": "MDE100EA",
+      "name": "డీజిల్ ఇంజిన్",
+      "id": "3",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/diesel-engine/BDE100EA.webp",
+      "specifications": "ఇంజిన్: 456cc, 4-స్ట్రోక్\nకూలింగ్ సిస్టమ్: ఎయిర్\nసిలిండర్ వ్యాసం: 88 mm\nరేటెడ్ శక్తి: 6.9kW / 9.3HP\nగరిష్ట శక్తి: 7.8kW / 10.5HP\nఇంధన ట్యాంక్ సామర్థ్యం: 5.5 లీటర్లు\nతైల్ రిజర్వాయర్ సామర్థ్యం: 1650 ml\nస్టార్టింగ్ సిస్టమ్: ఎలక్ట్రిక్ / మాన్యువల్ రీకాయిల్\nఎలక్ట్రిక్ స్టార్ట్"
+    }
+  ]
+},
+"diesel-water-pump": {
+  "id": "3",
+  "name": "డీజిల్ వాటర్ పంప్",
+  "category": "diesel-machines",
+  "description": "ఇరిగేషన్ మరియు నీటి డ్రైనేజీ కోసం డీజిల్ వాటర్ పంప్‌లు",
+  "hero_image": "/mechnova/products/diesel-water-pump/hero-diesel-water-pump.webp",
+  "error_image": "/mechnova/products/diesel-water-pump/BDWP2x2SA.webp",
+  "models": [
+    {
+      "code": "MDWP2x2SA",
+      "name": "డీజిల్ వాటర్ పంప్",
+      "id": "1",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/diesel-water-pump/BDWP2x2SA.webp",
+      "specifications": "పంప్ రకం: సెల్ఫ్-ప్రైమింగ్\nఇంజిన్: డీజిల్, 211cc\nస్టార్టింగ్ సిస్టమ్: రీకాయిల్\nగరిష్ట పంపింగ్ సామర్థ్యం: 22000 లీటర్లు/గంట\nసక్షన్ & డిశార్జ్ వ్యాసం: 2 ఇంచ్ x 2 ఇంచ్\nటోటల్ లిఫ్ట్: 15 మీటర్లు\nసక్షన్ ఎత్తు: 7 మీటర్లు\nఇంధన ట్యాంక్ సామర్థ్యం: 2.5 లీటర్లు\nమాన్యువల్ స్టార్ట్"
+    },
+    {
+      "code": "MDWP3x3SA",
+      "name": "డీజిల్ వాటర్ పంప్",
+      "id": "2",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/diesel-water-pump/BDWP3x3SA.webp",
+      "specifications": "పంప్ రకం: సెల్ఫ్-ప్రైమింగ్\nఇంజిన్: డీజిల్, 296cc\nస్టార్టింగ్ సిస్టమ్: రీకాయిల్\nగరిష్ట పంపింగ్ సామర్థ్యం: 35000 లీటర్లు/గంట\nసక్షన్ & డిశార్జ్ వ్యాసం: 3 ఇంచ్ x 3 ఇంచ్\nటోటల్ లిఫ్ట్: 17 మీటర్లు\nసక్షన్ ఎత్తు: 7 మీటర్లు\nఇంధన ట్యాంక్ సామర్థ్యం: 3.5 లీటర్లు\nమాన్యువల్ స్టార్ట్"
+    },
+    {
+      "code": "MDWP2x2CA",
+      "name": "డీజిల్ వాటర్ పంప్",
+      "id": "3",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/diesel-water-pump/BDWP2x2CA.webp",
+      "specifications": "పంప్ రకం: సెల్ఫ్-ప్రైమింగ్\nఇంజిన్: డీజిల్, 396cc\nస్టార్టింగ్ సిస్టమ్: రీకాయిల్\nగరిష్ట పంపింగ్ సామర్థ్యం: 25000 లీటర్లు/గంట\nసక్షన్ & డిశార్జ్ వ్యాసం: 2 ఇంచ్ x 2 ఇంచ్\nటోటల్ లిఫ్ట్: 70 మీటర్లు\nసక్షన్ ఎత్తు: 5 మీటర్లు\nఇంధన ట్యాంక్ సామర్థ్యం: 3.5 లీటర్లు\nమాన్యువల్ స్టార్ట్"
+    }
+  ]
+},
+"electric-motor": {
+  "id": "1",
+  "name": "ఎలక్ట్రిక్ మోటర్",
+  "category": "electric-machines",
+  "description": "పరిశ్రమ మరియు హోమ్ యూజ్ కోసం శక్తివంతమైన ఎలక్ట్రిక్ మోటర్",
+  "hero_image": "/mechnova/products/electric-motor/hero-electric-motor.webp",
+  "error_image": "/mechnova/products/electric-motor/BEM100A-60.webp",
+  "models": [
+    {
+      "code": "MEM100A-60",
+      "name": "ఎలక్ట్రిక్ మోటర్",
+      "id": "1",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/electric-motor/BEM100A-60.webp",
+      "specifications": "వోల్టేజ్: 110V\nఫ్రీక్వెన్సీ: 60Hz\nగరిష్ట శక్తి: 1.0HP\nRPM: 3450"
+    },
+    {
+      "code": "MEM100A-50",
+      "name": "ఎలక్ట్రిక్ మోటర్",
+      "id": "2",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/electric-motor/BEM100A-50.webp",
+      "specifications": "వోల్టేజ్: 220V\nఫ్రీక్వెన్సీ: 50Hz\nగరిష్ట శక్తి: 1.0HP\nRPM: 2800"
+    }
+  ]
+},
+"electric-pressure-washer": {
+  "id": "2",
+  "name": "ఎలక్ట్రిక్ ప్రెషర్ వాషర్",
+  "category": "electric-machines",
+  "description": "శుభ్రత కోసం శక్తివంతమైన ఎలక్ట్రిక్ ప్రెషర్ వాషర్",
+  "hero_image": "/mechnova/products/pressure-washer/hero-electric-pressure-washer.webp",
+  "error_image": "/mechnova/products/pressure-washer/BPW1500A-50.webp",
+  "models": [
+    {
+      "code": "MPW1500A-50",
+      "name": "ఎలక్ట్రిక్ ప్రెషర్ వాషర్",
+      "id": "1",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/pressure-washer/BPW1500A-50.webp",
+      "specifications": "వోల్టేజ్: 110V\nఫ్రీక్వెన్సీ: 50Hz\nగరిష్ట శక్తి: 1500W\nఆపరేటింగ్ ప్రెజర్: 75 బార్\nగరిష్ట ప్రెజర్: 105 బార్"
+    }
+  ]
+},
+"gasoline-tiller": {
+  "id": "3",
+  "name": "పెట్రోల్ టిల్లర్",
+  "category": "electric-machines",
+  "description": "మట్టిని తయారు చేసేందుకు పెట్రోల్ టిల్లర్",
+  "hero_image": "/mechnova/products/tiller/hero-tiller.webp",
+  "error_image": "/mechnova/products/tiller/BTL170A.webp",
+  "models": [
+    {
+      "code": "MTL170A",
+      "name": "పెట్రోల్ టిల్లర్",
+      "id": "1",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/tiller/BTL170A.webp",
+      "specifications": "ఇంజిన్: 7HP\nగియర్బాక్స్: 3 గియర్స్ (2 ముందుకు + 1 రివర్స్)\nపూలీలు: 2\nట్రాన్స్మిషన్: డ్రై ఫ్రిక్షన్ డిస్క్"
+    }
+  ]
+},
+"gasoline-high-pressure-washer": {
+  "id": "4",
+  "name": "పెట్రోల్ హై ప్రెషర్ వాషర్",
+  "category": "electric-machines",
+  "description": "గహన మరియు భారీ శుభ్రత కోసం PETROL హై ప్రెషర్ వాషర్",
+  "hero_image": "/mechnova/products/high-pressure-washer/hero-gasoline-high-pressure-washer.webp",
+  "error_image": "/mechnova/products/high-pressure-washer/BGHP170A.webp",
+  "models": [
+    {
+      "code": "MGHP170A",
+      "name": "పెట్రోల్ హై ప్రెషర్ వాషర్",
+      "id": "1",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/high-pressure-washer/BGHP170A.webp",
+      "specifications": "గరిష్ట ప్రెజర్: 2500 PSI\nకనీస ప్రెజర్: 2000 PSI\nనీటి ప్రవాహం: 8.6 L/min\nపంప్ రకం: ఆక్సియల్ పంప్"
+    }
+  ]
+},
+"gasoline-engine": {
+  "id": "3",
+  "name": "పెట్రోల్ ఇంజిన్",
+  "category": "కৃষి-औद्योगిక",
+  "description": "కృషి మరియు పరిశ్రమల్లో ఉపయోగించే PETROL ఇంజిన్",
+  "hero_image": "/mechnova/products/gasoline-engine/hero-gasoline-engine.webp",
+  "error_image": "/mechnova/products/gasoline-engine/BE40A.webp",
+  "models": [
+    {
+      "code": "ME40A",
+      "name": "పెట్రోల్ ఇంజిన్",
+      "id": "1",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/gasoline-engine/BE40A.webp",
+      "specifications": "ఇంజిన్: 4.0 HP, 4-స్ట్రోక్, 113cc\nటెక్నాలజీ: OHV, ఓవర్‌హెడ్ వాల్వ్\nకూలింగ్ సిస్టమ్: ఎయిర్\nసిలిండర్ వ్యాసం: 60*40 mm\nగరిష్ట శక్తి: 4 HP\nఇంధన ట్యాంక్ సామర్థ్యం: 2.0 లీటర్లు\nనూనె రిజర్వ్ సామర్థ్యం: 350 ml\nస్టార్టింగ్ సిస్టమ్: రీకాయిల్"
+    },
+    {
+      "code": "ME70A",
+      "name": "పెట్రోల్ ఇంజిన్",
+      "id": "2",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/gasoline-engine/BE70A.webp",
+      "specifications": "ఇంజిన్: 7.0 HP, 4-స్ట్రోక్, 210cc\nటెక్నాలజీ: OHV, ఓవర్‌హెడ్ వాల్వ్\nకూలింగ్ సిస్టమ్: ఎయిర్\nసిలిండర్ వ్యాసం: 70*54 mm\nగరిష్ట శక్తి: 7 HP\nఇంధన ట్యాంక్ సామర్థ్యం: 3.6 లీటర్లు\nనూనె రిజర్వ్ సామర్థ్యం: 600 ml\nస్టార్టింగ్ సిస్టమ్: రీకాయిల్"
+    }
+  ]
+},
+"gasoline-generator": {
+  "id": "4",
+  "name": "పెట్రోల్ జెనరేటర్",
+  "category": "కృషి-పరిశ్రమ",
+  "description": "ఇంట్లో మరియు పరిశ్రమల్లో ఉపయోగానికి పెట్రోల్ జెనరేటర్",
+  "hero_image": "/mechnova/products/gasoline-generator/hero-gasoline-generator.webp",
+  "error_image": "/mechnova/products/gasoline-generator/BG1.2AS1-60.webp",
+  "models": [
+    {
+      "code": "MG1.2AS1-60",
+      "name": "పెట్రోల్ జెనరేటర్",
+      "id": "1",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/gasoline-generator/BG1.2AS1-60.webp",
+      "specifications": "గరిష్ట శక్తి: 1.2 KW\nసాధారణ శక్తి: 1.1 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 110V - 60Hz\nఇంజిన్: 113cc - 4HP / OHV, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ వద్ద స్వతంత్ర పని: 12 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 9.6 లీటర్లు\nస్టార్టింగ్ సిస్టమ్: రీకాయిల్\nనూనె రిజర్వ్ సామర్థ్యం: 350 ml"
+    },
+    {
+      "code": "MG1.2AS2-60",
+      "name": "పెట్రోల్ జెనరేటర్",
+      "id": "2",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/gasoline-generator/BG1.2AS1-60.webp",
+      "specifications": "గరిష్ట శక్తి: 1.2 KW\nసాధారణ శక్తి: 1.1 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 220V - 60Hz\nఇంజిన్: 113cc - 4HP / OHV, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ వద్ద స్వతంత్ర పని: 12 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 9.6 లీటర్లు\nస్టార్టింగ్ సిస్టమ్: రీకాయిల్\nనూనె రిజర్వ్ సామర్థ్యం: 350 ml"
+    },
+    {
+      "code": "MG1.0AS1-50",
+      "name": "పెట్రోల్ జెనరేటర్",
+      "id": "3",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/gasoline-generator/BG1.2AS1-60.webp",
+      "specifications": "గరిష్ట శక్తి: 1.0 KW\nసాధారణ శక్తి: 0.9 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 110V - 50Hz\nఇంజిన్: 113cc - 4HP / OHV, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ వద్ద స్వతంత్ర పని: 12 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 9.6 లీటర్లు\nస్టార్టింగ్ సిస్టమ్: రీకాయిల్\nనూనె రిజర్వ్ సామర్థ్యం: 350 ml"
+    },
+    {
+      "code": "MG1.0AS2-50",
+      "name": "పెట్రోల్ జెనరేటర్",
+      "id": "4",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/gasoline-generator/BG1.2AS1-60.webp",
+      "specifications": "గరిష్ట శక్తి: 1.0 KW\nసాధారణ శక్తి: 0.9 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 220V - 50Hz\nఇంజిన్: 113cc - 4HP / OHV, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ వద్ద స్వతంత్ర పని: 12 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 9.6 లీటర్లు\nస్టార్టింగ్ సిస్టమ్: రీకాయిల్\nనూనె రిజర్వ్ సామర్థ్యం: 350 ml"
+    },
+    {
+      "code": "MG3.0AS1-60",
+      "name": "పెట్రోల్ జెనరేటర్",
+      "id": "5",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+      "specifications": "గరిష్ట శక్తి: 3.0 KW\nసాధారణ శక్తి: 2.8 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 110V - 60Hz\nఇంజిన్: 212cc - 7HP / OHV, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ వద్ద స్వతంత్ర పని: 12 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 15.0 లీటర్లు\nస్టార్టింగ్ సిస్టమ్: రీకాయిల్\nనూనె రిజర్వ్ సామర్థ్యం: 600 ml"
+    },
+    {
+      "code": "MG3.0AS2-60",
+      "name": "పెట్రోల్ జెనరేటర్",
+      "id": "6",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+      "specifications": "గరిష్ట శక్తి: 3.0 KW\nసాధారణ శక్తి: 2.8 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 220V - 60Hz\nఇంజిన్: 212cc - 7HP / OHV, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ వద్ద స్వతంత్ర పని: 12 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 15.0 లీటర్లు\nస్టార్టింగ్ సిస్టమ్: రీకాయిల్\nనూనె రిజర్వ్ సామర్థ్యం: 600 ml"
+    },
+    {
+      "code": "MG2.7AS1-50",
+      "name": "పెట్రోల్ జెనరేటర్",
+      "id": "7",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+      "specifications": "గరిష్ట శక్తి: 2.7 KW\nసాధారణ శక్తి: 2.5 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 110V - 50Hz\nఇంజిన్: 212cc - 7HP / OHV, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ వద్ద స్వతంత్ర పని: 12 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 15.0 లీటర్లు\nస్టార్టింగ్ సిస్టమ్: రీకాయిల్\nనూనె రిజర్వ్ సామర్థ్యం: 600 ml"
+    },
+    {
+      "code": "MG2.7AS2-50",
+      "name": "పెట్రోల్ జెనరేటర్",
+      "id": "8",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+      "specifications": "గరిష్ట శక్తి: 2.7 KW\nసాధారణ శక్తి: 2.5 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 220V - 50Hz\nఇంజిన్: 212cc - 7HP / OHV, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ వద్ద స్వతంత్ర పని: 12 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 15.0 లీటర్లు\nస్టార్టింగ్ సిస్టమ్: రీకాయిల్\nనూనె రిజర్వ్ సామర్థ్యం: 600 ml"
+    },
+    {
+      "code": "MG6.5AS1-60",
+      "name": "పెట్రోల్ జెనరేటర్",
+      "id": "9",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+      "specifications": "గరిష్ట శక్తి: 6.5 KW\nసాధారణ శక్తి: 6.0 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 110V - 60Hz\nఇంజిన్: 420cc - 15HP / OHV, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ వద్ద స్వతంత్ర పని: 12 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 25.0 లీటర్లు\nస్టార్టింగ్ సిస్టమ్: రీకాయిల్\nనూనె రిజర్వ్ సామర్థ్యం: 1100 ml"
+    },
+    {
+      "code": "MG6.5AS2-60",
+      "name": "పెట్రోల్ జెనరేటర్",
+      "id": "10",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+      "specifications": "గరిష్ట శక్తి: 6.5 KW\nసాధారణ శక్తి: 6.0 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 220V - 60Hz\nఇంజిన్: 420cc - 15HP / OHV, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ వద్ద స్వతంత్ర పని: 12 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 25.0 లీటర్లు\nస్టార్టింగ్ సిస్టమ్: రీకాయిల్\nనూనె రిజర్వ్ సామర్థ్యం: 1100 ml"
+    },
+    {
+      "code": "MG5.8AS1-50",
+      "name": "పెట్రోల్ జెనరేటర్",
+      "id": "11",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+      "specifications": "గరిష్ట శక్తి: 5.8 KW\nసాధారణ శక్తి: 5.4 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 110V - 50Hz\nఇంజిన్: 420cc - 15HP / OHV, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ వద్ద స్వతంత్ర పని: 12 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 25.0 లీటర్లు\nస్టార్టింగ్ సిస్టమ్: రీకాయిల్\nనూనె రిజర్వ్ సామర్థ్యం: 1100 ml"
+    },
+    {
+      "code": "MG5.8AS2-50",
+      "name": "పెట్రోల్ జెనరేటర్",
+      "id": "12",
+      "warranty": "12 నెలలు",
+      "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+      "specifications": "గరిష్ట శక్తి: 5.8 KW\nసాధారణ శక్తి: 5.4 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 220V - 50Hz\nఇంజిన్: 420cc - 15HP / OHV, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ వద్ద స్వతంత్ర పని: 12 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 25.0 లీటర్లు\nస్టార్టింగ్ సిస్టమ్: రీకాయిల్\nనూనె రిజర్వ్ సామర్థ్యం: 1100 ml"
+    }
+  ]
+},
+"gasoline-inverter": {
+    "id": "5",
+    "name": "పెట్రోల్ ఇన్‌వర్టర్ జెనరేటర్",
+    "category": "వ్యవసాయ-పరిశ్రమ",
+    "description": "స్థిరమైన మరియు సమర్థవంతమైన విద్యుత్ కోసం PETROL ఇన్‌వర్టర్ జెనరేటర్.",
+    "hero_image": "/mechnova/products/gasoline-inverter/hero-gasoline-inverter.webp",
+    "error_image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+    "models": [
+        {
+            "code": "MG2.2AiS1-60",
+            "name": "పెట్రోల్ ఇన్‌వర్టర్ జెనరేటర్",
+            "id": "1",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+            "specifications": "గరిష్ట శక్తి: 2.2 KW\nసాధారణ శక్తి: 2.0 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 110V - 60Hz\nఇంజిన్: 212cc - 7HP / OHV, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ పై స్వతంత్ర సమయం: 16 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 15.0 లీటర్లు\nప్రారంభ వ్యవస్థ: రీకాయిల్\nతైలు నిల్వ సామర్థ్యం: 600 ml"
+        },
+        {
+            "code": "MG2.2AiS2-60",
+            "name": "పెట్రోల్ ఇన్‌వర్టర్ జెనరేటర్",
+            "id": "2",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+            "specifications": "గరిష్ట శక్తి: 2.2 KW\nసాధారణ శక్తి: 2.0 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 220V - 60Hz\nఇంజిన్: 212cc - 7HP / OHV, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ పై స్వతంత్ర సమయం: 16 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 15.0 లీటర్లు\nప్రారంభ వ్యవస్థ: రీకాయిల్\nతైలు నిల్వ సామర్థ్యం: 600 ml"
+        },
+        {
+            "code": "MG2.2AiS1-50",
+            "name": "పెట్రోల్ ఇన్‌వర్టర్ జెనరేటర్",
+            "id": "3",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+            "specifications": "గరిష్ట శక్తి: 2.2 KW\nసాధారణ శక్తి: 2.0 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 110V - 50Hz\nఇంజిన్: 212cc - 7HP / OHV, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ పై స్వతంత్ర సమయం: 16 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 15.0 లీటర్లు\nప్రారంభ వ్యవస్థ: రీకాయిల్\nతైలు నిల్వ సామర్థ్యం: 600 ml"
+        },
+        {
+            "code": "MG2.2AiS2-50",
+            "name": "పెట్రోల్ ఇన్‌వర్టర్ జెనరేటర్",
+            "id": "4",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+            "specifications": "గరిష్ట శక్తి: 2.2 KW\nసాధారణ శక్తి: 2.0 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 220V - 50Hz\nఇంజిన్: 212cc - 7HP / OHV, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ పై స్వతంత్ర సమయం: 16 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 15.0 లీటర్లు\nప్రారంభ వ్యవస్థ: రీకాయిల్\nతైలు నిల్వ సామర్థ్యం: 600 ml"
+        },
+        {
+            "code": "MG3.7AiS1-60",
+            "name": "పెట్రోల్ ఇన్‌వర్టర్ జెనరేటర్",
+            "id": "5",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+            "specifications": "గరిష్ట శక్తి: 3.7 KW\nసాధారణ శక్తి: 3.5 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 110V - 60Hz\nఇంజిన్: 223cc - 8HP / OHV, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ పై స్వతంత్ర సమయం: 15 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 15.0 లీటర్లు\nప్రారంభ వ్యవస్థ: రీకాయిల్\nతైలు నిల్వ సామర్థ్యం: 600 ml"
+        },
+        {
+            "code": "MG3.7AiS2-60",
+            "name": "పెట్రోల్ ఇన్‌వర్టర్ జెనరేటర్",
+            "id": "6",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+            "specifications": "గరిష్ట శక్తి: 3.7 KW\nసాధారణ శక్తి: 3.5 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 220V - 60Hz\nఇంజిన్: 223cc - 8HP / OHV, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ పై స్వతంత్ర సమయం: 15 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 15.0 లీటర్లు\nప్రారంభ వ్యవస్థ: రీకాయిల్\nతైలు నిల్వ సామర్థ్యం: 600 ml"
+        },
+        {
+            "code": "MG3.7AiS1-50",
+            "name": "పెట్రోల్ ఇన్‌వర్టర్ జెనరేటర్",
+            "id": "7",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+            "specifications": "గరిష్ట శక్తి: 3.7 KW\nసాధారణ శక్తి: 3.5 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 110V - 50Hz\nఇంజిన్: 223cc - 8HP / OHV, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ పై స్వతంత్ర సమయం: 15 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 15.0 లీటర్లు\nప్రారంభ వ్యవస్థ: రీకాయిల్\nతైలు నిల్వ సామర్థ్యం: 600 ml"
+        },
+        {
+            "code": "MG3.7AiS2-50",
+            "name": "పెట్రోల్ ఇన్‌వర్టర్ జెనరేటర్",
+            "id": "8",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+            "specifications": "గరిష్ట శక్తి: 3.7 KW\nసాధారణ శక్తి: 3.5 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 220V - 50Hz\nఇంజిన్: 223cc - 8HP / OHV, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ పై స్వతంత్ర సమయం: 15 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 15.0 లీటర్లు\nప్రారంభ వ్యవస్థ: రీకాయిల్\nతైలు నిల్వ సామర్థ్యం: 600 ml"
+        },
+        {
+            "code": "MG2.0AiSS1-60",
+            "name": "పెట్రోల్ ఇన్‌వర్టర్ జెనరేటర్",
+            "id": "9",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/gasoline-inverter/BG2.0AiSS1-60.webp",
+            "specifications": "గరిష్ట శక్తి: 2.0 KW\nసాధారణ శక్తి: 1.8 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 110V - 60Hz\nఇంజిన్: 79.8cc - 3HP, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ పై స్వతంత్ర సమయం: 10 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 4.0 లీటర్లు\nప్రారంభ వ్యవస్థ: రీకాయిల్\nతైలు నిల్వ సామర్థ్యం: 350 ml"
+        },
+        {
+            "code": "MG2.0AiSS2-60",
+            "name": "పెట్రోల్ ఇన్‌వర్టర్ జెనరేటర్",
+            "id": "10",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/gasoline-inverter/BG2.0AiSS1-60.webp",
+            "specifications": "గరిష్ట శక్తి: 2.0 KW\nసాధారణ శక్తి: 1.8 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 220V - 60Hz\nఇంజిన్: 79.8cc - 3HP, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ పై స్వతంత్ర సమయం: 10 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 4.0 లీటర్లు\nప్రారంభ వ్యవస్థ: రీకాయిల్\nతైలు నిల్వ సామర్థ్యం: 350 ml"
+        },
+        {
+            "code": "MG2.0AiSS1-50",
+            "name": "పెట్రోల్ ఇన్‌వర్టర్ జెనరేటర్",
+            "id": "11",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/gasoline-inverter/BG2.0AiSS1-60.webp",
+            "specifications": "గరిష్ట శక్తి: 2.0 KW\nసాధారణ శక్తి: 1.8 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 110V - 50Hz\nఇంజిన్: 79.8cc - 3HP, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ పై స్వతంత్ర సమయం: 10 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 4.0 లీటర్లు\nప్రారంభ వ్యవస్థ: రీకాయిల్\nతైలు నిల్వ సామర్థ్యం: 350 ml"
+        },
+        {
+            "code": "MG2.0AiSS2-50",
+            "name": "పెట్రోల్ ఇన్‌వర్టర్ జెనరేటర్",
+            "id": "12",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/gasoline-inverter/BG2.0AiSS1-60.webp",
+            "specifications": "గరిష్ట శక్తి: 2.0 KW\nసాధారణ శక్తి: 1.8 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 220V - 50Hz\nఇంజిన్: 79.8cc - 3HP, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ పై స్వతంత్ర సమయం: 10 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 4.0 లీటర్లు\nప్రారంభ వ్యవస్థ: రీకాయిల్\nతైలు నిల్వ సామర్థ్యం: 350 ml"
+        },
+        {
+            "code": "MG3.3AiSS1-60",
+            "name": "పెట్రోల్ ఇన్‌వర్టర్ జెనరేటర్",
+            "id": "13",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/gasoline-inverter/BG3.3AiSS1-60.webp",
+            "specifications": "గరిష్ట శక్తి: 3.3 KW\nసాధారణ శక్తి: 3.0 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 110V - 60Hz\nఇంజిన్: 149cc - 6.5HP, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ పై స్వతంత్ర సమయం: 6.5 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 4.3 లీటర్లు\nప్రారంభ వ్యవస్థ: రీకాయిల్\nతైలు నిల్వ సామర్థ్యం: 350 ml"
+        },
+        {
+            "code": "MG3.3AiSS2-60",
+            "name": "పెట్రోల్ ఇన్‌వర్టర్ జెనరేటర్",
+            "id": "14",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/gasoline-inverter/BG3.3AiSS1-60.webp",
+            "specifications": "గరిష్ట శక్తి: 3.3 KW\nసాధారణ శక్తి: 3.0 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 220V - 60Hz\nఇంజిన్: 149cc - 6.5HP, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ పై స్వతంత్ర సమయం: 6.5 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 4.3 లీటర్లు\nప్రారంభ వ్యవస్థ: రీకాయిల్\nతైలు నిల్వ సామర్థ్యం: 350 ml"
+        },
+        {
+            "code": "MG3.3AiSS1-50",
+            "name": "పెట్రోల్ ఇన్‌వర్టర్ జెనరేటర్",
+            "id": "15",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/gasoline-inverter/BG3.3AiSS1-60.webp",
+            "specifications": "గరిష్ట శక్తి: 3.3 KW\nసాధారణ శక్తి: 3.0 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 110V - 50Hz\nఇంజిన్: 149cc - 6.5HP, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ పై స్వతంత్ర సమయం: 6.5 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 4.3 లీటర్లు\nప్రారంభ వ్యవస్థ: రీకాయిల్\nతైలు నిల్వ సామర్థ్యం: 350 ml"
+        },
+        {
+            "code": "MG3.3AiSS2-50",
+            "name": "పెట్రోల్ ఇన్‌వర్టర్ జెనరేటర్",
+            "id": "16",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/gasoline-inverter/BG3.3AiSS1-60.webp",
+            "specifications": "గరిష్ట శక్తి: 3.3 KW\nసాధారణ శక్తి: 3.0 KW\nస్టేటర్ కాయిల్: 100% కాపర్\nవోల్టేజ్: 220V - 50Hz\nఇంజిన్: 149cc - 6.5HP, పెట్రోల్, 4-స్ట్రోక్\n50% లోడ్ పై స్వతంత్ర సమయం: 6.5 గంటలు\nఇంధన ట్యాంక్ సామర్థ్యం: 4.3 లీటర్లు\nప్రారంభ వ్యవస్థ: రీకాయిల్\nతైలు నిల్వ సామర్థ్యం: 350 ml"
+        }
+    ]
+},
+"gasoline-water-pump": {
+    "id": "6",
+    "name": "పెట్రోల్ వాటర్ పంప్",
+    "category": "ఎలక్ట్రిక్-యంత్రాలు",
+    "description": "నిర్వాహణ మరియు నీటి బదిలీ కోసం అధిక సామర్థ్యం గల PETROL వాటర్ పంప్",
+    "hero_image": "/mechnova/products/gasoline-water-pump/hero-gasoline-water-pump.webp",
+    "error_image": "/mechnova/products/gasoline-water-pump/BGWP2x2SA.webp",
+    "models": [
+        {
+            "code": "MGWP2x2SA",
+            "name": "పెట్రోల్ వాటర్ పంప్",
+            "id": "1",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/gasoline-water-pump/BGWP2x2SA.webp",
+            "specifications": "ఇంజిన్: 5HP, 4-స్ట్రోక్\nడిస్చార్జ్: 2 అంగుళాలు\nగరిష్ట పంప్ సామర్థ్యం: 25000 లీటర్లు/గంట\nప్రారంభ వ్యవస్థ: రీకాయిల్"
+        },
+        {
+            "code": "MGWP3x3SA",
+            "name": "పెట్రోల్ వాటర్ పంప్",
+            "id": "2",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/gasoline-water-pump/BGWP3x3SA.webp",
+            "specifications": "ఇంజిన్: 7HP, 4-స్ట్రోక్\nడిస్చార్జ్: 3 అంగుళాలు\nగరిష్ట పంప్ సామర్థ్యం: 35000 లీటర్లు/గంట\nప్రారంభ వ్యవస్థ: రీకాయిల్"
+        },
+        {
+            "code": "MGWP4x4SA",
+            "name": "పెట్రోల్ వాటర్ పంప్",
+            "id": "3",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/gasoline-water-pump/BGWP4x4SA.webp",
+            "specifications": "ఇంజిన్: 7HP, 4-స్ట్రోక్\nడిస్చార్జ్: 4 అంగుళాలు\nగరిష్ట పంప్ సామర్థ్యం: 45000 లీటర్లు/గంట\nప్రారంభ వ్యవస్థ: రీకాయిల్"
+        }
+    ]
+},
+"battery-pruning-saw": {
+    "id": "7",
+    "name": "బ్యాటరీ ప్రూనింగ్ సా",
+    "category": "తోటా/అరణ్యం",
+    "description": "తయారీ మరియు కోత కోసం తేలికపాటి మరియు సమర్థవంతమైన బ్యాటరీ ప్రూనింగ్ సా",
+    "hero_image": "/mechnova/products/battery-pruning-saw/hero-battery-pruning-saw.webp",
+    "error_image": "/mechnova/products/battery-pruning-saw/BBPS42VA.webp",
+    "models": [
+        {
+            "code": "MBPS42VA",
+            "name": "బ్యాటరీ ప్రూనింగ్ సా",
+            "id": "1",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/battery-pruning-saw/BBPS42VA.webp",
+            "specifications": "బ్యాటరీ: 42V లిథియం-ఐయాన్\nబ్లేడ్ పొడవు: 8\"\nశబ్ద స్థాయి: తక్కువ\nఉపయోగం: తోటా పనులు, తేలికపాటి కోత"
+        }
+    ]
+},
+"pressure-washer": {
+    "id": "2",
+    "name": "ఎలక్ట్రిక్ ప్రెషర్ వాషర్",
+    "category": "గృహోపయోగం",
+    "description": "అధిక పీడన శుద్ధీకరణ కోసం ఎలక్ట్రిక్ ప్రెషర్ వాషర్",
+    "hero_image": "/mechnova/products/pressure-washer/hero-pressure-washer.webp",
+    "error_image": "/mechnova/products/pressure-washer/BEPW1450A1.webp",
+    "models": [
+        {
+            "code": "MEPW1450A1",
+            "name": "ఎలక్ట్రిక్ ప్రెషర్ వాషర్",
+            "id": "1",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/pressure-washer/BEPW1450A1.webp",
+            "specifications": "మోటర్: 1200W - 110V - 50/60Hz - బ్రష్ మోటర్\nరేటెడ్ ప్రెషర్: 65 బార్\nగరిష్ట ప్రెషర్: 100 బార్\nరేటెడ్ ఫ్లో: 5.5 లీ/నిమిషం"
+        },
+        {
+            "code": "MEPW1450A2",
+            "name": "ఎలక్ట్రిక్ ప్రెషర్ వాషర్",
+            "id": "2",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/pressure-washer/BEPW1450A2.webp",
+            "specifications": "మోటర్: 1200W - 220V - 50/60Hz - బ్రష్ మోటర్\nరేటెడ్ ప్రెషర్: 65 బార్\nగరిష్ట ప్రెషర్: 100 బార్\nరేటెడ్ ఫ్లో: 5.5 లీ/నిమిషం"
+        },
+        {
+            "code": "MEPW1850A1",
+            "name": "ఎలక్ట్రిక్ ప్రెషర్ వాషర్",
+            "id": "3",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/pressure-washer/BEPW1850A1.webp",
+            "specifications": "మోటర్: 1500W - 110V - 50/60Hz - బ్రష్ మోటర్\nరేటెడ్ ప్రెషర్: 90 బార్\nగరిష్ట ప్రెషర్: 130 బార్\nరేటెడ్ ఫ్లో: 5.5 లీ/నిమిషం"
+        },
+        {
+            "code": "MEPW1850A2",
+            "name": "ఎలక్ట్రిక్ ప్రెషర్ వాషర్",
+            "id": "4",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/pressure-washer/BEPW1850A2.webp",
+            "specifications": "మోటర్: 1500W - 220V - 50/60Hz - బ్రష్ మోటర్\nరేటెడ్ ప్రెషర్: 90 బార్\nగరిష్ట ప్రెషర్: 130 బార్\nరేటెడ్ ఫ్లో: 5.5 లీ/నిమిషం"
+        },
+        {
+            "code": "MEPW2185A-1",
+            "name": "ఎలక్ట్రిక్ ప్రెషర్ వాషర్",
+            "id": "5",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/pressure-washer/BEPW2185A-1.webp",
+            "specifications": "మోటర్: 1800W - 110V - 50/60Hz - బ్రష్ మోటర్\nరేటెడ్ ప్రెషర్: 110 బార్\nగరిష్ట ప్రెషర్: 150 బార్\nరేటెడ్ ఫ్లో: 6.0 లీ/నిమిషం"
+        },
+        {
+            "code": "MEPW2185A-2",
+            "name": "ఎలక్ట్రిక్ ప్రెషర్ వాషర్",
+            "id": "6",
+            "warranty": "12 నెలలు",
+            "image": "/mechnova/products/pressure-washer/BEPW2185A-2.webp",
+            "specifications": "మోటర్: 1800W - 220V - 60Hz - బ్రష్ మోటర్\nరేటెడ్ ప్రెషర్: 110 బార్\nగరిష్ట ప్రెషర్: 150 బార్\nరేటెడ్ ఫ్లో: 6.0 లీ/నిమిషం"
+        }
+    ]
+}
+
+}
+
+
+
+
