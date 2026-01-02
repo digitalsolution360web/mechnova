@@ -25,6 +25,7 @@ export default function LanguageDropdown({ className = '' }) {
       case 'bn': return 'BN';
       case 'mr': return 'MR'; 
       case 'te': return 'TE'; 
+      case 'gj': return 'GJ';
       default: return 'EN';
       
     }
@@ -127,6 +128,19 @@ export default function LanguageDropdown({ className = '' }) {
         తెలుగు
       </button>
     </li>
+
+    <li>
+            <button
+              className={`w-full text-left px-4 py-2 hover:bg-[#e6f2fb] ${
+                locale === 'gj' ? 'font-bold text-[#0072ce]' : ''
+              }`}
+              onClick={() => { switchLocale('gj'); setOpen(false); }}
+              role="option"
+              aria-selected={locale === 'gj'}
+            >
+              ગુજરાતી
+            </button>
+          </li>
 
       
 

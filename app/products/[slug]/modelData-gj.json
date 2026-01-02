@@ -1,0 +1,974 @@
+{
+  "chainsaw": {
+    "id": "1",
+    "name": "ચેન્સૉ",
+    "description": "કટાઈ અને છાંટણી માટે પ્રોફેશનલ ચેન્સૉ",
+    "category": "gardening-forestry",
+    "hero_image": "/mechnova/banner/banner-m.webp",
+    "error_image": "/mechnova/products/chainsaw/BCS25A-10SN.webp",
+    "models": [
+      {
+        "code": "MCS25A-10SN",
+        "name": "પેટ્રોલ ચેન્સૉ",
+        "id": "1",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/chainsaw/BCS25A-10SN.webp",
+        "specifications": "ઈન્જિન: પેટ્રોલ, 2-સ્ટ્રોક, 25CC\nમહત્તમ શક્તિ: 1.0HP\nગાઇડ બાર: 10\"\nચેન: 3/8\" x .050\"\nફ્યુઅલ ટેંક ક્ષમતા: ml\nઑઇલ ટેંક ક્ષમતા: ml\nમહત્તમ RPM: પ્રતિ મિનિટ\nઈંધણ મિશ્રણ: સિંથેટિક ઑઇલ માટે 40:1 અને મિનરલ ઑઇલ માટે 25:1"
+      },
+      {
+        "code": "MCS42A-16SN",
+        "name": "પેટ્રોલ ચેન્સૉ",
+        "id": "2",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/chainsaw/BCS25A-10SN.webp",
+        "specifications": "ઈન્જિન: પેટ્રોલ, 2-સ્ટ્રોક, 42CC\nમહત્તમ શક્તિ: 2.1HP\nગાઇડ બાર: 16\"\nચેન: 3/8\" x .050\"\nફ્યુઅલ ટેંક ક્ષમતા: 300 ml\nઑઇલ ટેંક ક્ષમતા: 210 ml\nમહત્તમ RPM: 13000 પ્રતિ મિનિટ\nઈંધણ મિશ્રણ: સિંથેટિક ઑઇલ માટે 40:1 અને મિનરલ ઑઇલ માટે 25:1"
+      },
+      {
+        "code": "MCS53A-18SN",
+        "name": "પેટ્રોલ ચેન્સૉ",
+        "id": "3",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/chainsaw/BCS25A-10SN.webp",
+        "specifications": "ઈન્જિન: પેટ્રોલ, 2-સ્ટ્રોક, 50.8CC\nમહત્તમ શક્તિ: 2.8HP\nગાઇડ બાર: 18\"\nચેન: .325\"\nફ્યુઅલ ટેંક ક્ષમતા: 550 ml\nઑઇલ ટેંક ક્ષમતા: 260 ml\nમહત્તમ RPM: 12500 પ્રતિ મિનિટ\nઈંધણ મિશ્રણ: સિંથેટિક ઑઇલ માટે 40:1 અને મિનરલ ઑઇલ માટે 25:1"
+      },
+      {
+        "code": "MCS58A-20SN",
+        "name": "પેટ્રોલ ચેન્સૉ",
+        "id": "4",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/chainsaw/BCS25A-10SN.webp",
+        "specifications": "ઈન્જિન: પેટ્રોલ, 2-સ્ટ્રોક, 54CC\nમહત્તમ શક્તિ: 3.2HP\nગાઇડ બાર: 18\"\nચેન: .325\"\nફ્યુઅલ ટેંક ક્ષમતા: 550 ml\nઑઇલ ટેંક ક્ષમતા: 260 ml\nમહત્તમ RPM: 12500 પ્રતિ મિનિટ\nઈંધણ મિશ્રણ: સિંથેટિક ઑઇલ માટે 40:1 અને મિનરલ ઑઇલ માટે 25:1"
+      },
+      {
+        "code": "MCSE1500A-16SN-1",
+        "name": "ઇલેક્ટ્રિક ચેન્સૉ",
+        "id": "5",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/chainsaw/BCSE1500A-16SN-110V.webp",
+        "specifications": "મોટર: ઇલેક્ટ્રિક, 110V, 50/60Hz\nમહત્તમ શક્તિ: 1500W\nગાઇડ બાર: 16\"\nઑઇલ ટેંક ક્ષમતા: 120 ml\nમહત્તમ ચેન ઝડપ: 15m/s"
+      },
+      {
+        "code": "MCSE1500A-16SN-2",
+        "name": "ઇલેક્ટ્રિક ચેન્સૉ",
+        "id": "6",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/chainsaw/BCSE1500A-16SN-110V.webp",
+        "specifications": "મોટર: ઇલેક્ટ્રિક, 220V, 50/60Hz\nમહત્તમ શક્તિ: 1500W\nગાઇડ બાર: 16\"\nઑઇલ ટેંક ક્ષમતા: 120 ml\nમહત્તમ ચેન ઝડપ: 13.5m/s"
+      },
+      {
+        "code": "MCSE1800A-18SN-1",
+        "name": "ઇલેક્ટ્રિક ચેન્સૉ",
+        "id": "7",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/chainsaw/BCSE1500A-16SN-110V.webp",
+        "specifications": "મોટર: ઇલેક્ટ્રિક, 110V, 50/60Hz\nમહત્તમ શક્તિ: 2000W\nગાઇડ બાર: 18\"\nઑઇલ ટેંક ક્ષમતા: 120 ml\nમહત્તમ ચેન ઝડપ: 13.5m/s"
+      },
+      {
+        "code": "MCSE2000A-18SN-2",
+        "name": "ઇલેક્ટ્રિક ચેન્સૉ",
+        "id": "8",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/chainsaw/BCSE1500A-16SN-110V.webp",
+        "specifications": "મોટર: ઇલેક્ટ્રિક, 220V, 60Hz\nમહત્તમ શક્તિ: 2000W\nગાઇડ બાર: 18\"\nઑઇલ ટેંક ક્ષમતા: 120 ml\nમહત્તમ ચેન ઝડપ: 13.5m/s"
+      },
+      {
+        "code": "MCSE2500A-20SN-2",
+        "name": "ઇલેક્ટ્રિક ચેન્સૉ",
+        "id": "9",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/chainsaw/BCSE1500A-16SN-110V.webp",
+        "specifications": "મોટર: ઇલેક્ટ્રિક, 220V, 60Hz\nમહત્તમ શક્તિ: 2500W\nગાઇડ બાર: 20\"\nઑઇલ ટેંક ક્ષમતા: 120 ml\nમહત્તમ ચેન ઝડપ: 13.5m/s"
+      },
+      {
+        "code": "MPP750A-8SN-1",
+        "name": "ઇલેક્ટ્રિક પોલ પ્રૂનર",
+        "id": "10",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/chainsaw/BPPE750A-8SN.webp",
+        "specifications": "મોટર: ઇલેક્ટ્રિક, 110V, 50/60Hz\nમહત્તમ શક્તિ: 750W\nગાઇડ બાર: 8\"\nઑઇલ ટેંક ક્ષમતા: 80 ml\nકુલ લંબાઈ: 2m થી 2.8m"
+      },
+      {
+        "code": "MPP750A-8SN-2",
+        "name": "ઇલેક્ટ્રિક પોલ પ્રૂનર",
+        "id": "11",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/chainsaw/BPPE750A-8SN.webp",
+        "specifications": "મોટર: ઇલેક્ટ્રિક, 220V, 50/60Hz\nમહત્તમ શક્તિ: 750W\nગાઇડ બાર: 8\"\nઑઇલ ટેંક ક્ષમતા: 80 ml\nકુલ લંબાઈ: 2m થી 2.8m"
+      }
+    ]
+  },
+  
+  "hedge-trimmer": {
+    "id": "2",
+    "name": "હેજ ટ્રિમર",
+    "category": "gardening-forestry",
+    "description": "બાગબાની અને લેન્ડસ્કેપિંગ માટે પ્રોફેશનલ હેજ ટ્રિમર્સ",
+    "hero_image": "/mechnova/products/hedge-trimmer/hero-hedge-trimmer.webp",
+    "error_image": "/mechnova/products/hedge-trimmer/BHT600A.webp",
+    "models": [
+      {
+        "code": "MHT600A",
+        "name": "પેટ્રોલ હેજ ટ્રિમર",
+        "id": "1",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/hedge-trimmer/BHT600A.webp",
+        "specifications": "ઈન્જિન: 26CC, પેટ્રોલ, 2-સ્ટ્રોક\nમહત્તમ શક્તિ: 1.0HP\nબ્લેડ લંબાઈ: 600 mm\nડબલ એક્શન કટિંગ"
+      }
+    ]
+  },
+  "blower": {
+    "id": "3",
+    "name": "બ્લોअर",
+    "category": "gardening-forestry",
+    "description": "સફાઈ માટે શક્તિશાળી બ્લોअर",
+    "hero_image": "/mechnova/products/blower/hero-blower.webp",
+    "error_image": "/mechnova/products/blower/BB43BA.webp",
+    "models": [
+      {
+        "code": "MB26A",
+        "name": "પેટ્રોલ બ્લોअर",
+        "id": "1",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/blower/BB26A.webp",
+        "specifications": "ઈન્જિન: 25.4CC પેટ્રોલ, 2-સ્ટ્રોક\nમહત્તમ શક્તિ: 1.0HP @ 7500RPM\nઈંધણ મિશ્રણ: સિંથેટિક ઑઇલ માટે 40:1 અને મિનરલ ઑઇલ માટે 25:1\nટેંક ક્ષમતા: 0.45 લિટર\nકાર્બ્યુરેટર: ડાયાફ્રામ\nમજબૂત એગ્ઝોસ્ટ\nસ્ટાર્ટિંગ પ્રકાર: મેન્યુઅલ રીકોઈલ\nએર વોલ્યુમ: 0.17m³/s અથવા 612m³/કલાક"
+      },
+      {
+        "code": "MB43BA",
+        "name": "પેટ્રોલ બેકપેક બ્લોअर",
+        "id": "2",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/blower/BB43BA.webp",
+        "specifications": "ઈન્જિન: 42.7CC, પેટ્રોલ, 2-સ્ટ્રોક\nમહત્તમ શક્તિ: 1.7HP @ 6500RPM\nએર વોલ્યુમ: 0.28m³/s અથવા 1008 m³/કલાક\nકાર્બ્યુરેટર પ્રકાર: ડાયાફ્રામ\nટેંક ક્ષમતા: 1 લિટર\nથ્રોટલ કંટ્રોલ: હેન્ડલ પર"
+      },
+      {
+        "code": "MVB26A",
+        "name": "પેટ્રોલ બ્લો-વેક",
+        "id": "3",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/blower/BVB26A.webp",
+        "specifications": "ઈન્જિન: 25.4CC પેટ્રોલ, 2-સ્ટ્રોક\nમહત્તમ શક્તિ: 1.0HP @ 7500RPM\nઈંધણ મિશ્રણ: સિંથેટિક ઑઇલ માટે 40:1 અને મિનરલ ઑઇલ માટે 25:1\nટેંક ક્ષમતા: 0.45 લિટર\nકાર્બ્યુરેટર: ડાયાફ્રામ\nમજબૂત એગ્ઝોસ્ટ\nસ્ટાર્ટિંગ પ્રકાર: મેન્યુઅલ રીકોઈલ\nએર વોલ્યુમ: 0.17m³/s અથવા 612m³/કલાક"
+      }
+    ]
+  },
+  "earth-auger": {
+    "id": "4",
+    "name": "અર્થ ઑગર",
+    "category": "gardening-forestry",
+    "description": "છેદ ડ્રિલિંગ માટે અર્થ ઑગર",
+    "hero_image": "/mechnova/products/earth-auger/hero-earth-auger.webp",
+    "error_image": "/mechnova/products/earth-auger/BEA43A-200.webp",
+    "models": [
+      {
+        "code": "MEA43A-200",
+        "name": "પેટ્રોલ અર્થ ઑગર",
+        "id": "1",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/earth-auger/BEA43A-200.webp",
+        "specifications": "ઈન્જિન: પેટ્રોલ, 2-સ્ટ્રોક, 43CC, 1.7HP\nએક ઓપરેટર\n200 mm વ્યાસવાળા સિંગલ ડ્રિલ સાથે"
+      },
+      {
+        "code": "MEA52A-200",
+        "name": "પેટ્રોલ અર્થ ઑગર",
+        "id": "2",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/earth-auger/BEA52A-200.webp",
+        "specifications": "ઈન્જિન: પેટ્રોલ, 2-સ્ટ્રોક, 52CC, 2.0HP\nએક ઓપરેટર\n200 mm વ્યાસવાળા સિંગલ ડ્રિલ સાથે"
+      }
+    ]
+  },
+
+  
+  "lawn-mower": {
+    "id": "5",
+    "name": "લોન મોઅર",
+    "category": "gardening-forestry",
+    "description": "લોન જાળવણી માટે પ્રોફેશનલ લોન મોઅર્સ",
+    "hero_image": "/mechnova/products/lawn-mower/hero-lawn-mower.webp",
+    "error_image": "/mechnova/products/lawn-mower/BLME320RA-1.webp",
+    "models": [
+      {
+        "code": "MLME320RA-1",
+        "name": "ઇલેક્ટ્રિક લોન મોઅર",
+        "id": "1",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/lawn-mower/BLME320RA-1.webp",
+        "specifications": "ડ્રાઇવ પ્રકાર: મેન્યુઅલ\nવોલ્ટેજ: 110V - 50/60Hz\nઇલેક્ટ્રિક મોટર: 1200W મહત્તમ શક્તિ\nડિસ્ચાર્જ ફંક્શન: પિક-અપ સાથે રિયર\nહેન્ડલ: સ્ટાન્ડર્ડ\nફ્રન્ટ કવર: નહીં"
+      },
+      {
+        "code": "MLME320RA-2",
+        "name": "ઇલેક્ટ્રિક લોન મોઅર",
+        "id": "2",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/lawn-mower/BLME320RA-2.webp",
+        "specifications": "ડ્રાઇવ પ્રકાર: મેન્યુઅલ\nવોલ્ટેજ: 220V - 50/60Hz\nઇલેક્ટ્રિક મોટર: 1200W મહત્તમ શક્તિ\nડિસ્ચાર્જ ફંક્શન: પિક-અપ સાથે રિયર\nહેન્ડલ: સ્ટાન્ડર્ડ\nફ્રન્ટ કવર: નહીં"
+      },
+      {
+        "code": "MLM430RA",
+        "name": "પેટ્રોલ લોન મોઅર",
+        "id": "3",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/lawn-mower/BLM430RA.webp",
+        "specifications": "ડ્રાઇવ પ્રકાર: મેન્યુઅલ\nડિસ્ચાર્જ ફંક્શન: 2-ઈન-1 રિયર અને પિક-અપ\nહેન્ડલ: સ્ટાન્ડર્ડ\nફ્રન્ટ કવર: નહીં\nડેક ક્લીનિંગ એટેચમેન્ટ: નહીં"
+      },
+      {
+        "code": "MLM430RTA",
+        "name": "પેટ્રોલ લોન મોઅર",
+        "id": "4",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/lawn-mower/BLM430RTA.webp",
+        "specifications": "ડ્રાઇવ પ્રકાર: મેન્યુઅલ\nડિસ્ચાર્જ ફંક્શન: 4-ઈન-1 — રિયર, સાઇડ, કલેક્શન, માલ્ચિંગ\nહેન્ડલ: રબર ગ્રિપ\nફ્રન્ટ કવર: હા\nડેક ક્લીનિંગ એટેચમેન્ટ: હા"
+      },
+      {
+        "code": "MLM530RA",
+        "name": "પેટ્રોલ લોન મોઅર",
+        "id": "5",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/lawn-mower/BLM530RTA.webp",
+        "specifications": "ઈન્જિન: 166CC પેટ્રોલ\nકટિંગ પહોળાઈ: 21\"\nકટિંગ ઊંચાઈ: 30–80mm (6 કેન્દ્રિય એડજસ્ટમેન્ટ વિકલ્પ)\nડિસ્ચાર્જ વિકલ્પ: રિયર ડિસ્ચાર્જ, કલેક્શન, સાઇડ ડિસ્ચાર્જ અને માલ્ચિંગ — 4-ઈન-1\nકલેક્શન ક્ષમતા: 70 લિટર\nપ્રોપલ્શન પ્રકાર: મેન્યુઅલ\nહેન્ડલબાર: રબર હેન્ડલબાર\nવીલ્સ: ફ્રન્ટ 8\" અને રિયર 10\""
+      },
+      {
+        "code": "MLM530RTA",
+        "name": "પેટ્રોલ લોન મોઅર",
+        "id": "6",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/lawn-mower/BLM530RTA.webp",
+        "specifications": "ઈન્જિન: 166CC પેટ્રોલ\nકટિંગ પહોળાઈ: 21\"\nકટિંગ ઊંચાઈ: 20–80mm (8 કેન્દ્રિય એડજસ્ટમેન્ટ વિકલ્પ)\nડિસ્ચાર્જ વિકલ્પ: રિયર ડિસ્ચાર્જ, કલેક્શન, સાઇડ ડિસ્ચાર્જ અને માલ્ચિંગ\nકલેક્શન ક્ષમતા: 70 લિટર\nપ્રોપલ્શન પ્રકાર: સેલ્ફ-પ્રોપેલ્ડ\nહેન્ડલબાર: રબર હેન્ડલબાર\nવીલ્સ: ફ્રન્ટ 8\" અને રિયર 10\""
+      },
+      {
+        "code": "MLM560RA",
+        "name": "પેટ્રોલ લોન મોઅર",
+        "id": "7",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/lawn-mower/BLM560RA.webp",
+        "specifications": "ઈન્જિન: 166CC પેટ્રોલ\nકટિંગ પહોળાઈ: 22\"\nકટિંગ ઊંચાઈ: 25–75mm (7 કેન્દ્રિય એડજસ્ટમેન્ટ વિકલ્પ)\nડિસ્ચાર્જ વિકલ્પ: રિયર ડિસ્ચાર્જ, કલેક્શન, સાઇડ ડિસ્ચાર્જ અને માલ્ચિંગ\nકલેક્શન ક્ષમતા: 65 લિટર\nપ્રોપલ્શન પ્રકાર: મેન્યુઅલ\nહેન્ડલબાર: રબર હેન્ડલબાર\nવીલ્સ: ફ્રન્ટ 8\" અને રિયર 10\""
+      },
+      {
+        "code": "MLM560RTA",
+        "name": "પેટ્રોલ લોન મોઅર",
+        "id": "8",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/lawn-mower/BLM560RTA.webp",
+        "specifications": "ઈન્જિન: 166CC પેટ્રોલ\nકટિંગ પહોળાઈ: 22\"\nકટિંગ ઊંચાઈ: 25–75mm (7 કેન્દ્રિય એડજસ્ટમેન્ટ વિકલ્પ)\nડિસ્ચાર્જ વિકલ્પ: રિયર ડિસ્ચાર્જ, કલેક્શન, સાઇડ ડિસ્ચાર્જ અને માલ્ચિંગ\nકલેક્શન ક્ષમતા: 65 લિટર\nપ્રોપલ્શન પ્રકાર: સેલ્ફ-પ્રોપેલ્ડ\nહેન્ડલબાર: રબર હેન્ડલબાર\nવીલ્સ: ફ્રન્ટ 8\" અને રિયર 10\""
+      }
+    ]
+  },
+  "brushcutter": {
+    "id": "6",
+    "name": "બ્રશ કટર",
+    "category": "gardening-forestry",
+    "description": "વનસ્પતિ વ્યવસ્થાપન માટે પ્રોફેશનલ બ્રશ કટર",
+    "hero_image": "/mechnova/products/brushcutter/hero-brushcutter.webp",
+    "error_image": "/mechnova/products/brushcutter/BBC26DA.webp",
+    "models": [
+      {
+        "code": "MBC26DA",
+        "name": "પેટ્રોલ બ્રશ કટર",
+        "id": "1",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/brushcutter/BBC26DA.webp",
+        "specifications": "ઈન્જિન: પેટ્રોલ, 2-સ્ટ્રોક, 25.4CC\nમહત્તમ શક્તિ: 1.0HP\nઈંધણ મિશ્રણ: સિંથેટિક ઑઇલ 40:1, મિનરલ ઑઇલ 25:1\nટેંક ક્ષમતા: 0.7 લિટર\nકાર્બ્યુરેટર: ડાયાફ્રામ\nમજબૂત એગ્ઝોસ્ટ\nસ્ટાર્ટિંગ પ્રકાર: મેન્યુઅલ રીકોઈલ\nશાફ્ટ વ્યાસ: 26 mm\nD-હેન્ડલ"
+      },
+      {
+        "code": "MBC33DA",
+        "name": "પેટ્રોલ બ્રશ કટર",
+        "id": "2",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/brushcutter/BBC33DA.webp",
+        "specifications": "ઈન્જિન: પેટ્રોલ, 2-સ્ટ્રોક, 33.0CC\nમહત્તમ શક્તિ: 1.3HP\nઈંધણ મિશ્રણ: સિંથેટિક ઑઇલ 40:1, મિનરલ ઑઇલ 25:1\nટેંક ક્ષમતા: 0.7 લિટર\nકાર્બ્યુરેટર: ડાયાફ્રામ\nમજબૂત એગ્ઝોસ્ટ\nસ્ટાર્ટિંગ પ્રકાર: મેન્યુઅલ રીકોઈલ\nશાફ્ટ વ્યાસ: 26 mm\nD-હેન્ડલ"
+      },
+      {
+        "code": "MBC43A",
+        "name": "પેટ્રોલ બ્રશ કટર",
+        "id": "3",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/brushcutter/BBC43A.webp",
+        "specifications": "ઈન્જિન: પેટ્રોલ, 2-સ્ટ્રોક, 42.7CC\nમહત્તમ શક્તિ: 1.7HP\nઈંધણ મિશ્રણ: સિંથેટિક ઑઇલ 40:1, મિનરલ ઑઇલ 25:1\nટેંક ક્ષમતા: 0.8 લિટર\nકાર્બ્યુરેટર: ડાયાફ્રામ\nમજબૂત એગ્ઝોસ્ટ\nસ્ટાર્ટિંગ પ્રકાર: મેન્યુઅલ રીકોઈલ\nશાફ્ટ વ્યાસ: 26 mm\nએર્ગონომિક સ્પ્લિટ હેન્ડલબાર"
+      },
+      {
+        "code": "MBC52A",
+        "name": "પેટ્રોલ બ્રશ કટર",
+        "id": "4",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/brushcutter/BBC52A.webp",
+        "specifications": "ઈન્જિન: પેટ્રોલ, 2-સ્ટ્રોક, 51.6CC\nમહત્તમ શક્તિ: 2.0HP\nઈંધણ મિશ્રણ: સિંથેટિક ઑઇલ 40:1, મિનરલ ઑઇલ 25:1\nટેંક ક્ષમતા: 0.8 લિટર\nકાર્બ્યુરેટર: ડાયાફ્રામ\nમજબૂત એગ્ઝોસ્ટ\nસ્ટાર્ટિંગ પ્રકાર: મેન્યુઅલ રીકોઈલ\nશાફ્ટ વ્યાસ: 26 mm\nએર્ગონომિક સ્પ્લિટ હેન્ડલબાર"
+      },
+      {
+        "code": "MBC26MTA",
+        "name": "મલ્ટી-ફંક્શન પેટ્રોલ બ્રશ કટર",
+        "id": "5",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/brushcutter/BBC26MTA.webp",
+        "specifications": "ઈન્જિન: પેટ્રોલ, 2-સ્ટ્રોક, 26CC\nમહત્તમ શક્તિ: 1.0HP\nઈંધણ મિશ્રણ: સિંથેટિક 40:1, મિનરલ 25:1\nટેંક ક્ષમતા: 0.7 લિટર\nકાર્બ્યુરેટર: ડાયાફ્રામ\nમજબૂત એગ્ઝોસ્ટ\nસ્ટાર્ટિંગ પ્રકાર: મેન્યુઅલ રીકોઈલ\nશાફ્ટ વ્યાસ: 26 mm\nએર્ગონომિક D-હેન્ડલ"
+      },
+      {
+        "code": "MBCE1000DA-1",
+        "name": "ઇલેક્ટ્રિક બ્રશ કટર",
+        "id": "6",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/brushcutter/BBCE1000DA-1.webp",
+        "specifications": "મોટર: ઇલેક્ટ્રિક, 110V, 60Hz\nમહત્તમ શક્તિ: 1.0kW\nલૂપ D-હેન્ડલ\nસ્ટીલ શાફ્ટ, સ્પ્લિટ ડિઝાઇન"
+      },
+      {
+        "code": "MBCE1000DA-2",
+        "name": "ઇલેક્ટ્રિક બ્રશ કટર",
+        "id": "7",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/brushcutter/BBCE1000DA-2.webp",
+        "specifications": "મોટર: ઇલેક્ટ્રિક, 220V, 60Hz\nમહત્તમ શક્તિ: 1.4kW\nલૂપ D-હેન્ડલ\nસ્ટીલ શાફ્ટ, સ્પ્લિટ ડિઝાઇન"
+      }
+    ]
+  },
+
+  
+  "multi-tool": {
+    "id": "7",
+    "name": "મલ્ટી ટૂલ",
+    "category": "gardening-forestry",
+    "description": "બાગવાણી માટે બહુઉપયોગી સાધન",
+    "hero_image": "/mechnova/products/multi-tool/hero-multi-tool.webp",
+    "models": []
+  },
+  "knapsack-sprayer": {
+    "id": "1",
+    "name": "નૅપસૅક સ્પ્રેયર",
+    "category": "fumigation",
+    "description": "ફ્યૂમિગેશન અને કીટ નિયંત્રણ માટે પ્રોફેશનલ સ્પ્રેયર",
+    "hero_image": "/mechnova/products/fumigation/hero-sprayer.webp",
+    "error_image": "/mechnova/products/fumigation/BS26BA.webp",
+    "models": [
+      {
+        "code": "MS26BA",
+        "name": "પીતળ પમ્પવાળું પેટ્રોલ બેકપેક સ્પ્રેયર",
+        "id": "1",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/fumigation/BS26BA.webp",
+        "specifications": "ઇન્જિન: 25.4CC પેટ્રોલ, 2-સ્ટ્રોક\nમહત્તમ શક્તિ: 1.0HP\nઇંધણ ટૅન્ક ક્ષમતા: 0.6 લિટર\nસ્પ્રે ટૅન્ક ક્ષમતા: 25 લિટર\nકાર્ય દબાણ: 215–355 PSI\nસ્પ્રે વોલ્યુમ: 5–8 લિટર/મિનિટ\nપમ્પ પ્રકાર: હાઈ પ્રેશર પ્લંજર પમ્પ\nપમ્પ સામગ્રી: પીતળ\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉઈલ"
+      },
+      {
+        "code": "MSBE18VBA-20",
+        "name": "કોડલેસ બેકપેક સ્પ્રેયર",
+        "id": "2",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/fumigation/BSBE18VBA-20.webp",
+        "specifications": "બેટરી: 18V લિથિયમ-આઇઓન - 4.0Ah\nચાર્જર: 110~220V\nટૅન્ક ક્ષમતા: 20 લિટર\nસ્પ્રે વોલ્યુમ: 2.8 લિટર/મિનિટ\nપમ્પ પ્રકાર: ઓટોમેટિક પમ્પ"
+      }
+    ]
+  },
+  "diesel-generator": {
+    "id": "1",
+    "name": "ડીઝલ જનરેટર",
+    "category": "diesel-machines",
+    "description": "ઉદ્યોગ અને વ્યાવસાયિક ઉપયોગ માટે ડીઝલ જનરેટર",
+    "hero_image": "/mechnova/products/diesel-generator/hero-diesel-generator.webp",
+    "error_image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+    "models": [
+      {
+        "code": "MDG2.0ASD-60",
+        "name": "ડીઝલ જનરેટર",
+        "id": "1",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+        "specifications": "મહત્તમ શક્તિ: 2.0 kVA\nરેટેડ શક્તિ: 1.8 kVA\nસ્ટેટર કૉઈલ: 100% કોપર\nવોલ્ટેજ: 110V/220V ડ્યુઅલ વોલ્ટેજ - 60Hz\nઇન્જિન: 211cc, 5HP, ડીઝલ, 4-સ્ટ્રોક\n50% લોડ પર રનટાઇમ: 10 કલાક\nફ્યુઅલ ટૅન્ક ક્ષમતા: 11.0 લિટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉઈલ\nતેલ રિઝર્વોયર ક્ષમતા: 750 ml"
+      },
+      {
+        "code": "MD1.7ASD-50",
+        "name": "ડીઝલ જનરેટર",
+        "id": "2",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+        "specifications": "મહત્તમ શક્તિ: 1.7 kVA\nરેટેડ શક્તિ: 1.5 kVA\nસ્ટેટર કૉઈલ: 100% કોપર\nવોલ્ટેજ: 110V/220V ડ્યુઅલ વોલ્ટેજ - 50Hz\nઇન્જિન: 211cc, 5HP, ડીઝલ, 4-સ્ટ્રોક\n50% લોડ પર રનટાઇમ: 10 કલાક\nફ્યુઅલ ટૅન્ક ક્ષમતા: 11.0 લિટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉઈલ\nતેલ રિઝર્વોયર ક્ષમતા: 750 ml"
+      },
+      {
+        "code": "MDG4.2ASD-60",
+        "name": "ડીઝલ જનરેટર",
+        "id": "3",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+        "specifications": "મહત્તમ શક્તિ: 4.2 kVA\nરેટેડ શક્તિ: 3.8 kVA\nસ્ટેટર કૉઈલ: 100% કોપર\nવોલ્ટેજ: 110V/220V ડ્યુઅલ વોલ્ટેજ - 60Hz\nઇન્જિન: 406cc, 10HP, ડીઝલ, 4-સ્ટ્રોક\n50% લોડ પર રનટાઇમ: 8 કલાક\nફ્યુઅલ ટૅન્ક ક્ષમતા: 11.0 લિટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉઈલ\nતેલ રિઝર્વોયર ક્ષમતા: 1.65 લિટર"
+      },
+      {
+        "code": "MDG3.6ASD-50",
+        "name": "ડીઝલ જનરેટર",
+        "id": "4",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+        "specifications": "મહત્તમ શક્તિ: 3.6 kVA\nરેટેડ શક્તિ: 3.4 kVA\nસ્ટેટર કૉઈલ: 100% કોપર\nવોલ્ટેજ: 110V/220V ડ્યુઅલ વોલ્ટેજ - 50Hz\nઇન્જિન: 406cc, 10HP, ડીઝલ, 4-સ્ટ્રોક\n50% લોડ પર રનટાઇમ: 8 કલાક\nફ્યુઅલ ટૅન્ક ક્ષમતા: 11.0 લિટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉઈલ\nતેલ રિઝર્વોયર ક્ષમતા: 1.65 લિટર"
+      },
+      {
+        "code": "MDG6.0ASD-60",
+        "name": "ડીઝલ જનરેટર",
+        "id": "5",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+        "specifications": "મહત્તમ શક્તિ: 6.0 kVA\nરેટેડ શક્તિ: 5.5 kVA\nસ્ટેટર કૉઈલ: 100% કોપર\nવોલ્ટેજ: 110V/220V ડ્યુઅલ વોલ્ટેજ - 60Hz\nઇન્જિન: 456cc, 13HP, ડીઝલ, 4-સ્ટ્રોક\n50% લોડ પર રનટાઇમ: 6 કલાક\nફ્યુઅલ ટૅન્ક ક્ષમતા: 11.0 લિટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉઈલ\nતેલ રિઝર્વોયર ક્ષમતા: 1.65 લિટર"
+      },
+      {
+        "code": "MDG5.5ASD-50",
+        "name": "ડીઝલ જનરેટર",
+        "id": "6",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/diesel-generator/BDG2.0ASD-60.webp",
+        "specifications": "મહત્તમ શક્તિ: 5.5 kVA\nરેટેડ શક્તિ: 5.0 kVA\nસ્ટેટર કૉઈલ: 100% કોપર\nવોલ્ટેજ: 110V/220V ડ્યુઅલ વોલ્ટેજ - 50Hz\nઇન્જિન: 456cc, 13HP, ડીઝલ, 4-સ્ટ્રોક\n50% લોડ પર રનટાઇમ: 6 કલાક\nફ્યુઅલ ટૅન્ક ક્ષમતા: 11.0 લિટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉઈલ\nતેલ રિઝર્વોયર ક્ષમતા: 1.65 લિટર"
+      }
+    ]
+  },
+
+  "diesel-engine": {
+    "id": "2",
+    "name": "ડીઝલ એન્જિન",
+    "category": "diesel-machines",
+    "description": "ઉચ્ચ માંગવાળા ઉપયોગ માટે શક્તિશાળી અને વિશ્વસનીય ડીઝલ એન્જિન",
+    "hero_image": "/mechnova/products/diesel-engine/hero-diesel-engine.webp",
+    "error_image": "/mechnova/products/diesel-engine/BDE50A.webp",
+    "models": [
+      {
+        "code": "MDE50A",
+        "name": "ડીઝલ એન્જિન",
+        "id": "1",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/diesel-engine/BDE50A.webp",
+        "specifications": "ઇન્જિન: 211cc, 4-સ્ટ્રોક\nકૂલિંગ સિસ્ટમ: એર\nસિલિન્ડર વ્યાસ: 70 mm\nરેટેડ શક્તિ: 2.8kW / 3.75HP\nમહત્તમ શક્તિ: 3.3kW / 4.5HP\nફ્યુઅલ ટૅન્ક ક્ષમતા: 2.5 લિટર\nતેલ રિઝર્વોયર ક્ષમતા: 750 ml\nસ્ટાર્ટિંગ સિસ્ટમ: મેન્યુઅલ રીકૉઈલ\nમેન્યુઅલ સ્ટાર્ટ"
+      },
+      {
+        "code": "MDE70A",
+        "name": "ડીઝલ એન્જિન",
+        "id": "2",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/diesel-engine/BDE70A.webp",
+        "specifications": "ઇન્જિન: 296cc, 4-સ્ટ્રોક\nકૂલિંગ સિસ્ટમ: એર\nસિલિન્ડર વ્યાસ: 78 mm\nરેટેડ શક્તિ: 4.0kW / 5.4HP\nમહત્તમ શક્તિ: 4.8kW / 6.5HP\nફ્યુઅલ ટૅન્ક ક્ષમતા: 3.5 લિટર\nતેલ રિઝર્વોયર ક્ષમતા: 1100 ml\nસ્ટાર્ટિંગ સિસ્ટમ: મેન્યુઅલ રીકૉઈલ\nમેન્યુઅલ સ્ટાર્ટ"
+      },
+      {
+        "code": "MDE100A",
+        "name": "ડીઝલ એન્જિન",
+        "id": "3",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/diesel-engine/BDE100A.webp",
+        "specifications": "ઇન્જિન: 456cc, 4-સ્ટ્રોક\nકૂલિંગ સિસ્ટમ: એર\nસિલિન્ડર વ્યાસ: 88 mm\nરેટેડ શક્તિ: 6.9kW / 9.3HP\nમહત્તમ શક્તિ: 7.8kW / 10.5HP\nફ્યુઅલ ટૅન્ક ક્ષમતા: 5.5 લિટર\nતેલ રિઝર્વોયર ક્ષમતા: 1650 ml\nસ્ટાર્ટિંગ સિસ્ટમ: મેન્યુઅલ રીકૉઈલ\nમેન્યુઅલ સ્ટાર્ટ"
+      },
+      {
+        "code": "MDE100EA",
+        "name": "ડીઝલ એન્જિન",
+        "id": "4",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/diesel-engine/BDE100EA.webp",
+        "specifications": "ઇન્જિન: 456cc, 4-સ્ટ્રોક\nકૂલિંગ સિસ્ટમ: એર\nસિલિન્ડર વ્યાસ: 88 mm\nરેટેડ શક્તિ: 6.9kW / 9.3HP\nમહત્તમ શક્તિ: 7.8kW / 10.5HP\nફ્યુઅલ ટૅન્ક ક્ષમતા: 5.5 લિટર\nતેલ રિઝર્વોયર ક્ષમતા: 1650 ml\nસ્ટાર્ટિંગ સિસ્ટમ: ઇલેક્ટ્રિક / મેન્યુઅલ રીકૉઈલ\nઇલેક્ટ્રિક સ્ટાર્ટ"
+      }
+    ]
+  },
+  "diesel-water-pump": {
+    "id": "3",
+    "name": "ડીઝલ વોટર પંપ",
+    "category": "diesel-machines",
+    "description": "સિંચાઇ અને પાણી કાઢવા માટે ડીઝલ વોટર પંપ",
+    "hero_image": "/mechnova/products/diesel-water-pump/hero-diesel-water-pump.webp",
+    "error_image": "/mechnova/products/diesel-water-pump/BDWP2x2SA.webp",
+    "models": [
+      {
+        "code": "MDWP2x2SA",
+        "name": "ડીઝલ વોટર પંપ",
+        "id": "1",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/diesel-water-pump/BDWP2x2SA.webp",
+        "specifications": "પમ્પ પ્રકાર: સેલ્ફ-પ્રાઇમિંગ\nઇન્જિન: ડીઝલ, 211cc\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉઈલ\nમહત્તમ પમ્પિંગ ક્ષમતા: 22000 લિટર/કલાક\nસક્શન અને ડિસ્ચાર્જ વ્યાસ: 2 ઇંચ x 2 ઇંચ\nટોટલ લિફ્ટ: 15 મીટર\nસક્શન ઊંચાઈ: 7 મીટર\nફ્યુઅલ ટૅન્ક ક્ષમતા: 2.5 લિટર\nમેન્યુઅલ સ્ટાર્ટ"
+      },
+      {
+        "code": "MDWP3x3SA",
+        "name": "ડીઝલ વોટર પંપ",
+        "id": "2",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/diesel-water-pump/BDWP3x3SA.webp",
+        "specifications": "પમ્પ પ્રકાર: સેલ્ફ-પ્રાઇમિંગ\nઇન્જિન: ડીઝલ, 296cc\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉઈલ\nમહત્તમ પમ્પિંગ ક્ષમતા: 35000 લિટર/કલાક\nસક્શન અને ડિસ્ચાર્જ વ્યાસ: 3 ઇંચ x 3 ઇંચ\nટોટલ લિફ્ટ: 17 મીટર\nસક્શન ઊંચાઈ: 7 મીટર\nફ્યુઅલ ટૅન્ક ક્ષમતા: 3.5 લિટર\nમેન્યુઅલ સ્ટાર્ટ"
+      },
+      {
+        "code": "MDWP2x2CA",
+        "name": "ડીઝલ વોટર પંપ",
+        "id": "3",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/diesel-water-pump/BDWP2x2CA.webp",
+        "specifications": "પમ્પ પ્રકાર: સેલ્ફ-પ્રાઇમિંગ\nઇન્જિન: ડીઝલ, 396cc\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉઈલ\nમહત્તમ પમ્પિંગ ક્ષમતા: 25000 લિટર/કલાક\nસક્શન અને ડિસ્ચાર્જ વ્યાસ: 2 ઇંચ x 2 ઇંચ\nટોટલ લિફ્ટ: 70 મીટર\nસક્શન ઊંચાઈ: 5 મીટર\nફ્યુઅલ ટૅન્ક ક્ષમતા: 3.5 લિટર\nમેન્યુઅલ સ્ટાર્ટ"
+      }
+    ]
+  },
+  "electric-motor": {
+    "id": "1",
+    "name": "ઇલેક્ટ્રિક મોટર",
+    "category": "electric-machines",
+    "description": "ઉદ્યોગ અને ઘરના ઉપયોગ માટે શક્તિશાળી ઇલેક્ટ્રિક મોટર",
+    "hero_image": "/mechnova/products/electric-motor/hero-electric-motor.webp",
+    "error_image": "/mechnova/products/electric-motor/BEM100A-60.webp",
+    "models": [
+      {
+        "code": "MEM100A-60",
+        "name": "ઇલેક્ટ્રિક મોટર",
+        "id": "1",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/electric-motor/BEM100A-60.webp",
+        "specifications": "વોલ્ટેજ: 110V\nફ્રીક્વન્સી: 60Hz\nમહત્તમ શક્તિ: 1.0HP\nRPM: 3450"
+      },
+      {
+        "code": "MEM100A-50",
+        "name": "ઇલેક્ટ્રિક મોટર",
+        "id": "2",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/electric-motor/BEM100A-50.webp",
+        "specifications": "વોલ્ટેજ: 220V\nફ્રીક્વન્સી: 50Hz\nમહત્તમ શક્તિ: 1.0HP\nRPM: 2800"
+      }
+    ]
+  },
+
+  
+  "electric-pressure-washer": {
+    "id": "2",
+    "name": "ઇલેક્ટ્રિક પ્રેશર વૉશર",
+    "category": "electric-machines",
+    "description": "સફાઇ માટે શક્તિશાળી ઇલેક્ટ્રિક પ્રેશર વૉશર",
+    "hero_image": "/mechnova/products/pressure-washer/hero-electric-pressure-washer.webp",
+    "error_image": "/mechnova/products/pressure-washer/BPW1500A-50.webp",
+    "models": [
+      {
+        "code": "MPW1500A-50",
+        "name": "ઇલેક્ટ્રિક પ્રેશર વૉશર",
+        "id": "1",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/pressure-washer/BPW1500A-50.webp",
+        "specifications": "વોલ્ટેજ: 110V\nફ્રીક્વન્સી: 50Hz\nમહત્તમ શક્તિ: 1500W\nકાર્ય દબાણ: 75 બાર\nમહત્તમ દબાણ: 105 બાર"
+      }
+    ]
+  },
+  "gasoline-tiller": {
+    "id": "3",
+    "name": "પેટ્રોલ ટિલર",
+    "category": "electric-machines",
+    "description": "માટી તૈયાર કરવા માટે પેટ્રોલ ટિલર",
+    "hero_image": "/mechnova/products/tiller/hero-tiller.webp",
+    "error_image": "/mechnova/products/tiller/BTL170A.webp",
+    "models": [
+      {
+        "code": "MTL170A",
+        "name": "પેટ્રોલ ટિલર",
+        "id": "1",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/tiller/BTL170A.webp",
+        "specifications": "ઇન્જિન: 7HP\nગિયરબૉક્સ: 3 ગિયર્સ (2 આગળ + 1 રીવર્સ)\nપુલીઓ: 2\nટ્રાન્સમિશન: ડ્રાય ફ્રિક્શન ડિસ્ક"
+      }
+    ]
+  },
+  "gasoline-high-pressure-washer": {
+    "id": "4",
+    "name": "પેટ્રોલ હાઇ પ્રેશર વૉશર",
+    "category": "electric-machines",
+    "description": "ઘેરી અને ભારે સફાઇ માટે પેટ્રોલ હાઇ પ્રેશર વૉશર",
+    "hero_image": "/mechnova/products/high-pressure-washer/hero-gasoline-high-pressure-washer.webp",
+    "error_image": "/mechnova/products/high-pressure-washer/BGHP170A.webp",
+    "models": [
+      {
+        "code": "MGHP170A",
+        "name": "પેટ્રોલ હાઇ પ્રેશર વૉશર",
+        "id": "1",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/high-pressure-washer/BGHP170A.webp",
+        "specifications": "મહત્તમ દબાણ: 2500 PSI\nન્યૂનતમ દબાણ: 2000 PSI\nપાણીનો પ્રવાહ: 8.6 L/min\nપમ્પ પ્રકાર: એક્સિયલ પમ્પ"
+      }
+    ]
+  },
+
+  
+  "gasoline-engine": {
+    "id": "3",
+    "name": "પેટ્રોલ એન્જિન",
+    "category": "કૃષિ-ઉદ્યોગ",
+    "description": "કૃષિ અને ઔદ્યોગિક ઉપયોગ માટે પેટ્રોલ એન્જિન",
+    "hero_image": "/mechnova/products/gasoline-engine/hero-gasoline-engine.webp",
+    "error_image": "/mechnova/products/gasoline-engine/BE40A.webp",
+    "models": [
+        {
+            "code": "ME40A",
+            "name": "પેટ્રોલ એન્જિન",
+            "id": "1",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-engine/BE40A.webp",
+            "specifications": "ઇન્જિન: 4.0 HP, 4-સ્ટ્રોક, 113cc\nટેકનોલોજી: OHV, ઓવરહેડ વાલ્વ\nકૂલિંગ સિસ્ટમ: એર\nસિલિન્ડર વ્યાસ: 60*40 mm\nમહત્તમ શક્તિ: 4 HP\nઇંધણ ટાંકની ક્ષમતા: 2.0 લીટર\nતેલ રિઝર્વ ક્ષમતા: 350 ml\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ"
+        },
+        {
+            "code": "ME70A",
+            "name": "પેટ્રોલ એન્જિન",
+            "id": "2",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-engine/BE70A.webp",
+            "specifications": "ઇન્જિન: 7.0 HP, 4-સ્ટ્રોક, 210cc\nટેકનોલોજી: OHV, ઓવરહેડ વાલ્વ\nકૂલિંગ સિસ્ટમ: એર\nસિલિન્ડર વ્યાસ: 70*54 mm\nમહત્તમ શક્તિ: 7 HP\nઇંધણ ટાંકની ક્ષમતા: 3.6 લીટર\nતેલ રિઝર્વ ક્ષમતા: 600 ml\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ"
+        }
+    ]
+  },
+
+  "gasoline-generator": {
+    "id": "4",
+    "name": "પેટ્રોલ જનરેટર",
+    "category": "કૃષિ-ઉદ્યોગ",
+    "description": "ઘરેલૂ અને ઔદ્યોગિક ઉપયોગ માટે પેટ્રોલ જનરેટર",
+    "hero_image": "/mechnova/products/gasoline-generator/hero-gasoline-generator.webp",
+    "error_image": "/mechnova/products/gasoline-generator/BG1.2AS1-60.webp",
+    "models": [
+        {
+            "code": "MG1.2AS1-60",
+            "name": "પેટ્રોલ જનરેટર",
+            "id": "1",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-generator/BG1.2AS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 1.2 KW\nસામાન્ય શક્તિ: 1.1 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 110V - 60Hz\nઇન્જિન: 113cc - 4HP / OHV, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 12 કલાક\nઇંધણ ટાંકની ક્ષમતા: 9.6 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 350 ml"
+        },
+        {
+            "code": "MG1.2AS2-60",
+            "name": "પેટ્રોલ જનરેટર",
+            "id": "2",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-generator/BG1.2AS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 1.2 KW\nસામાન્ય શક્તિ: 1.1 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 220V - 60Hz\nઇન્જિન: 113cc - 4HP / OHV, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 12 કલાક\nઇંધણ ટાંકની ક્ષમતા: 9.6 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 350 ml"
+        },
+        {
+            "code": "MG1.0AS1-50",
+            "name": "પેટ્રોલ જનરેટર",
+            "id": "3",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-generator/BG1.2AS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 1.0 KW\nસામાન્ય શક્તિ: 0.9 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 110V - 50Hz\nઇન્જિન: 113cc - 4HP / OHV, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 12 કલાક\nઇંધણ ટાંકની ક્ષમતા: 9.6 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 350 ml"
+        },
+        {
+            "code": "MG1.0AS2-50",
+            "name": "પેટ્રોલ જનરેટર",
+            "id": "4",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-generator/BG1.2AS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 1.0 KW\nસામાન્ય શક્તિ: 0.9 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 220V - 50Hz\nઇન્જિન: 113cc - 4HP / OHV, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 12 કલાક\nઇંધણ ટાંકની ક્ષમતા: 9.6 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 350 ml"
+        },
+        {
+            "code": "MG3.0AS1-60",
+            "name": "પેટ્રોલ જનરેટર",
+            "id": "5",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 3.0 KW\nસામાન્ય શક્તિ: 2.8 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 110V - 60Hz\nઇન્જિન: 212cc - 7HP / OHV, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 12 કલાક\nઇંધણ ટાંકની ક્ષમતા: 15.0 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 600 ml"
+        },
+        {
+            "code": "MG3.0AS2-60",
+            "name": "પેટ્રોલ જનરેટર",
+            "id": "6",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 3.0 KW\nસામાન્ય શક્તિ: 2.8 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 220V - 60Hz\nઇન્જિન: 212cc - 7HP / OHV, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 12 કલાક\nઇંધણ ટાંકની ક્ષમતા: 15.0 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 600 ml"
+        },
+        {
+            "code": "MG2.7AS1-50",
+            "name": "પેટ્રોલ જનરેટર",
+            "id": "7",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 2.7 KW\nસામાન્ય શક્તિ: 2.5 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 110V - 50Hz\nઇન્જિન: 212cc - 7HP / OHV, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 12 કલાક\nઇંધણ ટાંકની ક્ષમતા: 15.0 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 600 ml"
+        },
+        {
+            "code": "MG2.7AS2-50",
+            "name": "પેટ્રોલ જનરેટર",
+            "id": "8",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 2.7 KW\nસામાન્ય શક્તિ: 2.5 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 220V - 50Hz\nઇન્જિન: 212cc - 7HP / OHV, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 12 કલાક\nઇંધણ ટાંકની ક્ષમતા: 15.0 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 600 ml"
+        },
+        {
+            "code": "MG6.5AS1-60",
+            "name": "પેટ્રોલ જનરેટર",
+            "id": "9",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 6.5 KW\nસામાન્ય શક્તિ: 6.0 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 110V - 60Hz\nઇન્જિન: 420cc - 15HP / OHV, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 12 કલાક\nઇંધણ ટાંકની ક્ષમતા: 25.0 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 1100 ml"
+        },
+        {
+            "code": "MG6.5AS2-60",
+            "name": "પેટ્રોલ જનરેટર",
+            "id": "10",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 6.5 KW\nસામાન્ય શક્તિ: 6.0 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 220V - 60Hz\nઇન્જિન: 420cc - 15HP / OHV, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 12 કલાક\nઇંધણ ટાંકની ક્ષમતા: 25.0 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 1100 ml"
+        },
+        {
+            "code": "MG5.8AS1-50",
+            "name": "પેટ્રોલ જનરેટર",
+            "id": "11",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 5.8 KW\nસામાન્ય શક્તિ: 5.4 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 110V - 50Hz\nઇન્જિન: 420cc - 15HP / OHV, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 12 કલાક\nઇંધણ ટાંકની ક્ષમતા: 25.0 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 1100 ml"
+        },
+        {
+            "code": "MG5.8AS2-50",
+            "name": "પેટ્રોલ જનરેટર",
+            "id": "12",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-generator/BG3.0AS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 5.8 KW\nસામાન્ય શક્તિ: 5.4 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 220V - 50Hz\nઇન્જિન: 420cc - 15HP / OHV, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 12 કલાક\nઇંધણ ટાંકની ક્ષમતા: 25.0 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 1100 ml"
+        }
+    ]
+  },
+
+  
+  "gasoline-inverter": {
+    "id": "5",
+    "name": "પેટ્રોલ ઇન્વર્ટર જનરેટર",
+    "category": "કૃષિ-ઉદ્યોગ",
+    "description": "સ્થિર અને કાર્યક્ષમ વીજળી માટે પેટ્રોલ ઇન્વર્ટર જનરેટર.",
+    "hero_image": "/mechnova/products/gasoline-inverter/hero-gasoline-inverter.webp",
+    "error_image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+    "models": [
+        {
+            "code": "MG2.2AiS1-60",
+            "name": "પેટ્રોલ ઇન્વર્ટર જનરેટર",
+            "id": "1",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 2.2 KW\nસામાન્ય શક્તિ: 2.0 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 110V - 60Hz\nઇન્જિન: 212cc - 7HP / OHV, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 16 કલાક\nઇંધણ ટાંકની ક્ષમતા: 15.0 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 600 ml"
+        },
+        {
+            "code": "MG2.2AiS2-60",
+            "name": "પેટ્રોલ ઇન્વર્ટર જનરેટર",
+            "id": "2",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 2.2 KW\nસામાન્ય શક્તિ: 2.0 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 220V - 60Hz\nઇન્જિન: 212cc - 7HP / OHV, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 16 કલાક\nઇંધણ ટાંકની ક્ષમતા: 15.0 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 600 ml"
+        },
+        {
+            "code": "MG2.2AiS1-50",
+            "name": "પેટ્રોલ ઇન્વર્ટર જનરેટર",
+            "id": "3",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 2.2 KW\nસામાન્ય શક્તિ: 2.0 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 110V - 50Hz\nઇન્જિન: 212cc - 7HP / OHV, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 16 કલાક\nઇંધણ ટાંકની ક્ષમતા: 15.0 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 600 ml"
+        },
+        {
+            "code": "MG2.2AiS2-50",
+            "name": "પેટ્રોલ ઇન્વર્ટર જનરેટર",
+            "id": "4",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 2.2 KW\nસામાન્ય શક્તિ: 2.0 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 220V - 50Hz\nઇન્જિન: 212cc - 7HP / OHV, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 16 કલાક\nઇંધણ ટાંકની ક્ષમતા: 15.0 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 600 ml"
+        },
+        {
+            "code": "MG3.7AiS1-60",
+            "name": "પેટ્રોલ ઇન્વર્ટર જનરેટર",
+            "id": "5",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 3.7 KW\nસામાન્ય શક્તિ: 3.5 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 110V - 60Hz\nઇન્જિન: 223cc - 8HP / OHV, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 15 કલાક\nઇંધણ ટાંકની ક્ષમતા: 15.0 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 600 ml"
+        },
+        {
+            "code": "MG3.7AiS2-60",
+            "name": "પેટ્રોલ ઇન્વર્ટર જનરેટર",
+            "id": "6",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 3.7 KW\nસામાન્ય શક્તિ: 3.5 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 220V - 60Hz\nઇન્જિન: 223cc - 8HP / OHV, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 15 કલાક\nઇંધણ ટાંકની ક્ષમતા: 15.0 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 600 ml"
+        },
+        {
+            "code": "MG3.7AiS1-50",
+            "name": "પેટ્રોલ ઇન્વર્ટર જનરેટર",
+            "id": "7",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 3.7 KW\nસામાન્ય શક્તિ: 3.5 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 110V - 50Hz\nઇન્જિન: 223cc - 8HP / OHV, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 15 કલાક\nઇંધણ ટાંકની ક્ષમતા: 15.0 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 600 ml"
+        },
+        {
+            "code": "MG3.7AiS2-50",
+            "name": "પેટ્રોલ ઇન્વર્ટર જનરેટર",
+            "id": "8",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-inverter/BG2.2AiS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 3.7 KW\nસામાન્ય શક્તિ: 3.5 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 220V - 50Hz\nઇન્જિન: 223cc - 8HP / OHV, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 15 કલાક\nઇંધણ ટાંકની ક્ષમતા: 15.0 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 600 ml"
+        },
+        {
+            "code": "MG2.0AiSS1-60",
+            "name": "પેટ્રોલ ઇન્વર્ટર જનરેટર",
+            "id": "9",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-inverter/BG2.0AiSS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 2.0 KW\nસામાન્ય શક્તિ: 1.8 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 110V - 60Hz\nઇન્જિન: 79.8cc - 3HP, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 10 કલાક\nઇંધણ ટાંકની ક્ષમતા: 4.0 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 350 ml"
+        },
+        {
+            "code": "MG2.0AiSS2-60",
+            "name": "પેટ્રોલ ઇન્વર્ટર જનરેટર",
+            "id": "10",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-inverter/BG2.0AiSS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 2.0 KW\nસામાન્ય શક્તિ: 1.8 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 220V - 60Hz\nઇન્જિન: 79.8cc - 3HP, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 10 કલાક\nઇંધણ ટાંકની ક્ષમતા: 4.0 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 350 ml"
+        },
+        {
+            "code": "MG2.0AiSS1-50",
+            "name": "પેટ્રોલ ઇન્વર્ટર જનરેટર",
+            "id": "11",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-inverter/BG2.0AiSS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 2.0 KW\nસામાન્ય શક્તિ: 1.8 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 110V - 50Hz\nઇન્જિન: 79.8cc - 3HP, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 10 કલાક\nઇંધણ ટાંકની ક્ષમતા: 4.0 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 350 ml"
+        },
+        {
+            "code": "MG2.0AiSS2-50",
+            "name": "પેટ્રોલ ઇન્વર્ટર જનરેટર",
+            "id": "12",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-inverter/BG2.0AiSS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 2.0 KW\nસામાન્ય શક્તિ: 1.8 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 220V - 50Hz\nઇન્જિન: 79.8cc - 3HP, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 10 કલાક\nઇંધણ ટાંકની ક્ષમતા: 4.0 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 350 ml"
+        },
+        {
+            "code": "MG3.3AiSS1-60",
+            "name": "પેટ્રોલ ઇન્વર્ટર જનરેટર",
+            "id": "13",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-inverter/BG3.3AiSS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 3.3 KW\nસામાન્ય શક્તિ: 3.0 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 110V - 60Hz\nઇન્જિન: 149cc - 6.5HP, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 6.5 કલાક\nઇંધણ ટાંકની ક્ષમતા: 4.3 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 350 ml"
+        },
+        {
+            "code": "MG3.3AiSS2-60",
+            "name": "પેટ્રોલ ઇન્વર્ટર જનરેટર",
+            "id": "14",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-inverter/BG3.3AiSS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 3.3 KW\nસામાન્ય શક્તિ: 3.0 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 220V - 60Hz\nઇન્જિન: 149cc - 6.5HP, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 6.5 કલાક\nઇંધણ ટાંકની ક્ષમતા: 4.3 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 350 ml"
+        },
+        {
+            "code": "MG3.3AiSS1-50",
+            "name": "પેટ્રોલ ઇન્વર્ટર જનરેટર",
+            "id": "15",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-inverter/BG3.3AiSS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 3.3 KW\nસામાન્ય શક્તિ: 3.0 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 110V - 50Hz\nઇન્જિન: 149cc - 6.5HP, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 6.5 કલાક\nઇંધણ ટાંકની ક્ષમતા: 4.3 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 350 ml"
+        },
+        {
+            "code": "MG3.3AiSS2-50",
+            "name": "પેટ્રોલ ઇન્વર્ટર જનરેટર",
+            "id": "16",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/gasoline-inverter/BG3.3AiSS1-60.webp",
+            "specifications": "મહત્તમ શક્તિ: 3.3 KW\nસામાન્ય શક્તિ: 3.0 KW\nસ્ટેટર કૉઇલ: 100% કોપર\nવોલ્ટેજ: 220V - 50Hz\nઇન્જિન: 149cc - 6.5HP, પેટ્રોલ, 4-સ્ટ્રોક\n50% લોડ પર ઑટონომી: 6.5 કલાક\nઇંધણ ટાંકની ક્ષમતા: 4.3 લીટર\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ\nતેલ રિઝર્વ ક્ષમતા: 350 ml"
+        }
+    ]
+  },
+
+  
+  "gasoline-water-pump": {
+    "id": "6",
+    "name": "પેટ્રોલ વોટર પંપ",
+    "category": "electric-machines",
+    "description": "સીંચાઈ અને પાણી ટ્રાન્સફર માટે ઉચ્ચ કામગીરી ધરાવતો પેટ્રોલ વોટર પંપ",
+    "hero_image": "/mechnova/products/gasoline-water-pump/hero-gasoline-water-pump.webp",
+    "error_image": "/mechnova/products/gasoline-water-pump/BGWP2x2SA.webp",
+    "models": [
+      {
+        "code": "MGWP2x2SA",
+        "name": "પેટ્રોલ વોટર પંપ",
+        "id": "1",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/gasoline-water-pump/BGWP2x2SA.webp",
+        "specifications": "ઇન્જિન: 5HP, 4-સ્ટ્રોક\nડિસ્ચાર્જ: 2 ઇંચ\nમહત્તમ પંપ ક્ષમતા: 25000 લીટર/કલાક\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ"
+      },
+      {
+        "code": "MGWP3x3SA",
+        "name": "પેટ્રોલ વોટર પંપ",
+        "id": "2",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/gasoline-water-pump/BGWP3x3SA.webp",
+        "specifications": "ઇન્જિન: 7HP, 4-સ્ટ્રોક\nડિસ્ચાર્જ: 3 ઇંચ\nમહત્તમ પંપ ક્ષમતા: 35000 લીટર/કલાક\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ"
+      },
+      {
+        "code": "MGWP4x4SA",
+        "name": "પેટ્રોલ વોટર પંપ",
+        "id": "3",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/gasoline-water-pump/BGWP4x4SA.webp",
+        "specifications": "ઇન્જિન: 7HP, 4-સ્ટ્રોક\nડિસ્ચાર્જ: 4 ઇંચ\nમહત્તમ પંપ ક્ષમતા: 45000 લીટર/કલાક\nસ્ટાર્ટિંગ સિસ્ટમ: રીકૉયલ"
+      }
+    ]
+  },
+  "battery-pruning-saw": {
+    "id": "7",
+    "name": "બેટરી પ્રૂનિંગ સૉ",
+    "category": "gardening-forestry",
+    "description": "છંટાઈ અને કાપ માટે હળવી અને કાર્યક્ષમ બેટરી પ્રૂનિંગ સૉ",
+    "hero_image": "/mechnova/products/battery-pruning-saw/hero-battery-pruning-saw.webp",
+    "error_image": "/mechnova/products/battery-pruning-saw/BBPS42VA.webp",
+    "models": [
+      {
+        "code": "MBPS42VA",
+        "name": "બેટરી પ્રૂનિંગ સૉ",
+        "id": "1",
+        "warranty": "12 મહિના",
+        "image": "/mechnova/products/battery-pruning-saw/BBPS42VA.webp",
+        "specifications": "બેટરી: 42V લિથિયમ-આયન\nબ્લેડની લંબાઈ: 8\"\nશોર સ્તર: ઓછું\nઉપયોગ: બાગવાણી, હળવી કાપ"
+      }
+    ]
+  },
+  "pressure-washer": {
+    "id": "2",
+    "name": "ઇલેક્ટ્રિક પ્રેશર વૉશર",
+    "category": "ઘરેલું",
+    "description": "ઉચ્ચ દબાણની સફાઈ માટે ઇલેક્ટ્રિક પ્રેશર વૉશર",
+    "hero_image": "/mechnova/products/pressure-washer/hero-pressure-washer.webp",
+    "error_image": "/mechnova/products/pressure-washer/BEPW1450A1.webp",
+    "models": [
+        {
+            "code": "MEPW1450A1",
+            "name": "ઇલેક્ટ્રિક પ્રેશર વૉશર",
+            "id": "1",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/pressure-washer/BEPW1450A1.webp",
+            "specifications": "મોટર: 1200W - 110V - 50/60Hz - બ્રશ મોટર\nરેટેડ પ્રેશર: 65 બાર\nમહત્તમ પ્રેશર: 100 બાર\nરેટેડ ફ્લો: 5.5 લી/મિનિટ"
+        },
+        {
+            "code": "MEPW1450A2",
+            "name": "ઇલેક્ટ્રિક પ્રેશર વૉશર",
+            "id": "2",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/pressure-washer/BEPW1450A2.webp",
+            "specifications": "મોટર: 1200W - 220V - 50/60Hz - બ્રશ મોટર\nરેટેડ પ્રેશર: 65 બાર\nમહત્તમ પ્રેશર: 100 બાર\nરેટેડ ફ્લો: 5.5 લી/મિનિટ"
+        },
+        {
+            "code": "MEPW1850A1",
+            "name": "ઇલેક્ટ્રિક પ્રેશર વૉશર",
+            "id": "3",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/pressure-washer/BEPW1850A1.webp",
+            "specifications": "મોટર: 1500W - 110V - 50/60Hz - બ્રશ મોટર\nરેટેડ પ્રેશર: 90 બાર\nમહત્તમ પ્રેશર: 130 બાર\nરેટેડ ફ્લો: 5.5 લી/મિનિટ"
+        },
+        {
+            "code": "MEPW1850A2",
+            "name": "ઇલેક્ટ્રિક પ્રેશર વૉશર",
+            "id": "4",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/pressure-washer/BEPW1850A2.webp",
+            "specifications": "મોટર: 1500W - 220V - 50/60Hz - બ્રશ મોટર\nરેટેડ પ્રેશર: 90 બાર\nમહત્તમ પ્રેશર: 130 બાર\nરેટેડ ફ્લો: 5.5 લી/મિનિટ"
+        },
+        {
+            "code": "MEPW2185A-1",
+            "name": "ઇલેક્ટ્રિક પ્રેશર વૉશર",
+            "id": "5",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/pressure-washer/BEPW2185A-1.webp",
+            "specifications": "મોટર: 1800W - 110V - 50/60Hz - બ્રશ મોટર\nરેટેડ પ્રેશર: 110 બાર\nમહત્તમ પ્રેશર: 150 બાર\nરેટેડ ફ્લો: 6.0 લી/મિનિટ"
+        },
+        {
+            "code": "MEPW2185A-2",
+            "name": "ઇલેક્ટ્રિક પ્રેશર વૉશર",
+            "id": "6",
+            "warranty": "12 મહિના",
+            "image": "/mechnova/products/pressure-washer/BEPW2185A-2.webp",
+            "specifications": "મોટર: 1800W - 220V - 60Hz - બ્રશ પ્રકાર\nરેટેડ પ્રેશર: 110 બાર\nમહત્તમ પ્રેશર: 150 બાર\nરેટેડ ફ્લો: 6.0 લી/મિનિટ"
+        }
+    ]
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -10,6 +10,7 @@ import categoryDataEn from '../category-en.json'
 import categoryDataBn from '../category-bn.json'
 import categoryDataMr from '../category-mr.json'
 import categoryDataTe from '../category-te.json'
+import categoryDataGj from '../category-gj.json'
 import detailedModelData from './detailedModelData.json'
 import modelDataEn from './modelData-en.json'
 import modelDataEs from './modelData-es.json'
@@ -17,6 +18,7 @@ import modelDataHi from './modelData-hi.json'
 import modelDataBn from './modelData-bn.json'
 import modelDataMr from './modelData-mr.json'
 import modelDataTe from './modelData-te.json'
+import modelDataGj from './modelData-gj.json'
 
 function ModelCard({ slug, model }) {
   const { t } = useTranslation()
@@ -64,8 +66,10 @@ export default function ProductSlugPage() {
   locale === 'en' ? categoryDataEn :
   locale === 'es' ? categoryDataEs :
   locale === 'bn' ? categoryDataBn :
-   locale === 'mr' ? categoryDataMr :
-   locale === 'te' ? categoryDataTe :
+  locale === 'mr' ? categoryDataMr :
+  locale === 'te' ? categoryDataTe :
+  locale === 'gj' ? categoryDataGj :
+
   
   categoryDataEn; // fallback
 
@@ -97,6 +101,7 @@ const modelDataMap = {
   bn: modelDataBn || modelDataEn, 
   mr: modelDataMr, 
   te: modelDataTe,
+  gj: modelDataGj,
 
 
 };
@@ -220,46 +225,46 @@ useEffect(() => {
                   >
                     {/* Image Slider for Model */}
                     <div className="w-full h-full md:w-2/5 flex justify-center items-center relative">
- <div
-  ref={(el) => (sliderRefs.current[idx] = el)}
-  style={{
-    display: "flex",
-    overflowX: "auto",
-    scrollBehavior: "smooth",
-    scrollbarWidth: "none",        // Firefox
-    msOverflowStyle: "none",       // IE & Edge
-  }}
-  className="h-full"
->
+                  <div
+                    ref={(el) => (sliderRefs.current[idx] = el)}
+                    style={{
+                      display: "flex",
+                      overflowX: "auto",
+                      scrollBehavior: "smooth",
+                      scrollbarWidth: "none",        // Firefox
+                      msOverflowStyle: "none",       // IE & Edge
+                    }}
+                    className="h-full"
+                  >
 
 
-    {Array.isArray(model.images) && model.images.length > 0 ? (
-      model.images.map((image, i) => (
-        <div key={i} className="w-full flex-shrink-0 h-full relative snap-center">
-          <img
-            src={image}
-            alt={`${model.name} Image ${i + 1}`}
-            className="rounded-lg shadow-lg bg-white w-full h-full object-cover"
-            onError={(e) => { 
-              e.target.src = oldProductData.error_image || '/about.webp'; 
-            }} // Fallback image
-          />
-        </div>
-      ))
-    ) : (
-      <div className="w-full flex-shrink-0 h-full relative snap-center">
-        <img
-          src={model.image}
-          alt={model.name}
-          className="rounded-lg shadow-lg bg-white w-full h-full object-cover"
-          onError={(e) => { 
-            e.target.src = oldProductData.error_image || '/about.webp'; 
-          }} // Fallback image
-        />
-      </div>
-    )}
-  </div>
-</div>
+                  {Array.isArray(model.images) && model.images.length > 0 ? (
+                    model.images.map((image, i) => (
+                      <div key={i} className="w-full flex-shrink-0 h-full relative snap-center">
+                        <img
+                          src={image}
+                          alt={`${model.name} Image ${i + 1}`}
+                          className="rounded-lg shadow-lg bg-white w-full h-full object-cover"
+                          onError={(e) => { 
+                            e.target.src = oldProductData.error_image || '/about.webp'; 
+                          }} // Fallback image
+                        />
+                      </div>
+                    ))
+                  ) : (
+                    <div className="w-full flex-shrink-0 h-full relative snap-center">
+                      <img
+                        src={model.image}
+                        alt={model.name}
+                        className="rounded-lg shadow-lg bg-white w-full h-full object-cover"
+                        onError={(e) => { 
+                          e.target.src = oldProductData.error_image || '/about.webp'; 
+                        }} // Fallback image
+                      />
+                    </div>
+                  )}
+                </div>
+              </div>
 
 
 

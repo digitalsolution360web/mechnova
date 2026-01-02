@@ -7,6 +7,7 @@ import categoryDataHi from './category-hi.json'
 import categoryDataBn from './category-bn.json'
 import categoryDataMr from './category-mr.json'
 import categoryDataTe from './category-te.json'
+import categoryDataGj from './category-gj.json'
 
 import Link from 'next/link'
 import { useTranslation } from '@/lib/useTranslation'
@@ -36,6 +37,8 @@ const categoryData = locale === 'en'
           ? categoryDataMr
         : locale === 'te' 
           ? categoryDataTe
+          : locale === 'gj' 
+          ? categoryDataGj
       : categoryDataHi;
 
   
