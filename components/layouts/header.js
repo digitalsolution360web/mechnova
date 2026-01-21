@@ -48,6 +48,16 @@ function Header() {
             <FaPhoneAlt className="text-white sm:text-black p-2 sm:p-0 text-4xl sm:text-xl rounded-full sm:rounded-none bg-[#0072ce] sm:bg-transparent" />
             <span className="hidden md:inline">+91 7428642333</span>
           </Link>
+          
+          {/* Shop Now button - desktop only */}
+          <a
+            href="https://shop.mechnovamachines.in"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden md:inline bg-[#0072ce] text-white px-4 py-2 rounded-md hover:bg-[#005bb5] transition"
+          >
+            Shop Now
+          </a>
           {/* Language Dropdown for desktop */}
           <div className="hidden sm:inline">
             <LanguageDropdown />
@@ -75,6 +85,17 @@ function Header() {
             <li><Link href="/dealer" className="hover:text-[#3394E6]" onClick={() => setOpen(false)}>{t('header.dealer')}</Link></li>
             <li><Link href="/contact" className="hover:text-[#3394E6]" onClick={() => setOpen(false)}>{t('header.contact')}</Link></li>
             <li><Link href={"tel:+917428642333"} className="hover:text-[#3394E6] flex items-center space-x-2" onClick={() => setOpen(false)}><FaPhoneAlt /> <span>+91 7428642333</span></Link></li>
+            <li>
+    <a
+      href="https://shop.mechnovamachines.in"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-[#0072ce] text-white px-4 py-2 rounded-md text-center hover:bg-[#005bb5] transition"
+      onClick={() => setOpen(false)}
+    >
+      Shop Now
+    </a>
+  </li>
             <li>
               {/* Language Dropdown for mobile */}
               <LanguageDropdown />
