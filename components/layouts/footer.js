@@ -35,18 +35,18 @@ function Footer() {
             <nav className="flex flex-col sm:flex-row gap-4 md:gap-8 text-lg">
                 <Link href="/about" className="hover:text-[#005FA3] transition">{t('header.about')}</Link>
                 <Link href="/products" className="hover:text-[#005FA3] transition">{t('header.products')}</Link>
-                <Link href="https://blog.mechnovamachines.com" target="_blank" className="hover:text-[#005FA3] transition">{t('header.blog')}</Link>
+                <Link href="https://blog.mechnovamachines.in" target="_blank" className="hover:text-[#005FA3] transition">{t('header.blog')}</Link>
                 <Link href="/dealer" className="hover:text-[#005FA3] transition">{t('header.dealer')}</Link>
                 <Link href="/contact" className="hover:text-[#005FA3] transition">{t('header.contact')}</Link>
             </nav>
             <div className="flex flex-row gap-4 mt-10 justify-center">
-                <Link href="https://www.facebook.com/mechnovamachines" target="_blank" rel="noopener noreferrer" className=" text-[#005FA3] transition">
+                <Link href="https://www.facebook.com/mechnovamachinesindia" target="_blank" rel="noopener noreferrer" className=" text-[#005FA3] transition">
                     <FaFacebook className="w-10 h-10" />
                 </Link>
-                <Link href="https://www.instagram.com/mechnovamachines/" target="_blank" rel="noopener noreferrer" className=" text-[#005FA3] transition">
+                <Link href="https://www.instagram.com/mechnovamachinesindia" target="_blank" rel="noopener noreferrer" className=" text-[#005FA3] transition">
                     <FaInstagram className="w-10 h-10" />
                 </Link>
-                <Link href="https://www.youtube.com/@MechnovaMachines" target="_blank" rel="noopener noreferrer" className=" text-[#005FA3] transition">
+                <Link href="https://www.youtube.com/@Mechnova_Machines" target="_blank" rel="noopener noreferrer" className=" text-[#005FA3] transition">
                     <svg className="w-10 h-10" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                         <path d="M23.498 6.186a2.998 2.998 0 00-2.11-2.12C19.88 3.5 12 3.5 12 3.5s-7.88 0-9.388.566a2.998 2.998 0 00-2.11 2.12A31.24 31.24 0 000 12a31.24 31.24 0 00.502 5.814 2.998 2.998 0 002.11 2.12C4.12 20.5 12 20.5 12 20.5s 7.88 0 9.388-.566a2.998 2.998 0 002.11-2.12A31.24 31.24 0 0024 12a31.24 31.24 0 00-.502-5.814zM9.75 15.02V8.98l6.5 3.02-6.5 3z"/>
                     </svg>
