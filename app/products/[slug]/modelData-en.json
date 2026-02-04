@@ -185,61 +185,22 @@
         "error_image": "/mechnova/products/brushcutter/BBC26DA.webp",
         "models": [
             {
-                "code": "MBC26DA",
+                "code": "MBC37SC",
                 "name": "GASOLINE BRUSH CUTTER",
                 "id": "1", 
-                "warranty": "12 Months",
+                "warranty": "6 Months",
                 "image": "/mechnova/products/brushcutter/BBC26DA.webp",
                 "specifications": "Engine: Gasoline, 2-Stroke, 25.4CC\nMaximum Power: 1.0HP\nFuel Mix: 40:1 for Synthetic Oil and 25:1 for Mineral Oil\nTank Capacity: 0.7 Liters\nCarburetor: Diaphragm\nReinforced Exhaust\nStarting Type: Manual Recoil\nShaft Diameter: 26 mm\nD-Handle"
             },
             {
-                "code": "MBC33DA",
+                "code": "MBC37SBC",
                 "name": "GASOLINE BRUSH CUTTER",
                 "id": "2", 
-                "warranty": "12 Months",
+                "warranty": "6 Months",
                 "image": "/mechnova/products/brushcutter/BBC33DA.webp",
                 "specifications": "Engine: Gasoline, 2-Stroke, 33.0CC\nMaximum Power: 1.3HP\nFuel Mix: 40:1 for Synthetic Oil and 25:1 for Mineral Oil\nTank Capacity: 0.7 Liters\nCarburetor: Diaphragm\nReinforced Exhaust\nStarting Type: Manual Recoil\nShaft Diameter: 26 mm\nD-Handle"
-            },
-            {
-                "code": "MBC43A",
-                "name": "GASOLINE BRUSH CUTTER",
-                "id": "3", 
-                "warranty": "12 Months",
-                "image": "/mechnova/products/brushcutter/BBC43A.webp",
-                "specifications": "Engine: Gasoline, 2-Stroke, 42.7CC\nMaximum Power: 1.7HP\nFuel Mix: 40:1 for Synthetic Oil and 25:1 for Mineral Oil\nTank Capacity: 0.8 Liters\nCarburetor: Diaphragm\nReinforced Exhaust\nStarting Type: Manual Recoil\nShaft Diameter: 26mm\nErgonomic Split Handlebar"
-            },
-            {
-                "code": "MBC52A",
-                "name": "GASOLINE BRUSH CUTTER",
-                "id": "4", 
-                "warranty": "12 Months",
-                "image": "/mechnova/products/brushcutter/BBC52A.webp",
-                "specifications": "Engine: Gasoline, 2-Stroke, 51.6CC\nMaximum Power: 2.0HP\nFuel Mix: 40:1 for Synthetic Oil and 25:1 for Mineral Oil\nTank Capacity: 0.8 Liters\nCarburetor: Diaphragm\nReinforced Exhaust\nStarting Type: Manual Recoil\nShaft Diameter: 26mm\nErgonomic Split Handlebar"
-            },
-            {
-                "code": "MBC26MTA",
-                "name": "MULTI-FUNCTION GASOLINE BRUSH CUTTER",
-                "id": "5", 
-                "warranty": "12 Months",
-                "image": "/mechnova/products/brushcutter/BBC26MTA.webp",
-                "specifications": "Engine: Gasoline, 2-Stroke, 26CC\nMaximum Power: 1.0HP\nFuel Mix: 40:1 for Synthetic Oil and 25:1 for Mineral Oil\nTank Capacity: 0.7 Liters\nCarburetor: Diaphragm\nReinforced Exhaust\nStarting Type: Manual Recoil\nShaft Diameter: 26mm\nErgonomic D-Handle"
-            },
-            {
-                "code": "MBCE1000DA-1",
-                "name": "ELECTRIC BRUSH CUTTER",
-                "id": "6", 
-                "warranty": "12 Months",
-                "image": "/mechnova/products/brushcutter/BBCE1000DA-1.webp",
-                "specifications": "Motor: Electric 110V, 60Hz\nMaximum Power: 1.0kW\nLoop D-Handle\nSteel shaft, split design"
-            },
-            {
-                "code": "MBCE1000DA-2",
-                "name": "ELECTRIC BRUSH CUTTER",
-                "id": "7", 
-                "warranty": "12 Months",
-                "image": "/mechnova/products/brushcutter/BBCE1000DA-2.webp",
-                "specifications": "Motor: Electric 220V, 60Hz\nMaximum Power: 1.4kW\nLoop D-Handle\nSteel shaft, split design"
             }
+            
         ]
     },
 
