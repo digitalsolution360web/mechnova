@@ -564,7 +564,7 @@
         "error_image": "/mechnova/products/gasoline-water-pump/waterpump.webp",
         "models": [
             {
-                "code": "MWP1x1STA",
+                "code": "MWP1.5X1.5SA",
                 "name": "GASOLINE WATER PUMP",
                 "id": "1",
                 "warranty": "6 Months",
@@ -572,37 +572,15 @@
                 "specifications": "Pump type: Self-priming\nMaximum power: 1.3 HP, 2-stroke\nStarting system: Recoil\nMaximum pumping capacity: 8000 liters per hour\nSuction diameter: 1 inch\nDischarge diameter: 1 inch\nTotal lift: 30 Meters\nSuction height: 8 Meters\nFuel tank size: 0.95 Liters"
             },
             {
-                "code": "MWP1.5x1.5STA",
+                "code": "MWP3X3SA",
                 "name": "GASOLINE WATER PUMP",
                 "id": "2",
                 "warranty": "6 Months",
                 "image": "/mechnova/products/gasoline-water-pump/BWP1.5x1.5STA.webp",
                 "specifications": "Pump type: Self-priming\nMaximum power: 1.7 HP, 2-stroke\nStarting system: Recoil\nMaximum pumping capacity: 12000 liters per hour\nSuction diameter: 1.5 inches\nDischarge diameter: 1.5 inches\nTotal lift: 35 Meters\nSuction height: 8 Meters\nFuel tank size: 1.2 Liters"
-            },
-            {
-                "code": "MWP1.5x1.5SA",
-                "name": "GASOLINE WATER PUMP",
-                "id": "3",
-                "warranty": "6 Months",
-                "image": "/mechnova/products/gasoline-water-pump/BWP1.5x1.5SA.webp",
-                "specifications": "Pump type: Self-priming\nMaximum power: 4.0 HP\nStarting system: Recoil\nMaximum pumping capacity: 15000 liters per hour\nSuction diameter: 1.5 inches\nDischarge diameter: 4.5 inches\nTotal lift: 26 Meters\nSuction height: 6 Meters\nFuel tank size: 2.0 Liters"
-            },
-            {
-                "code": "MWP2x2SA",
-                "name": "GASOLINE WATER PUMP",
-                "id": "4",
-                "warranty": "6 Months",
-                "image": "/mechnova/products/gasoline-water-pump/BWP2x2SA.webp",
-                "specifications": "Pump type: Self-priming\nMaximum power: 7.0 HP\nStarting system: Recoil\nMaximum pumping capacity: 30000 liters per hour\nSuction diameter: 2 inches\nDischarge diameter: 2 inches\nTotal lift: 30 Meters\nSuction height: 8 Meters\nFuel tank size: 3.6 Liters"
-            },
-            {
-                "code": "MWP3x3SA",
-                "name": "GASOLINE WATER PUMP",
-                "id": "5",
-                "warranty": "6 Months",
-                "image": "/mechnova/products/gasoline-water-pump/BWP3x3SA.webp",
-                "specifications": "Pump type: Self-priming\nMaximum power: 7.0 HP\nStarting system: Recoil\nMaximum pumping capacity: 55000 liters per hour\nSuction diameter: 3 inches\nDischarge diameter: 3 inches\nTotal lift: 28 Meters\nSuction height: 8 Meters\nFuel tank size: 3.6 Liters"
             }
+            
+          
         ]
     },
 
