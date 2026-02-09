@@ -28,7 +28,7 @@ function Hero() {
               Get Started
             </Link>
             <button 
-              onClick={() => window.open('https://www.youtube.com/watch?v=LXJDFVtQ6-U', '_blank')}
+              onClick={() => window.open('https://www.youtube.com/watch?v=a30H8pk1cOg', '_blank')}
               className="px-8 py-3 rounded-full border border-[#0072ce] text-[#0072ce] font-semibold shadow-lg hover:bg-[#0072ce] hover:text-white transition-all flex items-center gap-2 justify-center"
             >
               Watch Video
