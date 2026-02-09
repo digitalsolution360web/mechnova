@@ -3,42 +3,23 @@
     "category": "Brushcutter",
     "products": [
       {
-        "name": "MBC26DA",
+        "name": "MBC37SC",
         "image": "/mechnova/products/brushcutter/BBC26DA.webp",
         "link": "/products/brushcutter"
       },
       {
-        "name": "MBC26MTA",
+        "name": "MBC37SBC",
         "image": "/mechnova/products/brushcutter/BBC26MTA.webp",
         "link": "/products/brushcutter"
-      },
-      {
-        "name": "MBC33DA",
-        "image": "/mechnova/products/brushcutter/BBC33DA.webp",
-        "link": "/products/brushcutter"
-      },
-      {
-        "name": "MBC43A",
-        "image": "/mechnova/products/brushcutter/BBC43A.webp",
-        "link": "/products/brushcutter"
-      },
-      {
-        "name": "MBC52A",
-        "image": "/mechnova/products/brushcutter/BBC52A.webp",
-        "link": "/products/brushcutter"
-      },
-      {
-        "name": "MBCE1000DA",
-        "image": "/mechnova/products/brushcutter/BBCE1000DA-1.webp",
-        "link": "/products/brushcutter"
       }
+    
     ]
   },
   {
-    "category": "Motosierra",
+    "category": "Chainsaw",
     "products": [
       {
-        "name": "MCS25A-10SN",
+        "name": "MCS58A-22SN",
         "image": "/mechnova/products/chainsaw/BCS25A-10SN.webp",
         "link": "/products/chainsaw"
       }
