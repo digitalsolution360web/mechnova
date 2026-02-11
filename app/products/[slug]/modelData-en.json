@@ -593,7 +593,7 @@
         "error_image": "/mechnova/products/gasoline-engine/BE40A.webp",
         "models": [
             {
-                "code": "ME40A",
+                "code": "ME30A",
                 "name": "GASOLINE ENGINE",
                 "id": "1",
                 "warranty": "6 Months",
