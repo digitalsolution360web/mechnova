@@ -20,7 +20,7 @@ export default function LanguageDropdown({ className = '' }) {
   const getLocaleLabel = () => {
     switch (locale) {
       case 'en': return 'EN';
-      case 'es': return 'ES';
+      // case 'es': return 'ES';
       case 'hi': return 'HI';
       case 'bn': return 'BN';
       case 'mr': return 'MR'; 
