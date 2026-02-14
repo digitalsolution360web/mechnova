@@ -45,10 +45,10 @@ function Segment() {
       <div className="container max-w-7xl mx-auto px-4">
 
         {/* Title */}
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-14 text-gray-900">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-6 text-gray-900">
           {t('home.segments.title')}
         </h2>
-        <p className="text-sm text-gray-300 mt-1">
+        <p className="text-gray-600 text-lg mt-1 mb-14 text-center">
               {t('home.segments.subpara')}
             </p>
         {/* Zig-Zag Rows */}
