@@ -20,7 +20,6 @@ export default function LanguageDropdown({ className = '' }) {
   const getLocaleLabel = () => {
     switch (locale) {
       case 'en': return 'EN';
-      // case 'es': return 'ES';
       case 'hi': return 'HI';
       case 'bn': return 'BN';
       case 'mr': return 'MR'; 
@@ -68,18 +67,6 @@ export default function LanguageDropdown({ className = '' }) {
               EN
             </button>
           </li>
-          // <li>
-          //   <button
-          //     className={`w-full text-left px-4 py-2 hover:bg-[#e6f2fb] ${
-          //       locale === 'es' ? 'font-bold text-[#0072ce]' : ''
-          //     }`}
-          //     onClick={() => { switchLocale('es'); setOpen(false); }}
-          //     role="option"
-          //     aria-selected={locale === 'es'}
-          //   >
-          //     ES
-          //   </button>
-          // </li>
           <li>
             <button
               className={`w-full text-left px-4 py-2 hover:bg-[#e6f2fb] ${
