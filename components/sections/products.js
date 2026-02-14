@@ -74,9 +74,6 @@ function Products() {
      <section className="w-full py-8 bg-white" id="products">
       <div className="container mx-auto ">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-10 text-gray-900">{t('home.products.title')}</h2>
-         <p className="text-sm text-gray-300 mt-1">
-              {t('home.products.subpara')}
-            </p>
         <div
           ref={sliderRef}
           className="overflow-x-hidden overflow-y-hidden scrollbar-hide flex gap-6"
