@@ -48,7 +48,9 @@ function Segment() {
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-14 text-gray-900">
           {t('home.segments.title')}
         </h2>
-
+        <p className="text-sm text-gray-300 mt-1">
+              {t('home.segments.subpara')}
+            </p>
         {/* Zig-Zag Rows */}
         <div className="space-y-16">
           {segments.map((seg, i) => {
