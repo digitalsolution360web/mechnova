@@ -37,7 +37,7 @@ function AboutPage() {
                 <div className="w-full md:w-1/2 flex justify-center">
                     <div className="relative w-80 h-54 rounded-2xl overflow-hidden shadow-lg">
                     <Image
-                        src="/mechnova/banner/about-banner.webp"
+                        src="/about/about-banner.webp"
                         alt="About Mechnova"
                         fill
                         className="object-contain bg-gray-100"
@@ -55,7 +55,7 @@ function AboutPage() {
                     <div className="w-full md:w-1/2 flex justify-center">
                         <div className="relative w-96 h-96 rounded-2xl overflow-hidden shadow-lg">
                         <Image
-                            src="/mechnova/banner/Forestry.webp"
+                            src="/about/About2.webp"
                             alt="Mechnova Team"
                             fill
                             className="object-cover object-top"
@@ -97,7 +97,7 @@ function AboutPage() {
                     <div className="w-full md:w-1/2 flex justify-center">
                         <div className="relative w-100 h-100 rounded-full overflow-hidden shadow-lg border-4 border-blue-200">
                         <Image
-                            src="/mission.jpg"
+                            src="/about/About3.webp"
                             alt="Mission and Vision"
                             fill
                             className="object-cover"
