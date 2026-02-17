@@ -46,23 +46,23 @@
       "title": "Our Prduct Range",
       "subpara": "At Mechnova Machines, we manufacture and supply high-performance agricultural and power equipment designed for durability, efficiency, and long-term reliability. Our advanced machinery supports farmers, landscapers, and commercial users with powerful solutions that increase productivity and reduce manual effort.",
       "gardeningForestry": {
-        "title": "Gardening & Forestry",
+        "title": "Brush Cutter",
         "description": "Handle tough landscaping and forest maintenance tasks with our robust equipment. Key products: gasoline brush cutters, chainsaws, electric lawn mowers, earth augers. High performance, precision, and ease of use for pros and farm owners."
       },
       "fumigation": {
-        "title": "Fumigation",
+        "title": "Chainsaw",
         "description": "Protect crops and spaces with reliable fumigation tools. Gasoline backpack sprayers with brass pump and cordless backpack sprayers for wide coverage and easy application."
       },
       "diesel": {
-        "title": "Diesel Machines",
+        "title": "Petrol Water Pump",
         "description": "Powerful machines for demanding applications, especially off-grid. Diesel generators, engines, and motor pumps for irrigation, construction, and backup power."
       },
       "domestic": {
-        "title": "Domestic",
+        "title": "Petrol Engine",
         "description": "Simple, compact tools for everyday home and garden tasks. Electric pressure washers and gasoline vacuum blower for small gardens, vehicles, and light-duty work."
       },
       "agroIndustrial": {
-        "title": "Agro Industrial",
+        "title": "Power Weeder",
         "description": "High-performance solutions for farms and agri-enterprises. Gasoline engines, motor pumps, and inverter generators for long-hour usage and rural electrification."
       }
     },
