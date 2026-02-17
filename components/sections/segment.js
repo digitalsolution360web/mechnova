@@ -21,19 +21,19 @@ function Segment() {
     },
     {
       title: t('home.segments.diesel.title'),
-      image: "/segment/diesel.webp",
+      image: "/segment/petrol-water-pump.webp",
       link: "/products/",
       desc: t('home.segments.diesel.description'),
     },
     {
       title: t('home.segments.domestic.title'),
-      image: "/segment/domestic.webp",
+      image: "/segment/petrol-engine.webp",
       link: "/products/",
       desc: t('home.segments.domestic.description'),
     },
     {
       title: t('home.segments.agroIndustrial.title'),
-      image: "/segment/agro-industrial.webp",
+      image: "/segment/power-weeder.webp",
       link: "/products/",
       desc: t('home.segments.agroIndustrial.description'),
     },
