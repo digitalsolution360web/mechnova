@@ -15,8 +15,8 @@ function Hero() {
         
         {/* LEFT CONTENT */}
         <div className="lg:w-1/2 space-y-6 text-center lg:text-left">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-gray-900 leading-tight animate-slideInLeft">
-            {t('home.welcome')} <span className="text-[#0072ce]">Mechnova</span>
+          <h1 className="text-3xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 leading-tight animate-slideInLeft">
+            <span className="text-[#0072ce]">Mechnova</span> {t('home.welcome')} 
           </h1>
           <p className="text-lg sm:text-xl text-gray-700 animate-slideInLeft delay-200">
             {t('home.heroDescription')}
