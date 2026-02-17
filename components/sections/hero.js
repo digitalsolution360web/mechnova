@@ -53,7 +53,7 @@ function Hero() {
 
             {/* Floating Play Button */}
             <div 
-              onClick={() => window.open('https://www.youtube.com/watch?v=LXJDFVtQ6-U', '_blank')}
+              onClick={() => window.open('https://www.youtube.com/watch?v=a30H8pk1cOg', '_blank')}
               className="absolute inset-0 flex items-center justify-center cursor-pointer"
             >
               <div className="bg-white bg-opacity-80 hover:bg-opacity-100 rounded-full p-5 shadow-lg transition">
