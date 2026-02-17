@@ -23,8 +23,9 @@ function About() {
           {/* LEFT CONTENT */}
           <div className="w-full md:w-1/2 text-white">
             <h2 className="text-4xl md:text-5xl font-extrabold mb-6 leading-tight">
+         <span className="text-yellow-300"> Mechnova?</span>
               {t('home.about.title')}  
-              <span className="text-yellow-300"> Mechnova?</span>
+             
             </h2>
 
             <p className="text-lg opacity-90 font-semibold mb-4">
