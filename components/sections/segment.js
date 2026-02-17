@@ -15,7 +15,7 @@ function Segment() {
     },
     {
       title: t('home.segments.fumigation.title'),
-      image: "/segment/fumigation.webp",
+      image: "/segment/chainsaw.webp",
       link: "/products/",
       desc: t('home.segments.fumigation.description'),
     },
