@@ -9,7 +9,7 @@ function Segment() {
   const segments = [
     {
       title: t('home.segments.gardeningForestry.title'),
-      image: "/segment/gardening.webp",
+      image: "/segment/brush-cutter-grass-cutting-machine.webp",
       link: "/products/",
       desc: t('home.segments.gardeningForestry.description'),
     },
