@@ -11,7 +11,7 @@ function Hero() {
       {/* Hero Slider at top */}
       <HeroSlider />
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse lg:flex-row items-center gap-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse lg:flex-row items-center gap-16 pt-20">
         
         {/* LEFT CONTENT */}
         <div className="lg:w-1/2 space-y-6 text-center lg:text-left">
