@@ -37,7 +37,7 @@ function AboutPage() {
                 <div className="w-full md:w-1/2 flex justify-center">
                     <div className="relative w-80 h-54 rounded-2xl overflow-hidden shadow-lg">
                     <Image
-                        src="https://images.unsplash.com/photo-1552664730-d307ca884978"
+                        src="/mechnova/banner/about-banner.webp"
                         alt="About Mechnova"
                         fill
                         className="object-contain bg-gray-100"
