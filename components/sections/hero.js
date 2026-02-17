@@ -6,7 +6,7 @@ function Hero() {
   const { t } = useTranslation();
   return (
    
-     <section className="relative w-full bg-white overflow-hidden py-20">
+     <section className="relative w-full bg-white overflow-hidden pb-20">
 
       {/* Hero Slider at top */}
       <HeroSlider />
