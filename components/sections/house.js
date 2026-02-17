@@ -58,7 +58,7 @@ function House() {
     <h2 className="text-5xl font-extrabold text-white">
       {t('home.house.heading')}
     </h2>
-    <p className="text-base text-gray-700 animate-slideInLeft delay-200">
+    <p className="text-base text-white animate-slideInLeft delay-200 mt-2">
     Bonhoeffer launched 3 New Brands in 2024 after the immense success of Bonhoeffer in Latin America, including Mechnova, Stronwell and Stevron.</p>
   </div>
 
