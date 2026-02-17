@@ -6,7 +6,7 @@ function Hero() {
   const { t } = useTranslation();
   return (
    
-     <section className="relative w-full bg-white overflow-hidden pb-20">
+     <section className="relative w-full bg-white overflow-hidden py-20">
 
       {/* Hero Slider at top */}
       <HeroSlider />
@@ -18,7 +18,7 @@ function Hero() {
           <h1 className="text-3xl sm:text-3xl md:text-5xl font-extrabold text-gray-900 leading-tight animate-slideInLeft">
             <span className="text-[#0072ce]">Mechnova</span> {t('home.welcome')} 
           </h1>
-          <p className="text-lg text-gray-700 animate-slideInLeft delay-200">
+          <p className="text-base text-gray-700 animate-slideInLeft delay-200">
             {t('home.heroDescription')}
           </p>
 
