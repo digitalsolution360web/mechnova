@@ -28,8 +28,8 @@
     "downloadCatalog": "Download Catalog"
   },
   "home": {
-    "welcome": "Welcome to",
-    "heroDescription": "Mechnova provides reliable outdoor equipment for homeowners, small farms, and retail buyers who need machines that perform well, last long, and are priced fairly. Each product is built with a clear purpose — to handle essential tasks with consistent performance, simple operation, and easy maintenance.",
+    "welcome": "A Brand from Bonhoeffer Machines",
+    "heroDescription": "Bonhoeffer – A brand that does not need any introduction in Latin America. After the success of Latin America (the biggest agriculture machinery Indian exporter in Latin America), we decided to do something bigger in India, and that’s why we launched Mechnova. Bonhoeffer Machines Private Limited founded the brand. Bonhoeffer is already in India, and from Bonhoeffer, we have a wide range of agricultural machinery, including power weeders, water pumps, engines, brush cutters, blowers, knapsack sprayers, hedge trimmers, lawn mover and chainsaws. Now, from the trusted brand, which is available in more than 22 countries, you can also buy an affordable range of machinery, which is Mechnova Agriculture Machinery.",
     "about":{
       "title": "Why Choose",
       "reason1": "When you rely on a machine, it should start without issues, run smoothly, and be easy to maintain.",
@@ -43,8 +43,8 @@
       "description2": "We work closely with importers, wholesalers, and retailers to provide not just machines, but full-fledged business support—ensuring high-quality products, strong warranties, marketing assistance, and unmatched after-sales service. Whether it's a small garden or a large-scale agro-industrial operation, Mechnova is your trusted partner for performance and reliability."
     },
     "segments": {
-      "title": "Our Prduct Range",
-      "subpara": "At Mechnova Machines, we manufacture and supply high-performance agricultural and power equipment designed for durability, efficiency, and long-term reliability. Our advanced machinery supports farmers, landscapers, and commercial users with powerful solutions that increase productivity and reduce manual effort.",
+      "title": "Complete Farming Machinery Under One Roof — Mechnova Machines",
+      "subpara": "We have a complete farming machinery range under one roof, such as Power Tillers, Gasoline Water Pumps, Gasoline Engines, Brush Cutter and Chainsaws. ",
       "gardeningForestry": {
         "title": "Brush Cutter",
         "description": "Handle tough landscaping and forest maintenance tasks with our robust equipment. Key products: gasoline brush cutters, chainsaws, electric lawn mowers, earth augers. High performance, precision, and ease of use for pros and farm owners."
@@ -62,8 +62,8 @@
         "description": "Simple, compact tools for everyday home and garden tasks. Electric pressure washers and gasoline vacuum blower for small gardens, vehicles, and light-duty work."
       },
       "agroIndustrial": {
-        "title": "Power Weeder",
-        "description": "High-performance solutions for farms and agri-enterprises. Gasoline engines, motor pumps, and inverter generators for long-hour usage and rural electrification."
+        "title": "Master Every Field with Mechnova Power Weeders",
+        "description": "We have two models in the range of mini tractor or power weeder, and these are the 7 HP Petrol weeders for agriculture. These weeders have 208 CC function. Mechnova Power Weeder is designed to make farming easier and faster by efficiently removing weeds and preparing soil in one go. Built with a high torque engine and rugged body, it performs smoothly even in hard soil conditions. It significantly reduces manual labour while improving crop productivity. Mechnova Power Weeder backed by Bonhoeffer Machines is a compact, yet powerful farm mechanization solution designed to simplify soil preparation and weed control for Indian farms. This weeder is built with a high-performance petrol engine, adjustable handlebars and forward reverse gearbox operation. This machine delivers efficient tillage with consistent depth and wide cutting coverage. Both machines are ideal for inter-cultivation, seedbed preparation and small to medium landholdings. This machine reduces manual labour while improving productivity and making it a reliable partner for faster farming and better crop outcomes."
       }
     },
     "products": {
