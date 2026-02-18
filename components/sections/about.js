@@ -23,7 +23,7 @@ function About() {
           {/* LEFT CONTENT */}
           <div className="w-full md:w-1/2 text-white">
              
-            <h2 className="text-4xl md:text-3xl font-extrabold mb-6 leading-tight">
+            <h2 className="text-5xl md:text-3xl font-extrabold mb-6 leading-tight">
                <span className="text-yellow-300"> {t('home.about.title')}  </span>
                
              
@@ -37,9 +37,7 @@ function About() {
               {t('home.about.reason2')}
             </p>
 
-            // <p className="text-lg opacity-90 mb-4">
-            //   {t('home.about.reason3')}
-            // </p>
+           
 
             <p className="text-lg opacity-90 font-semibold mb-4">
               {t('home.about.reason4')}
