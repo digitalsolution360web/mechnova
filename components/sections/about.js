@@ -23,7 +23,7 @@ function About() {
           {/* LEFT CONTENT */}
           <div className="w-full md:w-1/2 text-white">
              
-            <h2 className="text-6xl md:text-3xl font-extrabold mb-6 leading-tight">
+            <h2 className="text-5xl md:text-5xl font-extrabold mb-6 leading-tight">
                <span className="text-yellow-300"> {t('home.about.title')}  </span>
                
              
