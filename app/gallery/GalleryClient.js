@@ -4,14 +4,17 @@ import Header from "@/components/layouts/header";
 import { useTranslation } from "@/lib/useTranslation";
 import { useState } from "react";
 
-// 6 images: box 2 (Product Display) = hero-banner.jpg (tiller + statue); rest from public
+// New gallery images from public root: gallery1.webp ... gallery8.webp + Agroindustrial banner
 const GALLERY_ITEMS = [
-  { src: "/1", captionKey: "caption1" },
-  { src: "/hero/hero-banner.jpg", captionKey: "caption2" }, // Product Display
-  { src: "/3", captionKey: "caption3" },
-  { src: "/4", captionKey: "caption4" },
-  { src: "/5", captionKey: "caption5" },
-  { src: "/6", captionKey: "caption6" },
+  { src: "/gallery1.webp", captionKey: "caption1" },
+  { src: "/gallery2.webp", captionKey: "caption2" },
+  { src: "/gallery3.webp", captionKey: "caption3" },
+  { src: "/gallery4.webp", captionKey: "caption4" },
+  { src: "/gallery5.webp", captionKey: "caption5" },
+  { src: "/gallery6.webp", captionKey: "caption6" },
+  { src: "/gallery7.webp", captionKey: "caption7" },
+  { src: "/gallery8.webp", captionKey: "caption8" },
+  { src: "/mechnova/banner/Agroindustrial.webp", captionKey: "caption9" },
 ];
 
 function GalleryClient() {
