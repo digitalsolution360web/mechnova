@@ -52,7 +52,7 @@ function About() {
               border-4 border-white/20 backdrop-blur-md
             ">
               <Image
-                src="/mechnova/banner/Forestry.webp"
+                src="/mechnova/banner/become-a-dealership.webp"
                 alt="About Mechnova"
                 fill
                 className="object-cover object-center"
