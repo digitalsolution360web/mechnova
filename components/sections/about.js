@@ -53,7 +53,7 @@ function About() {
             ">
               <Image
                 src="/mechnova/banner/become-a-dealership.webp"
-                alt="About Mechnova"
+                alt="About Mechnova become a dealer"
                 fill
                 className="object-cover object-center"
                 sizes="(max-width: 768px) 100vw, 50vw"
