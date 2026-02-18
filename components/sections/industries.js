@@ -12,7 +12,7 @@ function Industries() {
 		{
 			title: t("home.industries.forestry.title"),
 			desc: t("home.industries.forestry.description"),
-			image: "/mechnova/banner/Forestry.webp",
+			image: "/mechnova/banner/Industrial.webp",
 		},
 		{
 			title: t("home.industries.agroindustrial.title"),
