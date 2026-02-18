@@ -39,6 +39,7 @@ function Header() {
             <li><Link href="/" className="hover:border-[#3394E6] hover:bg-[#3394E6] hover:text-white p-2 rounded-md cursor-pointer">{t('header.home')}</Link></li>
             <li><Link href="/about" className="hover:border-[#3394E6] hover:bg-[#3394E6] hover:text-white p-2 rounded-md cursor-pointer">{t('header.about')}</Link></li>
             <li><Link href="/products" className="hover:border-[#3394E6] hover:bg-[#3394E6] hover:text-white p-2 rounded-md cursor-pointer">{t('header.products')}</Link></li>
+            <li><Link href="/gallery" className="hover:border-[#3394E6] hover:bg-[#3394E6] hover:text-white p-2 rounded-md cursor-pointer">{t('header.gallery')}</Link></li>
             <li><Link href="/dealer" className="hover:border-[#3394E6] hover:bg-[#3394E6] hover:text-white p-2 rounded-md cursor-pointer">{t('header.dealer')}</Link></li>
             <li><Link href="/contact" className="hover:border-[#3394E6] hover:bg-[#3394E6] hover:text-white p-2 rounded-md cursor-pointer">{t('header.contact')}</Link></li>
           </ul>
@@ -82,6 +83,7 @@ function Header() {
             <li><Link href="/" className="hover:text-[#3394E6]" onClick={() => setOpen(false)}>{t('header.home')}</Link></li>
             <li><Link href="/about" className="hover:text-[#3394E6]" onClick={() => setOpen(false)}>{t('header.about')}</Link></li>
             <li><Link href="/products" className="hover:text-[#3394E6]" onClick={() => setOpen(false)}>{t('header.products')}</Link></li>
+            <li><Link href="/gallery" className="hover:text-[#3394E6]" onClick={() => setOpen(false)}>{t('header.gallery')}</Link></li>
             <li><Link href="/dealer" className="hover:text-[#3394E6]" onClick={() => setOpen(false)}>{t('header.dealer')}</Link></li>
             <li><Link href="/contact" className="hover:text-[#3394E6]" onClick={() => setOpen(false)}>{t('header.contact')}</Link></li>
             <li><Link href={"tel:+917428642333"} className="hover:text-[#3394E6] flex items-center space-x-2" onClick={() => setOpen(false)}><FaPhoneAlt /> <span>+91 7428642333</span></Link></li>

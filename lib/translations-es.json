@@ -11,6 +11,8 @@
     "products": "Productos",
     "contact": "Contacto",
     "dealer": "Ser Distribuidor",
+    "gallery": "Galería",
+    "becomeMember": "Ser Miembro",
     "blog": "Blog"
   },
   "footer": {
@@ -317,6 +319,31 @@
     "submit": "Enviar",
     "thankYou": "¡Gracias!",
     "thankYouMessage": "Su consulta ha sido recibida. Nuestro equipo se pondrá en contacto con usted pronto.",
+    "redirectMessage": "Será redirigido a la página de inicio en breve.",
+    "close": "Cerrar"
+  },
+  "gallery": {
+    "title": "Galería",
+    "subtitle": "Eventos, exhibiciones de productos y momentos en MECHNOVA",
+    "image": "Imagen de galería",
+    "caption1": "Equipo y Eventos",
+    "caption2": "Exhibición de Productos",
+    "caption3": "Maquinaria en Acción",
+    "caption4": "Exposición y Socios",
+    "caption5": "Presencia de Marca",
+    "caption6": "Campo y Operaciones"
+  },
+  "becomeMember": {
+    "title": "Ser Miembro",
+    "formTitle": "Registro de Miembro",
+    "name": "Nombre Completo",
+    "email": "Correo Electrónico",
+    "phone": "Teléfono",
+    "city": "Ciudad",
+    "consentText": "Acepto que Mechnova puede usar mis datos para contactarme y enviar actualizaciones. He leído la Política de Privacidad.",
+    "submit": "Enviar",
+    "thankYou": "¡Gracias!",
+    "thankYouMessage": "Su registro ha sido recibido. Nos pondremos en contacto pronto.",
     "redirectMessage": "Será redirigido a la página de inicio en breve.",
     "close": "Cerrar"
   }
