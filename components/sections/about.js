@@ -24,7 +24,7 @@ function About() {
           <div className="w-full md:w-1/2 text-white">
              
             <h2 className="text-2xl md:text-3xl font-extrabold mb-6 leading-tight">
-               <span className="text-yellow-300"> Mechnova</span>
+               <span className="text-yellow-300"> Become </span>
               {t('home.about.title')}  
              
             </h2>
