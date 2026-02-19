@@ -14,7 +14,7 @@ function AboutPage() {
             <Header/>
         </header>
 
-        <main className="bg-white min-h-screen">
+        <main className="bg-white min-h-screen" data-page="about-v2">
             <div className="block" style={{ height: '4.5em' }} aria-hidden="true" />
             {/* Full-width banner */}
             <section className="w-full overflow-hidden">
