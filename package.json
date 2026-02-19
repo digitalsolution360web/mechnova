@@ -6,7 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint . --ignore-pattern .next --ignore-pattern node_modules --max-warnings 999"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
