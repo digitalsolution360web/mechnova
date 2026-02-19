@@ -16,33 +16,43 @@ function AboutPage() {
 
         <main className="bg-white min-h-screen">
             <div className="block" style={{ height: '4.5em' }} aria-hidden="true" />
+            {/* Full-width banner */}
+            <section className="w-full overflow-hidden">
+                <div className="relative w-full h-64 sm:h-72 md:h-80 lg:h-96">
+                    <Image
+                        src="/about/about-banner.webp"
+                        alt="About Mechnova"
+                        fill
+                        className="object-cover object-center"
+                        sizes="100vw"
+                        priority
+                    />
+                </div>
+            </section>
             {/* Hero Section */}
-            <section className="w-full bg-white py-16 md:py-24">
-                <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
+            <section className="w-full bg-white py-14 md:py-20">
+                <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-12 max-w-6xl">
                 <div className="w-full md:w-1/2">
-                    <div className="flex justify-between items-center mb-6">
-                        <h1 className="text-4xl md:text-5xl font-extrabold text-[#0072ce] leading-tight">
-                            {t('about.title')} <span className="text-gray-900">{t('about.companyName')}</span>
-                        </h1>
-                    </div>
-                    <p className="text-lg md:text-xl text-gray-700 mb-6">
+                    <h1 className="text-4xl md:text-5xl font-extrabold text-[#0072ce] leading-tight mb-6">
+                        {t('about.title')} <span className="text-gray-900">{t('about.companyName')}</span>
+                    </h1>
+                    <p className="text-lg md:text-xl text-gray-700 mb-8">
                         {t('about.heroDescription')}
                     </p>
                     <Link href="/products">
-                    <button className="px-8 py-3 bg-[#0072ce] text-white font-semibold rounded-full hover:scale-105 shadow transition-all text-lg border border-blue-100 cursor-pointer">
+                    <button className="px-8 py-3 bg-[#0072ce] text-white font-semibold rounded-full hover:scale-105 shadow-lg transition-all text-lg border border-blue-100 cursor-pointer">
                         {t('about.exploreProducts')}
                     </button>
                     </Link>
                 </div>
                 <div className="w-full md:w-1/2 flex justify-center">
-                    <div className="relative w-80 h-54 rounded-2xl overflow-hidden shadow-lg">
+                    <div className="relative w-full max-w-lg aspect-4/3 rounded-2xl overflow-hidden shadow-xl ring-2 ring-blue-100">
                     <Image
-                        src="/about/about-banner.webp"
+                        src="/about/About2.webp"
                         alt="About Mechnova"
                         fill
-                        className="object-contain bg-gray-100"
-                        sizes="(max-width: 768px) 100vw, 33vw"
-                        priority
+                        className="object-cover object-top"
+                        sizes="(max-width: 768px) 100vw, 50vw"
                     />
                     </div>
                 </div>
@@ -50,16 +60,16 @@ function AboutPage() {
             </section>
 
             {/* Company Story & Values */}
-            <section className="w-full py-16 bg-[#cbe7ff]">
-                <div className="container mx-auto px-4 flex flex-col md:flex-row gap-12 items-center">
+            <section className="w-full py-16 md:py-20 bg-[#cbe7ff]">
+                <div className="container mx-auto px-4 flex flex-col md:flex-row gap-12 items-center max-w-6xl">
                     <div className="w-full md:w-1/2 flex justify-center">
-                        <div className="relative w-96 h-96 rounded-2xl overflow-hidden shadow-lg">
+                        <div className="relative w-full max-w-md aspect-square rounded-2xl overflow-hidden shadow-xl ring-2 ring-blue-100">
                         <Image
                             src="/about/About2.webp"
                             alt="Mechnova Team"
                             fill
                             className="object-cover object-top"
-                            sizes="(max-width: 768px) 100vw, 33vw"
+                            sizes="(max-width: 768px) 100vw, 50vw"
                         />
                         </div>
                     </div>
@@ -82,20 +92,20 @@ function AboutPage() {
             </section>
 
             {/* Mission & Vision */}
-            <section className="w-full py-16 bg-white">
-                <div className="container mx-auto px-4 flex flex-col md:flex-row gap-12 items-center">
+            <section className="w-full py-16 md:py-20 bg-white">
+                <div className="container mx-auto px-4 flex flex-col md:flex-row gap-12 items-center max-w-6xl">
                     <div className="w-full md:w-1/2 flex flex-col gap-6">
                         <h3 className="text-3xl md:text-4xl font-bold text-[#0072ce] mb-2">{t('about.mission')}</h3>
-                        <p className="text-xl text-gray-700">
+                        <p className="text-lg md:text-xl text-gray-700">
                             {t('about.missionText')}
                         </p>
                         <h3 className="text-3xl md:text-4xl font-bold text-[#0072ce] mt-8 mb-2">{t('about.vision')}</h3>
-                        <p className="text-xl text-gray-700">
+                        <p className="text-lg md:text-xl text-gray-700">
                             {t('about.visionText')}
                         </p>
                     </div>
                     <div className="w-full md:w-1/2 flex justify-center">
-                        <div className="relative w-100 h-100 rounded-full overflow-hidden shadow-lg border-4 border-blue-200">
+                        <div className="relative w-72 h-72 md:w-80 md:h-80 rounded-2xl overflow-hidden shadow-xl ring-2 ring-blue-100">
                         <Image
                             src="/about/About3.webp"
                             alt="Mission and Vision"
@@ -109,23 +119,23 @@ function AboutPage() {
             </section>
 
             {/* Why Choose Mechnova */}
-            <section className="w-full py-16 bg-[#cbe7ff]">
-                <div className="container mx-auto px-4">
-                    <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 text-[#0072ce]">{t('about.whyChoose')}</h2>
+            <section className="w-full py-16 md:py-20 bg-[#cbe7ff]">
+                <div className="container mx-auto px-4 max-w-6xl">
+                    <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-[#0072ce]">{t('about.whyChoose')}</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        <div className="bg-[#E6F2FB] rounded-2xl shadow p-8 flex flex-col items-center text-center">
-                        <Image src="https://images.pexels.com/photos/27516984/pexels-photo-27516984.png" alt="Quality" width={128} height={128} className="mb-4 rounded-full" />
-                        <h4 className="font-semibold text-xl mb-2">{t('about.quality.title')}</h4>
+                        <div className="bg-white rounded-3xl shadow-lg border border-blue-100 p-8 flex flex-col items-center text-center hover:shadow-xl hover:-translate-y-1 transition-all">
+                        <Image src="https://images.pexels.com/photos/27516984/pexels-photo-27516984.png" alt="Quality" width={96} height={96} className="mb-5 rounded-full object-cover" />
+                        <h4 className="font-bold text-xl mb-3 text-[#0072ce]">{t('about.quality.title')}</h4>
                         <p className="text-gray-700">{t('about.quality.description')}</p>
                         </div>
-                        <div className="bg-[#E6F2FB] rounded-2xl shadow p-8 flex flex-col items-center text-center">
-                        <Image src="https://images.pexels.com/photos/9385078/pexels-photo-9385078.jpeg" alt="Support" width={128} height={128} className="mb-4 rounded-full" />
-                        <h4 className="font-semibold text-xl mb-2">{t('about.support.title')}</h4>
+                        <div className="bg-white rounded-3xl shadow-lg border border-blue-100 p-8 flex flex-col items-center text-center hover:shadow-xl hover:-translate-y-1 transition-all">
+                        <Image src="https://images.pexels.com/photos/9385078/pexels-photo-9385078.jpeg" alt="Support" width={96} height={96} className="mb-5 rounded-full object-cover" />
+                        <h4 className="font-bold text-xl mb-3 text-[#0072ce]">{t('about.support.title')}</h4>
                         <p className="text-gray-700">{t('about.support.description')}</p>
                         </div>
-                        <div className="bg-[#E6F2FB] rounded-2xl shadow p-8 flex flex-col items-center text-center">
-                        <Image src="https://images.pexels.com/photos/577514/pexels-photo-577514.jpeg" alt="Innovation" width={128} height={128} className="mb-4 rounded-full" />
-                        <h4 className="font-semibold text-xl mb-2">{t('about.innovation.title')}</h4>
+                        <div className="bg-white rounded-3xl shadow-lg border border-blue-100 p-8 flex flex-col items-center text-center hover:shadow-xl hover:-translate-y-1 transition-all">
+                        <Image src="https://images.pexels.com/photos/577514/pexels-photo-577514.jpeg" alt="Innovation" width={96} height={96} className="mb-5 rounded-full object-cover" />
+                        <h4 className="font-bold text-xl mb-3 text-[#0072ce]">{t('about.innovation.title')}</h4>
                         <p className="text-gray-700">{t('about.innovation.description')}</p>
                         </div>
                     </div>
@@ -133,11 +143,11 @@ function AboutPage() {
             </section>
 
             {/* Call to Action */}
-            <section className="w-full py-16 bg-[#0072ce]">
-                <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8">
-                    <div className="text-white text-2xl md:text-3xl font-bold mb-6 md:mb-0">{t('about.cta')}</div>
+            <section className="w-full py-16 md:py-20 bg-[#0072ce]">
+                <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8 max-w-6xl">
+                    <div className="text-white text-2xl md:text-3xl font-bold mb-6 md:mb-0 text-center md:text-left">{t('about.cta')}</div>
                     <Link href="/contact">
-                        <button className="px-8 py-3 bg-white text-[#0072ce] font-semibold rounded-full hover:scale-105 shadow transition-all text-lg border border-blue-100 cursor-pointer">
+                        <button className="px-8 py-4 bg-white text-[#0072ce] font-semibold rounded-full hover:scale-105 shadow-lg transition-all text-lg cursor-pointer">
                         {t('about.ctaButton')}
                         </button>
                     </Link>
