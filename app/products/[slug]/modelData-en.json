@@ -186,7 +186,7 @@
         "models": [
             {
                 "code": "MBC37SC",
-                "name": "GASOLINE BRUSH CUTTER",
+                "name": "Brush Cutter",
                 "id": "1", 
                 "warranty": "6 Months",
                 "image": "/mechnova/products/brushcutter/BBC26DA.webp",
@@ -194,10 +194,10 @@
             },
             {
                 "code": "MBC37SBC",
-                "name": "GASOLINE BRUSH CUTTER",
+                "name": "Backpack Brush Cutter",
                 "id": "2", 
                 "warranty": "6 Months",
-                "image": "/mechnova/products/brushcutter/BBC33DA.webp",
+                "image": "/mechnova/products/brushcutter/MBC37SBC1.webp",
                 "specifications": "Engine: Gasoline, 4-Stroke, 37.7CC\nMaximum Power: 1.35HP\nFuel Mix: 40:1 for Synthetic Oil and 25:1 for Mineral Oil\nTank Capacity: 0.8 Liters\nCarburetor: Diaphragm\nReinforced Exhaust\nStarting Type: Manual Recoil\nShaft Diameter: 26 mm\nD-Handle"
             }
             
